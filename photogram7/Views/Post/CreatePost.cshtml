@@ -1,0 +1,102 @@
+@model photogram.Models.CreatePostModel
+
+@{
+    ViewData["Title"] = "Create Post";
+}
+
+<div class="feed-header text-center my-4">
+    <h1 class="fw-bold display-4 text-primary">Create Post</h1>
+    <p class="text-muted fs-5">
+        Create a post and share your thoughts and moments with the Photogram community.
+        Let's make memories together!
+    </p>
+</div>
+
+
+<div class="create-post-container">
+    <!-- Form to create a new post -->
+    <form asp-action="CreatePost" method="post" enctype="multipart/form-data" class="form-group mx-auto"
+        style="max-width: 600px;">
+
+        <!-- Post Content -->
+        <div class="form-group mb-3">
+            <label for="Content" class="form-label fw-bold">Post Content</label>
+            <textarea asp-for="Content" class="form-control" placeholder="Write something..." rows="4"
+                oninput="updateCharCount(this)"></textarea>
+            <span asp-validation-for="Content" class="text-danger"></span>
+            <small id="charCount" class="text-muted">200 characters remaining</small>
+        </div>
+
+        <!-- Upload Image Section -->
+        <div class="form-group mb-3">
+            <label for="Image" class="form-label fw-bold d-flex align-items-center">
+                <i class="fa-solid fa-camera text-primary fa-lg me-2"></i> Upload Image
+            </label>
+            <input asp-for="Image" type="file" id="ImageInput" name="Image" class="d-none" accept="image/*"
+                onchange="previewImage(event)" />
+
+            <div class="image-upload-wrapper">
+                <label for="ImageInput" class="btn btn-light border d-flex align-items-center justify-content-center"
+                    style="cursor: pointer; width: 100px; height: 100px;">
+                    <i class="fa-solid fa-plus text-muted"></i>
+                </label>
+            </div>
+
+            <!-- Preview Selected Image -->
+            <div id="ImagePreviewContainer" class="mt-3 d-none">
+                <img id="ImagePreview" src="" alt="Preview"
+                    style="max-width: 200px; max-height: 200px; border-radius: 8px;" />
+                <button type="button" class="btn btn-danger btn-sm mt-2" onclick="removeImage()">Remove Image</button>
+            </div>
+        </div>
+
+        <p class="text-muted">* Either content or an image is required to create a post.</p>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary w-100">Post</button>
+    </form>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+
+    <script>
+
+        //Shows remainin length    
+        function updateCharCount(textarea) {
+            const maxLength = 200;
+            const currentLength = textarea.value.length;
+            const remaining = maxLength - currentLength;
+            const charCount = document.getElementById("charCount");
+            charCount.textContent = `${remaining} characters remaining`;
+            charCount.classList.toggle("text-danger", remaining < 0);
+        }
+
+
+        // Show a preview of the selected image
+        function previewImage(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    const previewContainer = document.getElementById("ImagePreviewContainer");
+                    const previewImage = document.getElementById("ImagePreview");
+                    previewImage.src = e.target.result;
+                    previewContainer.classList.remove("d-none");
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+
+        // Remove the selected image
+        function removeImage() {
+            const imageInput = document.getElementById("ImageInput");
+            const previewContainer = document.getElementById("ImagePreviewContainer");
+            const previewImage = document.getElementById("ImagePreview");
+
+            imageInput.value = "";
+            previewImage.src = "";
+            previewContainer.classList.add("d-none");
+        }
+    </script>
+}

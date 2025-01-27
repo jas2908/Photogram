@@ -1,0 +1,449 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/css/layout.css",
+      "PackagePath": "staticwebassets/css/layout.css"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/images/conference.jpg",
+      "PackagePath": "staticwebassets/images/conference.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/images/frontpage.png",
+      "PackagePath": "staticwebassets/images/frontpage.png"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/images/norway.jpg",
+      "PackagePath": "staticwebassets/images/norway.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/images/recipes.jpg",
+      "PackagePath": "staticwebassets/images/recipes.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/images/sunset.jpg",
+      "PackagePath": "staticwebassets/images/sunset.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/js/bootstrap.js",
+      "PackagePath": "staticwebassets/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/js/jquery.js",
+      "PackagePath": "staticwebassets/js/jquery.js"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/150c5aae-9839-45c1-a058-cec277bcafda_tacos.jpg",
+      "PackagePath": "staticwebassets/uploads/150c5aae-9839-45c1-a058-cec277bcafda_tacos.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/2024-05-18.png",
+      "PackagePath": "staticwebassets/uploads/2024-05-18.png"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/20cd4eb2-f1a3-48f2-851b-7aaafdf61ff1_art.png",
+      "PackagePath": "staticwebassets/uploads/20cd4eb2-f1a3-48f2-851b-7aaafdf61ff1_art.png"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/26c391d8-ff68-46c9-b32e-454fb0090ae8_fishandchips.jpg",
+      "PackagePath": "staticwebassets/uploads/26c391d8-ff68-46c9-b32e-454fb0090ae8_fishandchips.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/27f0700b-5d9c-4136-9b38-316931ae56ee_coke.jpg",
+      "PackagePath": "staticwebassets/uploads/27f0700b-5d9c-4136-9b38-316931ae56ee_coke.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/2bd43492-f646-49b2-ac24-32a877d81fc2_picnic.png",
+      "PackagePath": "staticwebassets/uploads/2bd43492-f646-49b2-ac24-32a877d81fc2_picnic.png"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/35f82379-dbce-4b1c-997c-5fe832e922d4_coke.jpg",
+      "PackagePath": "staticwebassets/uploads/35f82379-dbce-4b1c-997c-5fe832e922d4_coke.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/53a059f8-4581-44f8-aaab-81dcd54f0aec_image.jpg",
+      "PackagePath": "staticwebassets/uploads/53a059f8-4581-44f8-aaab-81dcd54f0aec_image.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/59840c54-dbac-4398-97f6-b1977ed1ca62_h_thelionking_19752_9ec84d47.jpeg",
+      "PackagePath": "staticwebassets/uploads/59840c54-dbac-4398-97f6-b1977ed1ca62_h_thelionking_19752_9ec84d47.jpeg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/5aed5eca-7bbf-4a3c-a879-b2ae8a54e6e5_h_thelionking_19752_9ec84d47.jpeg",
+      "PackagePath": "staticwebassets/uploads/5aed5eca-7bbf-4a3c-a879-b2ae8a54e6e5_h_thelionking_19752_9ec84d47.jpeg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/5e421b25-4a07-447b-ab3f-e65c4fe2e3fb_image.jpg",
+      "PackagePath": "staticwebassets/uploads/5e421b25-4a07-447b-ab3f-e65c4fe2e3fb_image.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/74d437ce-2907-419b-b2ea-f4775246849a_h_thelionking_19752_9ec84d47.jpeg",
+      "PackagePath": "staticwebassets/uploads/74d437ce-2907-419b-b2ea-f4775246849a_h_thelionking_19752_9ec84d47.jpeg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/7e469daa-f4ea-44c0-9934-963e461d4d67_image.jpg",
+      "PackagePath": "staticwebassets/uploads/7e469daa-f4ea-44c0-9934-963e461d4d67_image.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/86be04e3-3cee-4175-8be6-250a60c3668c_image.jpg",
+      "PackagePath": "staticwebassets/uploads/86be04e3-3cee-4175-8be6-250a60c3668c_image.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/88ec321d-5692-4e79-9166-71c32aeac047_nature.jpg",
+      "PackagePath": "staticwebassets/uploads/88ec321d-5692-4e79-9166-71c32aeac047_nature.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/892b7245-916c-4e39-ad08-e1f509e45f50_view.jpg",
+      "PackagePath": "staticwebassets/uploads/892b7245-916c-4e39-ad08-e1f509e45f50_view.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/8c4765d4-e407-44e4-b35d-d21aec73c1f3_image.jpg",
+      "PackagePath": "staticwebassets/uploads/8c4765d4-e407-44e4-b35d-d21aec73c1f3_image.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/906b027a-63e6-4e40-a82d-03a380539c66_birds (1).png",
+      "PackagePath": "staticwebassets/uploads/906b027a-63e6-4e40-a82d-03a380539c66_birds (1).png"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/9c5d701d-ae17-4a2b-bdcf-1df6da6924d7_flags.png",
+      "PackagePath": "staticwebassets/uploads/9c5d701d-ae17-4a2b-bdcf-1df6da6924d7_flags.png"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/9d33e897-29ef-41be-be01-2da9933c66b3_I want to make  0dbd9c6c-62e2-4d39-9c39-5571d93acb81.png",
+      "PackagePath": "staticwebassets/uploads/9d33e897-29ef-41be-be01-2da9933c66b3_I want to make  0dbd9c6c-62e2-4d39-9c39-5571d93acb81.png"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/Photogram.png",
+      "PackagePath": "staticwebassets/uploads/Photogram.png"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/ab61faf9-57da-4b4f-be62-128006949714_image.jpg",
+      "PackagePath": "staticwebassets/uploads/ab61faf9-57da-4b4f-be62-128006949714_image.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/art.png",
+      "PackagePath": "staticwebassets/uploads/art.png"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/be0519ac-0c7f-43ca-9269-673a11df0673_birds.png",
+      "PackagePath": "staticwebassets/uploads/be0519ac-0c7f-43ca-9269-673a11df0673_birds.png"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/bilde iot oblg2.jpeg",
+      "PackagePath": "staticwebassets/uploads/bilde iot oblg2.jpeg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/c3539e82-3fe8-426a-91d4-a7d7b0bbc47b_birds.png",
+      "PackagePath": "staticwebassets/uploads/c3539e82-3fe8-426a-91d4-a7d7b0bbc47b_birds.png"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/c78fbba2-0861-4400-a459-8c3749e92a58_image.jpg",
+      "PackagePath": "staticwebassets/uploads/c78fbba2-0861-4400-a459-8c3749e92a58_image.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/cfc9ac1f-6a68-49a1-8c91-ce8900c0ecad_birds (1).png",
+      "PackagePath": "staticwebassets/uploads/cfc9ac1f-6a68-49a1-8c91-ce8900c0ecad_birds (1).png"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/d06d63f4-3948-4f86-8739-d0d0177f0318_landscape.jpg",
+      "PackagePath": "staticwebassets/uploads/d06d63f4-3948-4f86-8739-d0d0177f0318_landscape.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/d5f308d6-5e29-4c51-ab51-946e5939f892_concert.jpg",
+      "PackagePath": "staticwebassets/uploads/d5f308d6-5e29-4c51-ab51-946e5939f892_concert.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/d99a018f-261c-4f81-92b4-1b570f28b0ea_h_thelionking_19752_9ec84d47.jpeg",
+      "PackagePath": "staticwebassets/uploads/d99a018f-261c-4f81-92b4-1b570f28b0ea_h_thelionking_19752_9ec84d47.jpeg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/dbc64ce4-b07c-4e02-8c07-8eb851a872ac_image.jpg",
+      "PackagePath": "staticwebassets/uploads/dbc64ce4-b07c-4e02-8c07-8eb851a872ac_image.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/de22a743-8b5a-4b1b-9e9a-11f27b966ede_image.jpg",
+      "PackagePath": "staticwebassets/uploads/de22a743-8b5a-4b1b-9e9a-11f27b966ede_image.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/f3185d25-5b64-42f3-9086-207feb10373f_bill.jpg",
+      "PackagePath": "staticwebassets/uploads/f3185d25-5b64-42f3-9086-207feb10373f_bill.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/f646c156-a4eb-4076-9b62-c70624463b55_chickenleg.jpg",
+      "PackagePath": "staticwebassets/uploads/f646c156-a4eb-4076-9b62-c70624463b55_chickenleg.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/flags.png",
+      "PackagePath": "staticwebassets/uploads/flags.png"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/flower image 2.jpg",
+      "PackagePath": "staticwebassets/uploads/flower image 2.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/image.jpg",
+      "PackagePath": "staticwebassets/uploads/image.jpg"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/image1.png",
+      "PackagePath": "staticwebassets/uploads/image1.png"
+    },
+    {
+      "Id": "/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/view.jpg",
+      "PackagePath": "staticwebassets/uploads/view.jpg"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.photogram.props",
+      "PackagePath": "build\\photogram.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.photogram.props",
+      "PackagePath": "buildMultiTargeting\\photogram.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.photogram.props",
+      "PackagePath": "buildTransitive\\photogram.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.photogram.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

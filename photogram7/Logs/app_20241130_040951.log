@@ -1,0 +1,145 @@
+2024-11-30 04:09:57.848 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-30 04:09:58.486 +01:00 [INF] Now listening on: http://localhost:5001
+2024-11-30 04:09:58.517 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 04:09:58.520 +01:00 [INF] Hosting environment: Development
+2024-11-30 04:09:58.520 +01:00 [INF] Content root path: /Users/yasminali/Downloads/photogram 7
+2024-11-30 04:10:10.867 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/ - null null
+2024-11-30 04:10:10.898 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-30 04:10:11.161 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 04:10:11.205 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 04:10:11.253 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 04:10:11.621 +01:00 [INF] Executed ViewResult - view Index executed in 348.9471ms.
+2024-11-30 04:10:11.627 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 419.1722ms
+2024-11-30 04:10:11.627 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 04:10:11.644 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/css/layout.css - null null
+2024-11-30 04:10:11.647 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/images/frontpage.png - null null
+2024-11-30 04:10:11.706 +01:00 [INF] Sending file. Request path: '/css/layout.css'. Physical path: '/Users/yasminali/Downloads/photogram 7/wwwroot/css/layout.css'
+2024-11-30 04:10:11.734 +01:00 [INF] Sending file. Request path: '/images/frontpage.png'. Physical path: '/Users/yasminali/Downloads/photogram 7/wwwroot/images/frontpage.png'
+2024-11-30 04:10:11.739 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/images/frontpage.png - 200 2309811 image/png 90.9989ms
+2024-11-30 04:10:11.740 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/css/layout.css - 200 4476 text/css 94.0095ms
+2024-11-30 04:10:11.771 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/ - 200 null text/html; charset=utf-8 928.7757ms
+2024-11-30 04:10:12.742 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/favicon.ico - null null
+2024-11-30 04:10:12.744 +01:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: '/Users/yasminali/Downloads/photogram 7/wwwroot/favicon.ico'
+2024-11-30 04:10:12.745 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/favicon.ico - 200 5430 image/x-icon 3.2745ms
+2024-11-30 04:10:13.478 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Identity/Account/Login - null null
+2024-11-30 04:10:13.486 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-30 04:10:13.568 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-30 04:10:13.623 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-11-30 04:10:13.654 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-11-30 04:10:13.658 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-11-30 04:10:13.667 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-11-30 04:10:13.667 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-30 04:10:13.872 +01:00 [INF] Executed page /Account/Login in 303.9118ms
+2024-11-30 04:10:13.873 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-30 04:10:13.873 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Identity/Account/Login - 200 null text/html; charset=utf-8 394.8899ms
+2024-11-30 04:10:13.922 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-11-30 04:10:13.925 +01:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: '/Users/yasminali/Downloads/photogram 7/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js'
+2024-11-30 04:10:13.926 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation/dist/jquery.validate.min.js - 200 24601 text/javascript 4.0261ms
+2024-11-30 04:10:13.926 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-11-30 04:10:13.934 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 7.752ms
+2024-11-30 04:10:13.937 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-30 04:10:31.087 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Identity/Account/Login - application/x-www-form-urlencoded 263
+2024-11-30 04:10:31.097 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-30 04:10:31.098 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-30 04:10:31.187 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-11-30 04:10:33.045 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-11-30 04:10:33.047 +01:00 [INF] User logged in.
+2024-11-30 04:10:33.051 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-11-30 04:10:33.056 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-11-30 04:10:33.056 +01:00 [INF] Executed page /Account/Login in 1957.753ms
+2024-11-30 04:10:33.057 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-30 04:10:33.088 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Identity/Account/Login - 302 0 null 2000.5231ms
+2024-11-30 04:10:33.089 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/ - null null
+2024-11-30 04:10:33.090 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 04:10:33.090 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 04:10:33.093 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 04:10:33.096 +01:00 [INF] Executed ViewResult - view Index executed in 3.4062ms.
+2024-11-30 04:10:33.096 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 5.4896ms
+2024-11-30 04:10:33.096 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 04:10:33.097 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/ - 200 null text/html; charset=utf-8 7.7792ms
+2024-11-30 04:10:36.147 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Identity/Account/Login - null null
+2024-11-30 04:10:36.147 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-30 04:10:36.150 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-30 04:10:36.151 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-11-30 04:10:36.152 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-11-30 04:10:36.152 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-11-30 04:10:36.153 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-11-30 04:10:36.153 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-30 04:10:36.162 +01:00 [INF] Executed page /Account/Login in 11.6949ms
+2024-11-30 04:10:36.162 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-30 04:10:36.163 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Identity/Account/Login - 200 null text/html; charset=utf-8 15.9871ms
+2024-11-30 04:10:36.217 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-11-30 04:10:36.221 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 3.5188ms
+2024-11-30 04:10:36.221 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-30 04:11:02.602 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Identity/Account/Login - application/x-www-form-urlencoded 263
+2024-11-30 04:11:02.604 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-30 04:11:02.604 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-30 04:11:02.608 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-11-30 04:11:02.944 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-11-30 04:11:02.944 +01:00 [INF] User logged in.
+2024-11-30 04:11:02.944 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-11-30 04:11:02.945 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-11-30 04:11:02.947 +01:00 [INF] Executed page /Account/Login in 342.7402ms
+2024-11-30 04:11:02.947 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-30 04:11:02.962 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Identity/Account/Login - 302 0 null 359.3917ms
+2024-11-30 04:11:02.965 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/ - null null
+2024-11-30 04:11:02.965 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 04:11:02.965 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 04:11:02.968 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 04:11:02.970 +01:00 [INF] Executed ViewResult - view Index executed in 1.8705ms.
+2024-11-30 04:11:02.970 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 4.3742ms
+2024-11-30 04:11:02.970 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 04:11:02.970 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/ - 200 null text/html; charset=utf-8 5.4146ms
+2024-11-30 04:11:06.712 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/ - null null
+2024-11-30 04:11:06.712 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 04:11:06.713 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 04:11:06.713 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 04:11:06.714 +01:00 [INF] Executed ViewResult - view Index executed in 1.0848ms.
+2024-11-30 04:11:06.714 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 1.5365ms
+2024-11-30 04:11:06.714 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 04:11:06.714 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/ - 200 null text/html; charset=utf-8 2.7253ms
+2024-11-30 04:11:07.948 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Identity/Account/Login - null null
+2024-11-30 04:11:07.948 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-30 04:11:07.948 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-30 04:11:07.949 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-11-30 04:11:07.950 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-11-30 04:11:07.950 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-11-30 04:11:07.950 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-11-30 04:11:07.950 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-30 04:11:07.954 +01:00 [INF] Executed page /Account/Login in 5.2179ms
+2024-11-30 04:11:07.954 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-30 04:11:07.954 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Identity/Account/Login - 200 null text/html; charset=utf-8 6.1519ms
+2024-11-30 04:11:07.958 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-11-30 04:11:07.959 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 1.1394ms
+2024-11-30 04:11:07.959 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-30 04:11:23.741 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Identity/Account/Login - application/x-www-form-urlencoded 266
+2024-11-30 04:11:23.743 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-30 04:11:23.744 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-30 04:11:23.746 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-11-30 04:11:24.039 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-30 04:11:24.050 +01:00 [INF] Executed page /Account/Login in 306.0076ms
+2024-11-30 04:11:24.050 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-30 04:11:24.050 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Identity/Account/Login - 200 null text/html; charset=utf-8 308.8121ms
+2024-11-30 04:11:24.096 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-11-30 04:11:24.096 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 0.7751ms
+2024-11-30 04:11:24.097 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-30 04:11:35.446 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Identity/Account/Login - application/x-www-form-urlencoded 268
+2024-11-30 04:11:35.448 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-30 04:11:35.448 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-30 04:11:35.450 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-11-30 04:11:35.847 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-11-30 04:11:35.847 +01:00 [INF] User logged in.
+2024-11-30 04:11:35.847 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-11-30 04:11:35.848 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-11-30 04:11:35.848 +01:00 [INF] Executed page /Account/Login in 399.3936ms
+2024-11-30 04:11:35.848 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-30 04:11:35.849 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Identity/Account/Login - 302 0 null 402.9482ms
+2024-11-30 04:11:35.861 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/ - null null
+2024-11-30 04:11:35.862 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 04:11:35.862 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 04:11:35.862 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 04:11:35.864 +01:00 [INF] Executed ViewResult - view Index executed in 1.4108ms.
+2024-11-30 04:11:35.864 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 1.8905ms
+2024-11-30 04:11:35.864 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 04:11:35.864 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/ - 200 null text/html; charset=utf-8 2.7433ms
+2024-11-30 04:12:54.776 +01:00 [INF] Application is shutting down...

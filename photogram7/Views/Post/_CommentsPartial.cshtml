@@ -1,0 +1,62 @@
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor Accessor
+@model IEnumerable<photogram.Models.Comment>
+
+<div>
+    @foreach (var comment in Model)
+    {
+        <div class="comment mb-3">
+            <div class="d-flex justify-content-between align-items-center">
+                <!-- User and Comment Content -->
+                <div>
+                    <strong>@(string.IsNullOrEmpty(comment.UserName) ? "Anonymous" : comment.UserName)</strong>
+                    <span id="comment-text-@comment.Id">@comment.Content</span>
+
+                    <!-- Inline Editing Form -->
+                    <form asp-action="EditComment" asp-controller="Comments" method="post" class="edit-comment-form d-none"
+                        data-comment-id="@comment.Id">
+                        <input type="hidden" name="id" value="@comment.Id" />
+                        <textarea name="updatedContent"
+                            class="form-control comment-edit-textarea">@comment.Content</textarea>
+                        <!-- Validation Error Display -->
+                        @if (TempData["EditCommentValidationError"] != null && ViewData["EditingCommentId"] is int
+                       editingCommentId && editingCommentId == comment.Id)
+                        {
+                            <p class="text-danger">@TempData["EditCommentValidationError"]</p>
+                        }
+
+                        <div class="mt-2">
+                            <button type="submit" class="btn btn-primary btn-sm">Save</button>
+                            <button type="button" class="btn btn-secondary btn-sm cancel-edit"
+                                data-comment-id="@comment.Id">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Dropdown for Edit/Delete -->
+                @if (User.Identity?.Name == comment.UserName)
+                {
+                    <div class="dropdown">
+                        <button class="btn btn-sm btn-light dropdown-toggle" type="button" id="commentActions-@comment.Id"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="commentActions-@comment.Id">
+                            <li>
+                                <button type="button" class="dropdown-item edit-comment-btn"
+                                    data-comment-id="@comment.Id">Edit</button>
+                            </li>
+                            <li>
+                                <form asp-action="DeleteComment" asp-controller="Comments" method="post">
+                                    <input type="hidden" name="id" value="@comment.Id" />
+                                    <button type="submit" class="dropdown-item text-danger">Delete</button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                }
+            </div>
+            <small class="text-muted">@comment.CreatedAt.ToString("g")</small>
+        </div>
+    }
+</div>

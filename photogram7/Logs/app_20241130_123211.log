@@ -1,0 +1,625 @@
+2024-11-30 12:32:19.634 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-30 12:32:21.568 +01:00 [INF] Now listening on: https://localhost:7160
+2024-11-30 12:32:21.574 +01:00 [INF] Now listening on: http://localhost:5001
+2024-11-30 12:32:21.599 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 12:32:21.608 +01:00 [INF] Hosting environment: Development
+2024-11-30 12:32:21.613 +01:00 [INF] Content root path: /Users/yasminali/Downloads/photogram 7
+2024-11-30 12:32:22.629 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/ - null null
+2024-11-30 12:32:22.839 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 12:32:22.923 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 12:32:22.971 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 12:32:23.604 +01:00 [INF] Executed ViewResult - view Index executed in 653.2604ms.
+2024-11-30 12:32:23.617 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 691.8704ms
+2024-11-30 12:32:23.617 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 12:32:23.764 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/ - 200 null text/html; charset=utf-8 1142.6988ms
+2024-11-30 12:32:26.366 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Home/Feed - null null
+2024-11-30 12:32:26.401 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 12:32:26.416 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 12:32:26.422 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-30 12:32:26.424 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 7.4129ms
+2024-11-30 12:32:26.425 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 12:32:26.426 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Home/Feed - 302 0 null 59.6421ms
+2024-11-30 12:32:26.449 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Feed - null null
+2024-11-30 12:32:26.506 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:32:26.568 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:32:28.228 +01:00 [ERR] Failed executing DbCommand (359ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."LikeCount", "p"."UserName"
+FROM "Posts" AS "p"
+ORDER BY "p"."CreatedAt" DESC
+LIMIT @__p_1 OFFSET @__p_0
+2024-11-30 12:32:28.619 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Home/Feed - null null
+2024-11-30 12:32:28.623 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 12:32:28.624 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 12:32:28.625 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-30 12:32:28.625 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 1.2289ms
+2024-11-30 12:32:28.626 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 12:32:28.626 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Home/Feed - 302 0 null 6.5399ms
+2024-11-30 12:32:28.702 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Feed - null null
+2024-11-30 12:32:28.720 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:32:28.721 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:32:28.943 +01:00 [ERR] Failed executing DbCommand (212ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."LikeCount", "p"."UserName"
+FROM "Posts" AS "p"
+ORDER BY "p"."CreatedAt" DESC
+LIMIT @__p_1 OFFSET @__p_0
+2024-11-30 12:32:29.312 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'photogram.DAL.PostDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-11-30 12:32:29.312 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'photogram.DAL.PostDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-11-30 12:32:29.830 +01:00 [ERR] [PostRepository] GetAllPostsPaged failed: SQLite Error 1: 'no such column: p.LikeCount'.
+2024-11-30 12:32:30.185 +01:00 [ERR] [PostRepository] GetAllPostsPaged failed: SQLite Error 1: 'no such column: p.LikeCount'.
+2024-11-30 12:32:30.187 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-30 12:32:30.188 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-30 12:32:30.233 +01:00 [INF] Executed ViewResult - view Feed executed in 215.7156ms.
+2024-11-30 12:32:30.257 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 3687.7985ms
+2024-11-30 12:32:30.257 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:32:30.257 +01:00 [INF] Executed ViewResult - view Feed executed in 71.1331ms.
+2024-11-30 12:32:30.350 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Feed - 200 null text/html; charset=utf-8 3900.4551ms
+2024-11-30 12:32:30.369 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 1648.026ms
+2024-11-30 12:32:30.371 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:32:30.387 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Feed - 200 null text/html; charset=utf-8 1685.7857ms
+2024-11-30 12:32:34.325 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Home/Feed - null null
+2024-11-30 12:32:34.328 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 12:32:34.328 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 12:32:34.329 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-30 12:32:34.329 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 0.4284ms
+2024-11-30 12:32:34.329 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 12:32:34.330 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Home/Feed - 302 0 null 4.8578ms
+2024-11-30 12:32:34.362 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Feed - null null
+2024-11-30 12:32:34.363 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:32:34.365 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:32:34.588 +01:00 [ERR] Failed executing DbCommand (213ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."LikeCount", "p"."UserName"
+FROM "Posts" AS "p"
+ORDER BY "p"."CreatedAt" DESC
+LIMIT @__p_1 OFFSET @__p_0
+2024-11-30 12:32:34.886 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'photogram.DAL.PostDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-11-30 12:32:35.350 +01:00 [ERR] [PostRepository] GetAllPostsPaged failed: SQLite Error 1: 'no such column: p.LikeCount'.
+2024-11-30 12:32:35.351 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-30 12:32:35.382 +01:00 [INF] Executed ViewResult - view Feed executed in 30.8739ms.
+2024-11-30 12:32:35.429 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 1063.1714ms
+2024-11-30 12:32:35.429 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:32:35.430 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Feed - 200 null text/html; charset=utf-8 1068.5827ms
+2024-11-30 12:32:37.093 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Home/Friends - null null
+2024-11-30 12:32:37.095 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-30 12:32:37.099 +01:00 [INF] Route matched with {action = "Friends", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Friends() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 12:32:37.099 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Friends.
+2024-11-30 12:32:37.100 +01:00 [INF] Executed action photogram.Controllers.HomeController.Friends (photogram) in 0.7289ms
+2024-11-30 12:32:37.100 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-30 12:32:37.100 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Home/Friends - 302 0 null 6.7196ms
+2024-11-30 12:32:37.121 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Friends - null null
+2024-11-30 12:32:37.122 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Friends (photogram)'
+2024-11-30 12:32:37.131 +01:00 [INF] Route matched with {action = "Friends", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Friends() on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:32:38.026 +01:00 [INF] Executing ViewResult, running view Friends.
+2024-11-30 12:32:38.050 +01:00 [INF] Executed ViewResult - view Friends executed in 25.2953ms.
+2024-11-30 12:32:38.057 +01:00 [INF] Executed action photogram.Controllers.PostController.Friends (photogram) in 924.9223ms
+2024-11-30 12:32:38.057 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Friends (photogram)'
+2024-11-30 12:32:38.122 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Friends - 200 null text/html; charset=utf-8 1000.6818ms
+2024-11-30 12:32:39.112 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/CreatePost - null null
+2024-11-30 12:32:39.114 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-30 12:32:39.117 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:32:39.119 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-11-30 12:32:39.179 +01:00 [INF] Executed ViewResult - view CreatePost executed in 61.4373ms.
+2024-11-30 12:32:39.188 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 70.992ms
+2024-11-30 12:32:39.188 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-30 12:32:39.189 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/CreatePost - 200 null text/html; charset=utf-8 76.0738ms
+2024-11-30 12:32:40.010 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/MyPosts - null null
+2024-11-30 12:32:40.011 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-11-30 12:32:40.018 +01:00 [INF] Route matched with {action = "MyPosts", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MyPosts(System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:32:40.327 +01:00 [ERR] Failed executing DbCommand (252ms) [Parameters=[@__userName_0='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."LikeCount", "p"."UserName"
+FROM "Posts" AS "p"
+WHERE "p"."UserName" = @__userName_0
+ORDER BY "p"."CreatedAt" DESC
+2024-11-30 12:32:40.678 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'photogram.DAL.PostDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-11-30 12:32:41.150 +01:00 [ERR] [PostRepository] GetPostsByUserName failed for user eple@gmail.com: SQLite Error 1: 'no such column: p.LikeCount'.
+2024-11-30 12:32:41.476 +01:00 [INF] Executing ViewResult, running view MyPosts.
+2024-11-30 12:32:41.489 +01:00 [INF] Executed ViewResult - view MyPosts executed in 14.5234ms.
+2024-11-30 12:32:41.489 +01:00 [INF] Executed action photogram.Controllers.PostController.MyPosts (photogram) in 1470.7274ms
+2024-11-30 12:32:41.489 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-11-30 12:32:41.489 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/MyPosts - 200 null text/html; charset=utf-8 1479.2944ms
+2024-11-30 12:32:42.513 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Home/Feed - null null
+2024-11-30 12:32:42.514 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 12:32:42.514 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 12:32:42.514 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-30 12:32:42.514 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 0.3089ms
+2024-11-30 12:32:42.514 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 12:32:42.515 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Home/Feed - 302 0 null 1.984ms
+2024-11-30 12:32:42.527 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Feed - null null
+2024-11-30 12:32:42.529 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:32:42.529 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:32:42.756 +01:00 [ERR] Failed executing DbCommand (219ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."LikeCount", "p"."UserName"
+FROM "Posts" AS "p"
+ORDER BY "p"."CreatedAt" DESC
+LIMIT @__p_1 OFFSET @__p_0
+2024-11-30 12:32:43.271 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'photogram.DAL.PostDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-11-30 12:32:43.728 +01:00 [ERR] [PostRepository] GetAllPostsPaged failed: SQLite Error 1: 'no such column: p.LikeCount'.
+2024-11-30 12:32:43.729 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-30 12:32:43.792 +01:00 [INF] Executed ViewResult - view Feed executed in 25.3295ms.
+2024-11-30 12:32:43.792 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 1262.417ms
+2024-11-30 12:32:43.792 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:32:43.798 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Feed - 200 null text/html; charset=utf-8 1270.4174ms
+2024-11-30 12:32:45.755 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7160/Identity/Account/Logout?returnUrl=%2F - application/x-www-form-urlencoded 225
+2024-11-30 12:32:45.773 +01:00 [INF] Executing endpoint '/Account/Logout'
+2024-11-30 12:32:45.801 +01:00 [INF] Route matched with {page = "/Account/Logout", area = "Identity", action = "", controller = ""}. Executing page /Account/Logout
+2024-11-30 12:32:45.863 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LogoutModel.OnPost - ModelState is "Valid"
+2024-11-30 12:32:45.886 +01:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-11-30 12:32:45.888 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-11-30 12:32:45.889 +01:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-11-30 12:32:45.896 +01:00 [INF] User logged out.
+2024-11-30 12:32:45.899 +01:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-11-30 12:32:45.901 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-11-30 12:32:45.902 +01:00 [INF] Executed page /Account/Logout in 100.2762ms
+2024-11-30 12:32:45.902 +01:00 [INF] Executed endpoint '/Account/Logout'
+2024-11-30 12:32:45.902 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7160/Identity/Account/Logout?returnUrl=%2F - 302 0 null 147.447ms
+2024-11-30 12:32:45.961 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/ - null null
+2024-11-30 12:32:45.962 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 12:32:45.962 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 12:32:45.963 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 12:32:45.967 +01:00 [INF] Executed ViewResult - view Index executed in 4.054ms.
+2024-11-30 12:32:45.967 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 4.6095ms
+2024-11-30 12:32:45.967 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 12:32:45.967 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/ - 200 null text/html; charset=utf-8 6.1662ms
+2024-11-30 12:32:48.041 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Identity/Account/Login - null null
+2024-11-30 12:32:48.052 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-30 12:32:48.071 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-30 12:32:48.077 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-11-30 12:32:48.082 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-11-30 12:32:48.086 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-11-30 12:32:48.095 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-11-30 12:32:48.096 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-30 12:32:48.220 +01:00 [INF] Executed page /Account/Login in 148.3012ms
+2024-11-30 12:32:48.221 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-30 12:32:48.222 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Identity/Account/Login - 200 null text/html; charset=utf-8 180.6074ms
+2024-11-30 12:32:48.287 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-11-30 12:32:48.306 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 19.3082ms
+2024-11-30 12:32:48.308 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-30 12:33:04.465 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7160/Identity/Account/Login - application/x-www-form-urlencoded 263
+2024-11-30 12:33:04.466 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-30 12:33:04.467 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-30 12:33:04.538 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-11-30 12:33:05.282 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-11-30 12:33:05.289 +01:00 [INF] User logged in.
+2024-11-30 12:33:05.289 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-11-30 12:33:05.290 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-11-30 12:33:05.290 +01:00 [INF] Executed page /Account/Login in 822.8978ms
+2024-11-30 12:33:05.291 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-30 12:33:05.292 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7160/Identity/Account/Login - 302 0 null 827.2341ms
+2024-11-30 12:33:05.306 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/ - null null
+2024-11-30 12:33:05.308 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 12:33:05.308 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 12:33:05.308 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 12:33:05.356 +01:00 [INF] Executed ViewResult - view Index executed in 48.5ms.
+2024-11-30 12:33:05.451 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 143.1166ms
+2024-11-30 12:33:05.452 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 12:33:05.453 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/ - 200 null text/html; charset=utf-8 145.987ms
+2024-11-30 12:33:06.577 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Home/Feed - null null
+2024-11-30 12:33:06.578 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 12:33:06.578 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 12:33:06.578 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-30 12:33:06.578 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 0.201ms
+2024-11-30 12:33:06.578 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 12:33:06.579 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Home/Feed - 302 0 null 1.6946ms
+2024-11-30 12:33:06.597 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Feed - null null
+2024-11-30 12:33:06.598 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:33:06.598 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:33:06.864 +01:00 [ERR] Failed executing DbCommand (259ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."LikeCount", "p"."UserName"
+FROM "Posts" AS "p"
+ORDER BY "p"."CreatedAt" DESC
+LIMIT @__p_1 OFFSET @__p_0
+2024-11-30 12:33:07.288 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'photogram.DAL.PostDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-11-30 12:33:07.764 +01:00 [ERR] [PostRepository] GetAllPostsPaged failed: SQLite Error 1: 'no such column: p.LikeCount'.
+2024-11-30 12:33:07.764 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-30 12:33:07.793 +01:00 [INF] Executed ViewResult - view Feed executed in 29.03ms.
+2024-11-30 12:33:07.795 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 1196.0798ms
+2024-11-30 12:33:07.833 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:33:07.879 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Feed - 200 null text/html; charset=utf-8 1282.7973ms
+2024-11-30 12:33:10.626 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/MyPosts - null null
+2024-11-30 12:33:10.628 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-11-30 12:33:10.628 +01:00 [INF] Route matched with {action = "MyPosts", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MyPosts(System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:33:10.840 +01:00 [ERR] Failed executing DbCommand (204ms) [Parameters=[@__userName_0='?' (Size = 15)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."LikeCount", "p"."UserName"
+FROM "Posts" AS "p"
+WHERE "p"."UserName" = @__userName_0
+ORDER BY "p"."CreatedAt" DESC
+2024-11-30 12:33:11.337 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'photogram.DAL.PostDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-11-30 12:33:11.893 +01:00 [ERR] [PostRepository] GetPostsByUserName failed for user potet@gmail.com: SQLite Error 1: 'no such column: p.LikeCount'.
+2024-11-30 12:33:11.894 +01:00 [INF] Executing ViewResult, running view MyPosts.
+2024-11-30 12:33:11.897 +01:00 [INF] Executed ViewResult - view MyPosts executed in 3.9124ms.
+2024-11-30 12:33:11.898 +01:00 [INF] Executed action photogram.Controllers.PostController.MyPosts (photogram) in 1269.723ms
+2024-11-30 12:33:11.898 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-11-30 12:33:11.898 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/MyPosts - 200 null text/html; charset=utf-8 1272.0925ms
+2024-11-30 12:33:13.283 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/CreatePost - null null
+2024-11-30 12:33:13.284 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-30 12:33:13.284 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:33:13.284 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-11-30 12:33:13.337 +01:00 [INF] Executed ViewResult - view CreatePost executed in 51.2515ms.
+2024-11-30 12:33:13.338 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 53.6443ms
+2024-11-30 12:33:13.338 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-30 12:33:13.338 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/CreatePost - 200 null text/html; charset=utf-8 55.8071ms
+2024-11-30 12:33:27.499 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/CreatePost - null null
+2024-11-30 12:33:27.502 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-30 12:33:27.502 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:33:27.503 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-11-30 12:33:27.530 +01:00 [INF] Executed ViewResult - view CreatePost executed in 27.696ms.
+2024-11-30 12:33:27.554 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 51.7243ms
+2024-11-30 12:33:27.554 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-30 12:33:27.556 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/CreatePost - 200 null text/html; charset=utf-8 56.4873ms
+2024-11-30 12:33:28.811 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/CreatePost - null null
+2024-11-30 12:33:28.813 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-30 12:33:28.813 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:33:28.813 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-11-30 12:33:28.819 +01:00 [INF] Executed ViewResult - view CreatePost executed in 5.9773ms.
+2024-11-30 12:33:28.820 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 7.2824ms
+2024-11-30 12:33:28.843 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-30 12:33:28.843 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/CreatePost - 200 null text/html; charset=utf-8 31.7672ms
+2024-11-30 12:33:29.778 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/CreatePost - null null
+2024-11-30 12:33:29.779 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-30 12:33:29.779 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:33:29.780 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-11-30 12:33:29.805 +01:00 [INF] Executed ViewResult - view CreatePost executed in 24.8931ms.
+2024-11-30 12:33:29.826 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 46.677ms
+2024-11-30 12:33:29.826 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-30 12:33:29.828 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/CreatePost - 200 null text/html; charset=utf-8 49.7928ms
+2024-11-30 12:33:30.029 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/CreatePost - null null
+2024-11-30 12:33:30.031 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-30 12:33:30.031 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:33:30.031 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-11-30 12:33:30.037 +01:00 [INF] Executed ViewResult - view CreatePost executed in 6.1574ms.
+2024-11-30 12:33:30.038 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 6.7649ms
+2024-11-30 12:33:30.038 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-30 12:33:30.038 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/CreatePost - 200 null text/html; charset=utf-8 9.0004ms
+2024-11-30 12:33:33.961 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Home/Feed - null null
+2024-11-30 12:33:33.962 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 12:33:33.962 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 12:33:33.963 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-30 12:33:33.963 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 0.6211ms
+2024-11-30 12:33:33.963 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 12:33:33.964 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Home/Feed - 302 0 null 2.3803ms
+2024-11-30 12:33:33.982 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Feed - null null
+2024-11-30 12:33:33.983 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:33:33.983 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:33:34.308 +01:00 [ERR] Failed executing DbCommand (317ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."LikeCount", "p"."UserName"
+FROM "Posts" AS "p"
+ORDER BY "p"."CreatedAt" DESC
+LIMIT @__p_1 OFFSET @__p_0
+2024-11-30 12:33:34.612 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'photogram.DAL.PostDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-11-30 12:33:34.989 +01:00 [ERR] [PostRepository] GetAllPostsPaged failed: SQLite Error 1: 'no such column: p.LikeCount'.
+2024-11-30 12:33:34.991 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-30 12:33:34.997 +01:00 [INF] Executed ViewResult - view Feed executed in 4.7672ms.
+2024-11-30 12:33:35.007 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 1024.0063ms
+2024-11-30 12:33:35.010 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:33:35.010 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Feed - 200 null text/html; charset=utf-8 1028.5515ms
+2024-11-30 12:35:30.656 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/CreatePost - null null
+2024-11-30 12:35:30.662 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-30 12:35:30.662 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:35:30.662 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-11-30 12:35:30.668 +01:00 [INF] Executed ViewResult - view CreatePost executed in 5.6827ms.
+2024-11-30 12:35:30.812 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 149.6341ms
+2024-11-30 12:35:30.812 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-30 12:35:30.846 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/CreatePost - 200 null text/html; charset=utf-8 199.0229ms
+2024-11-30 12:35:46.060 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7160/Post/CreatePost - multipart/form-data; boundary=----WebKitFormBoundaryIp8QXp4lB5mnPUD2 621
+2024-11-30 12:35:46.061 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-30 12:35:46.072 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(photogram.Models.CreatePostModel) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:35:46.113 +01:00 [INF] Creating a new post in PostController
+2024-11-30 12:35:46.692 +01:00 [INF] Executing RedirectResult, redirecting to /Post/MyPosts.
+2024-11-30 12:35:46.692 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 619.9233ms
+2024-11-30 12:35:46.692 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-30 12:35:46.693 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7160/Post/CreatePost - 302 0 null 633.6832ms
+2024-11-30 12:35:46.730 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/MyPosts - null null
+2024-11-30 12:35:46.731 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-11-30 12:35:46.732 +01:00 [INF] Route matched with {action = "MyPosts", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MyPosts(System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:35:46.936 +01:00 [ERR] Failed executing DbCommand (198ms) [Parameters=[@__userName_0='?' (Size = 15)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."LikeCount", "p"."UserName"
+FROM "Posts" AS "p"
+WHERE "p"."UserName" = @__userName_0
+ORDER BY "p"."CreatedAt" DESC
+2024-11-30 12:35:47.258 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'photogram.DAL.PostDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-11-30 12:35:47.706 +01:00 [ERR] [PostRepository] GetPostsByUserName failed for user potet@gmail.com: SQLite Error 1: 'no such column: p.LikeCount'.
+2024-11-30 12:35:47.707 +01:00 [INF] Executing ViewResult, running view MyPosts.
+2024-11-30 12:35:47.708 +01:00 [INF] Executed ViewResult - view MyPosts executed in 0.9219ms.
+2024-11-30 12:35:47.708 +01:00 [INF] Executed action photogram.Controllers.PostController.MyPosts (photogram) in 975.906ms
+2024-11-30 12:35:47.708 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-11-30 12:35:47.708 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/MyPosts - 200 null text/html; charset=utf-8 977.4682ms
+2024-11-30 12:35:49.194 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Home/Feed - null null
+2024-11-30 12:35:49.195 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 12:35:49.195 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 12:35:49.195 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-30 12:35:49.195 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 0.2082ms
+2024-11-30 12:35:49.195 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 12:35:49.195 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Home/Feed - 302 0 null 1.8621ms
+2024-11-30 12:35:49.248 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Feed - null null
+2024-11-30 12:35:49.249 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:35:49.250 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:35:49.494 +01:00 [ERR] Failed executing DbCommand (238ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."LikeCount", "p"."UserName"
+FROM "Posts" AS "p"
+ORDER BY "p"."CreatedAt" DESC
+LIMIT @__p_1 OFFSET @__p_0
+2024-11-30 12:35:49.869 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'photogram.DAL.PostDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-11-30 12:35:50.377 +01:00 [ERR] [PostRepository] GetAllPostsPaged failed: SQLite Error 1: 'no such column: p.LikeCount'.
+2024-11-30 12:35:50.378 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-30 12:35:50.384 +01:00 [INF] Executed ViewResult - view Feed executed in 6.858ms.
+2024-11-30 12:35:50.469 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 1198.9039ms
+2024-11-30 12:35:50.492 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:35:50.493 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Feed - 200 null text/html; charset=utf-8 1245.1255ms
+2024-11-30 12:35:51.595 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/MyPosts - null null
+2024-11-30 12:35:51.596 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-11-30 12:35:51.596 +01:00 [INF] Route matched with {action = "MyPosts", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MyPosts(System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:35:51.804 +01:00 [ERR] Failed executing DbCommand (201ms) [Parameters=[@__userName_0='?' (Size = 15)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."LikeCount", "p"."UserName"
+FROM "Posts" AS "p"
+WHERE "p"."UserName" = @__userName_0
+ORDER BY "p"."CreatedAt" DESC
+2024-11-30 12:35:52.160 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'photogram.DAL.PostDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: p.LikeCount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-11-30 12:35:52.660 +01:00 [ERR] [PostRepository] GetPostsByUserName failed for user potet@gmail.com: SQLite Error 1: 'no such column: p.LikeCount'.
+2024-11-30 12:35:52.661 +01:00 [INF] Executing ViewResult, running view MyPosts.
+2024-11-30 12:35:52.662 +01:00 [INF] Executed ViewResult - view MyPosts executed in 1.2752ms.
+2024-11-30 12:35:52.662 +01:00 [INF] Executed action photogram.Controllers.PostController.MyPosts (photogram) in 1065.5774ms
+2024-11-30 12:35:52.662 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-11-30 12:35:52.663 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/MyPosts - 200 null text/html; charset=utf-8 1067.2107ms

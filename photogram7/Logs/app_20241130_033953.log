@@ -1,0 +1,109 @@
+2024-11-30 03:40:04.108 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-30 03:40:07.323 +01:00 [INF] Now listening on: https://localhost:7160
+2024-11-30 03:40:07.351 +01:00 [INF] Now listening on: http://localhost:5001
+2024-11-30 03:40:07.625 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 03:40:07.635 +01:00 [INF] Hosting environment: Development
+2024-11-30 03:40:07.644 +01:00 [INF] Content root path: /Users/yasminali/Downloads/photogram 7
+2024-11-30 03:40:08.998 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/ - null null
+2024-11-30 03:40:11.310 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 03:40:11.369 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 03:40:11.413 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 03:40:12.020 +01:00 [INF] Executed ViewResult - view Index executed in 605.996ms.
+2024-11-30 03:40:12.044 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/css/layout.css - null null
+2024-11-30 03:40:12.082 +01:00 [INF] The file /css/layout.css was not modified
+2024-11-30 03:40:12.085 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/css/layout.css - 304 null text/css 44.9185ms
+2024-11-30 03:40:12.088 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 703.1337ms
+2024-11-30 03:40:12.088 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 03:40:12.314 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/ - 200 null text/html; charset=utf-8 3323.5915ms
+2024-11-30 03:40:14.478 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7160/Identity/Account/Logout?returnUrl=%2F - application/x-www-form-urlencoded 225
+2024-11-30 03:40:14.534 +01:00 [INF] Executing endpoint '/Account/Logout'
+2024-11-30 03:40:14.586 +01:00 [INF] Route matched with {page = "/Account/Logout", area = "Identity", action = "", controller = ""}. Executing page /Account/Logout
+2024-11-30 03:40:14.827 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LogoutModel.OnPost - ModelState is "Valid"
+2024-11-30 03:40:14.851 +01:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-11-30 03:40:14.855 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-11-30 03:40:14.856 +01:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-11-30 03:40:14.864 +01:00 [INF] User logged out.
+2024-11-30 03:40:14.866 +01:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-11-30 03:40:14.869 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-11-30 03:40:14.870 +01:00 [INF] Executed page /Account/Logout in 283.2884ms
+2024-11-30 03:40:14.870 +01:00 [INF] Executed endpoint '/Account/Logout'
+2024-11-30 03:40:14.871 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7160/Identity/Account/Logout?returnUrl=%2F - 302 0 null 392.533ms
+2024-11-30 03:40:14.885 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/ - null null
+2024-11-30 03:40:14.888 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 03:40:14.888 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 03:40:14.892 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 03:40:14.912 +01:00 [INF] Executed ViewResult - view Index executed in 20.9369ms.
+2024-11-30 03:40:14.912 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 23.0872ms
+2024-11-30 03:40:14.912 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 03:40:14.913 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/ - 200 null text/html; charset=utf-8 28.0472ms
+2024-11-30 03:40:22.872 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Identity/Account/Register - null null
+2024-11-30 03:40:22.885 +01:00 [INF] Executing endpoint '/Account/Register'
+2024-11-30 03:40:22.911 +01:00 [INF] Route matched with {page = "/Account/Register", area = "Identity", action = "", controller = ""}. Executing page /Account/Register
+2024-11-30 03:40:22.932 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.RegisterModel.OnGetAsync - ModelState is "Valid"
+2024-11-30 03:40:22.937 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-11-30 03:40:22.946 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-11-30 03:40:22.946 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-30 03:40:23.193 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-11-30 03:40:23.200 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 7.2297ms
+2024-11-30 03:40:23.203 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-30 03:40:23.220 +01:00 [INF] Executed page /Account/Register in 308.381ms
+2024-11-30 03:40:23.223 +01:00 [INF] Executed endpoint '/Account/Register'
+2024-11-30 03:40:23.245 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Identity/Account/Register - 200 null text/html; charset=utf-8 373.0226ms
+2024-11-30 03:40:51.262 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7160/Identity/Account/Register - application/x-www-form-urlencoded 279
+2024-11-30 03:40:51.286 +01:00 [INF] Executing endpoint '/Account/Register'
+2024-11-30 03:40:51.286 +01:00 [INF] Route matched with {page = "/Account/Register", area = "Identity", action = "", controller = ""}. Executing page /Account/Register
+2024-11-30 03:40:51.319 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync - ModelState is "Valid"
+2024-11-30 03:40:52.543 +01:00 [INF] User created a new account with password.
+2024-11-30 03:40:52.581 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-11-30 03:40:52.581 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-11-30 03:40:52.581 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-11-30 03:40:52.582 +01:00 [INF] Executed page /Account/Register in 1295.2865ms
+2024-11-30 03:40:52.582 +01:00 [INF] Executed endpoint '/Account/Register'
+2024-11-30 03:40:52.583 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7160/Identity/Account/Register - 302 0 null 1332.0477ms
+2024-11-30 03:40:52.593 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/ - null null
+2024-11-30 03:40:52.597 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 03:40:52.598 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 03:40:52.600 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 03:40:52.761 +01:00 [INF] Executed ViewResult - view Index executed in 161.592ms.
+2024-11-30 03:40:52.762 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 164.2736ms
+2024-11-30 03:40:52.763 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 03:40:52.764 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/ - 200 null text/html; charset=utf-8 170.5871ms
+2024-11-30 03:40:58.117 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Home/Feed - null null
+2024-11-30 03:40:58.119 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 03:40:58.122 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 03:40:58.124 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-30 03:40:58.124 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 2.1637ms
+2024-11-30 03:40:58.124 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 03:40:58.124 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Home/Feed - 302 0 null 7.5826ms
+2024-11-30 03:40:58.169 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Feed - null null
+2024-11-30 03:40:58.171 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 03:40:58.183 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 03:40:58.319 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-30 03:40:58.794 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/uploads/be0519ac-0c7f-43ca-9269-673a11df0673_birds.png - null null
+2024-11-30 03:40:58.795 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/uploads/892b7245-916c-4e39-ad08-e1f509e45f50_view.jpg - null null
+2024-11-30 03:40:58.811 +01:00 [INF] The file /uploads/be0519ac-0c7f-43ca-9269-673a11df0673_birds.png was not modified
+2024-11-30 03:40:58.811 +01:00 [INF] The file /uploads/892b7245-916c-4e39-ad08-e1f509e45f50_view.jpg was not modified
+2024-11-30 03:40:58.811 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/uploads/be0519ac-0c7f-43ca-9269-673a11df0673_birds.png - 304 null image/png 16.5453ms
+2024-11-30 03:40:58.811 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/uploads/892b7245-916c-4e39-ad08-e1f509e45f50_view.jpg - 304 null image/jpeg 16.1161ms
+2024-11-30 03:40:58.828 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/uploads/150c5aae-9839-45c1-a058-cec277bcafda_tacos.jpg - null null
+2024-11-30 03:40:58.841 +01:00 [INF] The file /uploads/150c5aae-9839-45c1-a058-cec277bcafda_tacos.jpg was not modified
+2024-11-30 03:40:58.841 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/uploads/150c5aae-9839-45c1-a058-cec277bcafda_tacos.jpg - 304 null image/jpeg 12.8963ms
+2024-11-30 03:40:58.908 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/images/recipes.jpg - null null
+2024-11-30 03:40:58.910 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/images/sunset.jpg - null null
+2024-11-30 03:40:58.921 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/images/sunset.jpg - 404 0 null 10.9059ms
+2024-11-30 03:40:58.921 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/images/recipes.jpg - 404 0 null 12.9096ms
+2024-11-30 03:40:58.921 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7160/images/sunset.jpg, Response status code: 404
+2024-11-30 03:40:58.921 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7160/images/recipes.jpg, Response status code: 404
+2024-11-30 03:40:58.928 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/images/conference.jpg - null null
+2024-11-30 03:40:58.932 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/images/conference.jpg - 404 0 null 4.1985ms
+2024-11-30 03:40:58.942 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/images/norway.jpg - null null
+2024-11-30 03:40:58.942 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7160/images/conference.jpg, Response status code: 404
+2024-11-30 03:40:58.955 +01:00 [INF] Executed ViewResult - view Feed executed in 626.8066ms.
+2024-11-30 03:40:59.001 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-11-30 03:40:59.001 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 818.4263ms
+2024-11-30 03:40:59.002 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 03:40:59.028 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Feed - 200 null text/html; charset=utf-8 858.4714ms
+2024-11-30 03:40:59.052 +01:00 [INF] Sending file. Request path: '/images/norway.jpg'. Physical path: '/Users/yasminali/Downloads/photogram 7/wwwroot/images/norway.jpg'
+2024-11-30 03:40:59.052 +01:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: '/Users/yasminali/Downloads/photogram 7/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'
+2024-11-30 03:40:59.052 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 200 5824 text/javascript 72.2437ms
+2024-11-30 03:40:59.052 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/images/norway.jpg - 200 55133 image/jpeg 110.0332ms

@@ -1,0 +1,347 @@
+2024-12-01 05:00:33.039 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-12-01 05:00:34.393 +01:00 [INF] Now listening on: http://localhost:5001
+2024-12-01 05:00:34.569 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-01 05:00:34.575 +01:00 [INF] Hosting environment: Development
+2024-12-01 05:00:34.575 +01:00 [INF] Content root path: /Users/yasminali/Desktop/ExamITPE3100/photogram7
+2024-12-01 05:00:39.760 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/ - null null
+2024-12-01 05:00:39.799 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-12-01 05:00:39.861 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:00:41.999 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-12-01 05:00:42.068 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-12-01 05:00:42.114 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-01 05:00:42.920 +01:00 [INF] Executed ViewResult - view Index executed in 384.0943ms.
+2024-12-01 05:00:42.965 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 893.1259ms
+2024-12-01 05:00:42.965 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-12-01 05:00:43.014 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/ - 200 null text/html; charset=utf-8 3261.2718ms
+2024-12-01 05:00:48.172 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Home/Feed - null null
+2024-12-01 05:00:48.174 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:00:48.196 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-12-01 05:00:48.200 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-12-01 05:00:48.205 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-12-01 05:00:48.207 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 5.9334ms
+2024-12-01 05:00:48.207 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-12-01 05:00:48.208 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Home/Feed - 302 0 null 36.6137ms
+2024-12-01 05:00:48.213 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/Feed - null null
+2024-12-01 05:00:48.215 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:00:48.257 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 05:00:48.287 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 05:00:48.420 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-12-01 05:00:48.860 +01:00 [INF] Executed ViewResult - view Feed executed in 442.7645ms.
+2024-12-01 05:00:48.860 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 573.4936ms
+2024-12-01 05:00:48.861 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 05:00:48.861 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/Feed - 200 null text/html; charset=utf-8 647.9526ms
+2024-12-01 05:00:48.949 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/uploads/88ec321d-5692-4e79-9166-71c32aeac047_nature.jpg - null null
+2024-12-01 05:00:48.950 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/uploads/2bd43492-f646-49b2-ac24-32a877d81fc2_picnic.png - null null
+2024-12-01 05:00:48.972 +01:00 [INF] The file /uploads/88ec321d-5692-4e79-9166-71c32aeac047_nature.jpg was not modified
+2024-12-01 05:00:48.972 +01:00 [INF] The file /uploads/2bd43492-f646-49b2-ac24-32a877d81fc2_picnic.png was not modified
+2024-12-01 05:00:48.974 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/uploads/2bd43492-f646-49b2-ac24-32a877d81fc2_picnic.png - 304 null image/png 23.3552ms
+2024-12-01 05:00:48.974 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/uploads/88ec321d-5692-4e79-9166-71c32aeac047_nature.jpg - 304 null image/jpeg 24.6988ms
+2024-12-01 05:01:00.353 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Comments/EditComment - application/x-www-form-urlencoded 246
+2024-12-01 05:01:00.356 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:01:00.382 +01:00 [INF] Executing endpoint 'photogram.Controllers.CommentsController.EditComment (photogram)'
+2024-12-01 05:01:00.394 +01:00 [INF] Route matched with {action = "EditComment", controller = "Comments", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditComment(Int32, System.String) on controller photogram.Controllers.CommentsController (photogram).
+2024-12-01 05:01:00.449 +01:00 [WRN] Attempted to save an empty comment for CommentId 8.
+2024-12-01 05:01:00.451 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed?editingCommentId=8.
+2024-12-01 05:01:00.466 +01:00 [INF] Executed action photogram.Controllers.CommentsController.EditComment (photogram) in 71.8077ms
+2024-12-01 05:01:00.466 +01:00 [INF] Executed endpoint 'photogram.Controllers.CommentsController.EditComment (photogram)'
+2024-12-01 05:01:00.466 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Comments/EditComment - 302 0 null 113.4282ms
+2024-12-01 05:01:00.473 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/Feed?editingCommentId=8 - null null
+2024-12-01 05:01:00.473 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:01:00.478 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 05:01:00.478 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 05:01:00.494 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-12-01 05:01:00.531 +01:00 [INF] Executed ViewResult - view Feed executed in 37.2088ms.
+2024-12-01 05:01:00.531 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 53.1386ms
+2024-12-01 05:01:00.531 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 05:01:00.532 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/Feed?editingCommentId=8 - 200 null text/html; charset=utf-8 59.166ms
+2024-12-01 05:01:07.968 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Comments/AddComment - application/x-www-form-urlencoded 244
+2024-12-01 05:01:07.969 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:01:07.986 +01:00 [INF] Executing endpoint 'photogram.Controllers.CommentsController.AddComment (photogram)'
+2024-12-01 05:01:07.999 +01:00 [INF] Route matched with {action = "AddComment", controller = "Comments", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddComment(Int32, System.String) on controller photogram.Controllers.CommentsController (photogram).
+2024-12-01 05:01:08.003 +01:00 [WRN] Attempted to add an empty comment for PostId 11.
+2024-12-01 05:01:08.007 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed?postId=11.
+2024-12-01 05:01:08.007 +01:00 [INF] Executed action photogram.Controllers.CommentsController.AddComment (photogram) in 8.4638ms
+2024-12-01 05:01:08.008 +01:00 [INF] Executed endpoint 'photogram.Controllers.CommentsController.AddComment (photogram)'
+2024-12-01 05:01:08.008 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Comments/AddComment - 302 0 null 40.644ms
+2024-12-01 05:01:08.018 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/Feed?postId=11 - null null
+2024-12-01 05:01:08.019 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:01:08.020 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 05:01:08.020 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 05:01:08.028 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-12-01 05:01:08.050 +01:00 [INF] Executed ViewResult - view Feed executed in 22.1906ms.
+2024-12-01 05:01:08.050 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 29.5848ms
+2024-12-01 05:01:08.050 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 05:01:08.051 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/Feed?postId=11 - 200 null text/html; charset=utf-8 32.5033ms
+2024-12-01 05:02:21.748 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Comments/AddComment - application/x-www-form-urlencoded 248
+2024-12-01 05:02:21.751 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:02:21.764 +01:00 [INF] Executing endpoint 'photogram.Controllers.CommentsController.AddComment (photogram)'
+2024-12-01 05:02:21.764 +01:00 [INF] Route matched with {action = "AddComment", controller = "Comments", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddComment(Int32, System.String) on controller photogram.Controllers.CommentsController (photogram).
+2024-12-01 05:02:22.223 +01:00 [INF] Comment successfully added for PostId 12 by User potet@gmail.com.
+2024-12-01 05:02:22.224 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-12-01 05:02:22.224 +01:00 [INF] Executed action photogram.Controllers.CommentsController.AddComment (photogram) in 459.1808ms
+2024-12-01 05:02:22.224 +01:00 [INF] Executed endpoint 'photogram.Controllers.CommentsController.AddComment (photogram)'
+2024-12-01 05:02:22.225 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Comments/AddComment - 302 0 null 476.9652ms
+2024-12-01 05:02:22.231 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/Feed - null null
+2024-12-01 05:02:22.232 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:02:22.233 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 05:02:22.233 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 05:02:22.237 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-12-01 05:02:22.257 +01:00 [INF] Executed ViewResult - view Feed executed in 20.0737ms.
+2024-12-01 05:02:22.257 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 23.9886ms
+2024-12-01 05:02:22.258 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 05:02:22.258 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/Feed - 200 null text/html; charset=utf-8 26.5152ms
+2024-12-01 05:02:35.060 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Comments/EditComment - application/x-www-form-urlencoded 260
+2024-12-01 05:02:35.060 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:02:35.064 +01:00 [INF] Executing endpoint 'photogram.Controllers.CommentsController.EditComment (photogram)'
+2024-12-01 05:02:35.064 +01:00 [INF] Route matched with {action = "EditComment", controller = "Comments", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditComment(Int32, System.String) on controller photogram.Controllers.CommentsController (photogram).
+2024-12-01 05:02:35.124 +01:00 [INF] CommentId 15 successfully updated by User potet@gmail.com.
+2024-12-01 05:02:35.124 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-12-01 05:02:35.125 +01:00 [INF] Executed action photogram.Controllers.CommentsController.EditComment (photogram) in 60.3485ms
+2024-12-01 05:02:35.125 +01:00 [INF] Executed endpoint 'photogram.Controllers.CommentsController.EditComment (photogram)'
+2024-12-01 05:02:35.125 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Comments/EditComment - 302 0 null 65.4541ms
+2024-12-01 05:02:35.134 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/Feed - null null
+2024-12-01 05:02:35.134 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:02:35.136 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 05:02:35.137 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 05:02:35.141 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-12-01 05:02:35.160 +01:00 [INF] Executed ViewResult - view Feed executed in 19.4523ms.
+2024-12-01 05:02:35.160 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 23.6458ms
+2024-12-01 05:02:35.160 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 05:02:35.161 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/Feed - 200 null text/html; charset=utf-8 26.9874ms
+2024-12-01 05:03:17.506 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/CreatePost - null null
+2024-12-01 05:03:17.507 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:03:17.512 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-12-01 05:03:17.516 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-12-01 05:03:17.520 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-12-01 05:03:17.583 +01:00 [INF] Executed ViewResult - view CreatePost executed in 64.2946ms.
+2024-12-01 05:03:17.584 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 65.569ms
+2024-12-01 05:03:17.584 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-12-01 05:03:17.584 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/CreatePost - 200 null text/html; charset=utf-8 77.7996ms
+2024-12-01 05:03:19.596 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Home/Feed - null null
+2024-12-01 05:03:19.597 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:03:19.612 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-12-01 05:03:19.612 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-12-01 05:03:19.613 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-12-01 05:03:19.613 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 0.5703ms
+2024-12-01 05:03:19.613 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-12-01 05:03:19.613 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Home/Feed - 302 0 null 16.7298ms
+2024-12-01 05:03:19.620 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/Feed - null null
+2024-12-01 05:03:19.621 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:03:19.623 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 05:03:19.624 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 05:03:19.629 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-12-01 05:03:19.649 +01:00 [INF] Executed ViewResult - view Feed executed in 20.4429ms.
+2024-12-01 05:03:19.649 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 25.5374ms
+2024-12-01 05:03:19.649 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 05:03:19.649 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/Feed - 200 null text/html; charset=utf-8 29.1714ms
+2024-12-01 05:03:21.575 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/MyPosts - null null
+2024-12-01 05:03:21.576 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:03:21.577 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-12-01 05:03:21.592 +01:00 [INF] Route matched with {action = "MyPosts", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MyPosts(System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 05:03:21.716 +01:00 [INF] Executing ViewResult, running view MyPosts.
+2024-12-01 05:03:21.786 +01:00 [INF] Executed ViewResult - view MyPosts executed in 71.9098ms.
+2024-12-01 05:03:21.787 +01:00 [INF] Executed action photogram.Controllers.PostController.MyPosts (photogram) in 194.1565ms
+2024-12-01 05:03:21.787 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-12-01 05:03:21.787 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/MyPosts - 200 null text/html; charset=utf-8 211.6235ms
+2024-12-01 05:03:23.948 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/EditPost/11 - null null
+2024-12-01 05:03:23.948 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:03:23.950 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.EditPost (photogram)'
+2024-12-01 05:03:23.972 +01:00 [INF] Route matched with {action = "EditPost", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditPost(Int32) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 05:03:23.977 +01:00 [INF] EditPost GET called with ID: 11
+2024-12-01 05:03:24.000 +01:00 [INF] Executing RedirectResult, redirecting to /Post/MyPosts?editingPostId=11.
+2024-12-01 05:03:24.001 +01:00 [INF] Executed action photogram.Controllers.PostController.EditPost (photogram) in 28.3132ms
+2024-12-01 05:03:24.001 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.EditPost (photogram)'
+2024-12-01 05:03:24.001 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/EditPost/11 - 302 0 null 53.3361ms
+2024-12-01 05:03:24.008 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/MyPosts?editingPostId=11 - null null
+2024-12-01 05:03:24.008 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:03:24.011 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-12-01 05:03:24.011 +01:00 [INF] Route matched with {action = "MyPosts", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MyPosts(System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 05:03:24.020 +01:00 [INF] Executing ViewResult, running view MyPosts.
+2024-12-01 05:03:24.101 +01:00 [INF] Executed ViewResult - view MyPosts executed in 80.8068ms.
+2024-12-01 05:03:24.101 +01:00 [INF] Executed action photogram.Controllers.PostController.MyPosts (photogram) in 90.1832ms
+2024-12-01 05:03:24.101 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-12-01 05:03:24.102 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/MyPosts?editingPostId=11 - 200 null text/html; charset=utf-8 93.5845ms
+2024-12-01 05:03:26.862 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Post/UpdatePost - application/x-www-form-urlencoded 240
+2024-12-01 05:03:26.864 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:03:26.865 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.UpdatePost (photogram)'
+2024-12-01 05:03:26.892 +01:00 [INF] Route matched with {action = "UpdatePost", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdatePost(photogram.Models.UpdatePostRequestModel) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 05:03:26.916 +01:00 [INF] UpdatePost called for post ID: 11
+2024-12-01 05:03:26.928 +01:00 [INF] Post with ID 11 successfully updated by user potet@gmail.com
+2024-12-01 05:03:26.928 +01:00 [INF] Executing RedirectResult, redirecting to /Post/MyPosts.
+2024-12-01 05:03:26.928 +01:00 [INF] Executed action photogram.Controllers.PostController.UpdatePost (photogram) in 36.3494ms
+2024-12-01 05:03:26.928 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.UpdatePost (photogram)'
+2024-12-01 05:03:26.928 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Post/UpdatePost - 302 0 null 66.6255ms
+2024-12-01 05:03:26.937 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/MyPosts - null null
+2024-12-01 05:03:26.937 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:03:26.939 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-12-01 05:03:26.939 +01:00 [INF] Route matched with {action = "MyPosts", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MyPosts(System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 05:03:26.941 +01:00 [INF] Executing ViewResult, running view MyPosts.
+2024-12-01 05:03:26.943 +01:00 [INF] Executed ViewResult - view MyPosts executed in 1.3406ms.
+2024-12-01 05:03:26.943 +01:00 [INF] Executed action photogram.Controllers.PostController.MyPosts (photogram) in 3.6299ms
+2024-12-01 05:03:26.943 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-12-01 05:03:26.943 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/MyPosts - 200 null text/html; charset=utf-8 6.258ms
+2024-12-01 05:03:29.413 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/EditPost/11 - null null
+2024-12-01 05:03:29.414 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:03:29.417 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.EditPost (photogram)'
+2024-12-01 05:03:29.420 +01:00 [INF] Route matched with {action = "EditPost", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditPost(Int32) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 05:03:29.430 +01:00 [INF] EditPost GET called with ID: 11
+2024-12-01 05:03:29.433 +01:00 [INF] Executing RedirectResult, redirecting to /Post/MyPosts?editingPostId=11.
+2024-12-01 05:03:29.434 +01:00 [INF] Executed action photogram.Controllers.PostController.EditPost (photogram) in 6.5955ms
+2024-12-01 05:03:29.434 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.EditPost (photogram)'
+2024-12-01 05:03:29.437 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/EditPost/11 - 302 0 null 21.3607ms
+2024-12-01 05:03:29.447 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/MyPosts?editingPostId=11 - null null
+2024-12-01 05:03:29.448 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:03:29.449 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-12-01 05:03:29.449 +01:00 [INF] Route matched with {action = "MyPosts", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MyPosts(System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 05:03:29.455 +01:00 [INF] Executing ViewResult, running view MyPosts.
+2024-12-01 05:03:29.459 +01:00 [INF] Executed ViewResult - view MyPosts executed in 4.0431ms.
+2024-12-01 05:03:29.460 +01:00 [INF] Executed action photogram.Controllers.PostController.MyPosts (photogram) in 10.2114ms
+2024-12-01 05:03:29.460 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-12-01 05:03:29.460 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/MyPosts?editingPostId=11 - 200 null text/html; charset=utf-8 12.3094ms
+2024-12-01 05:03:54.666 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Home/Feed - null null
+2024-12-01 05:03:54.667 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:03:54.672 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-12-01 05:03:54.672 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-12-01 05:03:54.672 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-12-01 05:03:54.673 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 0.4467ms
+2024-12-01 05:03:54.673 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-12-01 05:03:54.673 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Home/Feed - 302 0 null 6.495ms
+2024-12-01 05:03:54.695 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/Feed - null null
+2024-12-01 05:03:54.696 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:03:54.698 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 05:03:54.698 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 05:03:54.701 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-12-01 05:03:54.725 +01:00 [INF] Executed ViewResult - view Feed executed in 24.0641ms.
+2024-12-01 05:03:54.725 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 26.698ms
+2024-12-01 05:03:54.725 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 05:03:54.725 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/Feed - 200 null text/html; charset=utf-8 30.044ms
+2024-12-01 05:03:59.180 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/MyPosts - null null
+2024-12-01 05:03:59.181 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 05:03:59.182 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-12-01 05:03:59.182 +01:00 [INF] Route matched with {action = "MyPosts", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MyPosts(System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 05:03:59.185 +01:00 [INF] Executing ViewResult, running view MyPosts.
+2024-12-01 05:03:59.194 +01:00 [INF] Executed ViewResult - view MyPosts executed in 9.0884ms.
+2024-12-01 05:03:59.194 +01:00 [INF] Executed action photogram.Controllers.PostController.MyPosts (photogram) in 12.4675ms
+2024-12-01 05:03:59.194 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-12-01 05:03:59.195 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/MyPosts - 200 null text/html; charset=utf-8 14.8151ms
+2024-12-01 05:11:46.381 +01:00 [INF] Application is shutting down...

@@ -1,0 +1,65 @@
+2024-11-28 23:06:46.675 +01:00 [INF] User profile is available. Using '/Users/kadijayasminbulale/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-28 23:06:46.957 +01:00 [INF] Now listening on: https://localhost:7162
+2024-11-28 23:06:46.957 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-28 23:06:46.961 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-28 23:06:46.962 +01:00 [INF] Hosting environment: Development
+2024-11-28 23:06:46.962 +01:00 [INF] Content root path: /Users/kadijayasminbulale/Downloads/photogram 2
+2024-11-28 23:06:47.819 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-28 23:06:47.882 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-28 23:06:47.896 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-28 23:06:47.902 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-28 23:06:47.932 +01:00 [INF] Accessing expired session, Key:a4f56e15-ea08-68c8-7a7a-ea649e256234
+2024-11-28 23:06:47.937 +01:00 [INF] Executed ViewResult - view Index executed in 35.4501ms.
+2024-11-28 23:06:47.938 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 41.5397ms
+2024-11-28 23:06:47.938 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-28 23:06:47.940 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 123.0939ms
+2024-11-28 23:06:50.413 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Login - null null
+2024-11-28 23:06:50.421 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-28 23:06:50.425 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-28 23:06:50.472 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-28 23:06:50.503 +01:00 [INF] Accessing expired session, Key:a4f56e15-ea08-68c8-7a7a-ea649e256234
+2024-11-28 23:06:50.507 +01:00 [INF] Executed ViewResult - view Login executed in 35.7269ms.
+2024-11-28 23:06:50.507 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 82.3479ms
+2024-11-28 23:06:50.507 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-28 23:06:50.509 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 96.5888ms
+2024-11-28 23:07:00.715 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/User/Login - application/x-www-form-urlencoded 221
+2024-11-28 23:07:00.722 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-28 23:07:00.730 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(photogram.ViewModels.LoginViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-28 23:07:00.788 +01:00 [INF] Attempting to login
+2024-11-28 23:07:00.909 +01:00 [INF] Accessing expired session, Key:a4f56e15-ea08-68c8-7a7a-ea649e256234
+2024-11-28 23:07:00.909 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2024-11-28 23:07:00.909 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 179.8316ms
+2024-11-28 23:07:00.910 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-28 23:07:00.911 +01:00 [INF] Session started; Key:a4f56e15-ea08-68c8-7a7a-ea649e256234, Id:13ecd652-22c9-bc62-bab6-4ea3cef287e8
+2024-11-28 23:07:00.916 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/User/Login - 302 0 null 201.2516ms
+2024-11-28 23:07:01.039 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-28 23:07:01.040 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-28 23:07:01.040 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-28 23:07:01.041 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-28 23:07:01.047 +01:00 [INF] Executed ViewResult - view Index executed in 6.231ms.
+2024-11-28 23:07:01.048 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 8.4527ms
+2024-11-28 23:07:01.048 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-28 23:07:01.049 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 9.5585ms
+2024-11-28 23:07:03.528 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Home/Friends - null null
+2024-11-28 23:07:03.529 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-28 23:07:03.532 +01:00 [INF] Route matched with {action = "Friends", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Friends() on controller photogram.Controllers.HomeController (photogram).
+2024-11-28 23:07:03.534 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Friends.
+2024-11-28 23:07:03.534 +01:00 [INF] Executed action photogram.Controllers.HomeController.Friends (photogram) in 2.286ms
+2024-11-28 23:07:03.534 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-28 23:07:03.535 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Home/Friends - 302 0 null 6.8667ms
+2024-11-28 23:07:03.592 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/Friends - null null
+2024-11-28 23:07:03.593 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Friends (photogram)'
+2024-11-28 23:07:03.598 +01:00 [INF] Route matched with {action = "Friends", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Friends() on controller photogram.Controllers.PostController (photogram).
+2024-11-28 23:07:03.659 +01:00 [INF] Executing ViewResult, running view Friends.
+2024-11-28 23:07:03.666 +01:00 [INF] Executed ViewResult - view Friends executed in 6.8226ms.
+2024-11-28 23:07:03.697 +01:00 [INF] Executed action photogram.Controllers.PostController.Friends (photogram) in 98.4785ms
+2024-11-28 23:07:03.697 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Friends (photogram)'
+2024-11-28 23:07:03.701 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/Friends - 200 null text/html; charset=utf-8 134.7135ms
+2024-11-28 23:07:04.993 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/CreatePost - null null
+2024-11-28 23:07:05.045 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-28 23:07:05.047 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-28 23:07:05.049 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-11-28 23:07:05.142 +01:00 [INF] Executed ViewResult - view CreatePost executed in 94.0576ms.
+2024-11-28 23:07:05.204 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 156.6985ms
+2024-11-28 23:07:05.204 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-28 23:07:05.205 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/CreatePost - 200 null text/html; charset=utf-8 212.4864ms

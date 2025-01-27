@@ -1,0 +1,296 @@
+2024-11-04 13:29:23.547 +01:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-04 13:29:23.990 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-04 13:29:24.162 +01:00 [INF] User profile is available. Using 'C:\Users\adm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-04 13:29:24.257 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-04 13:29:24.266 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-04 13:29:24.268 +01:00 [INF] Hosting environment: Development
+2024-11-04 13:29:24.269 +01:00 [INF] Content root path: C:\Users\adm\Webapplikasjoner\photogram
+2024-11-04 20:39:44.013 +01:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-04 20:39:44.420 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-04 20:39:44.600 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-04 20:39:44.729 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-04 20:39:44.744 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-04 20:39:44.746 +01:00 [INF] Hosting environment: Development
+2024-11-04 20:39:44.746 +01:00 [INF] Content root path: /Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram
+2024-11-04 20:40:05.464 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2024-11-04 20:40:05.492 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-04 20:40:05.581 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-04 20:40:05.620 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-04 20:40:05.730 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-04 20:40:05.898 +01:00 [INF] Executed ViewResult - view Index executed in 180.2028ms.
+2024-11-04 20:40:05.978 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 351.242ms
+2024-11-04 20:40:05.978 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-04 20:40:05.982 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css - null null
+2024-11-04 20:40:05.993 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 550.5115ms
+2024-11-04 20:40:06.032 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram/wwwroot/css/site.css'
+2024-11-04 20:40:06.032 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/css/site.css - 200 2208 text/css 50.3268ms
+2024-11-04 20:40:06.374 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - null null
+2024-11-04 20:40:06.384 +01:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: '/Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram/wwwroot/favicon.ico'
+2024-11-04 20:40:06.387 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - 200 5430 image/x-icon 12.5842ms
+2024-11-04 20:40:20.275 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Home/Friends - null null
+2024-11-04 20:40:20.283 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-04 20:40:20.287 +01:00 [INF] Route matched with {action = "Friends", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Friends() on controller photogram.Controllers.HomeController (photogram).
+2024-11-04 20:40:20.297 +01:00 [INF] Executing ViewResult, running view Friends.
+2024-11-04 20:40:20.326 +01:00 [INF] Executed ViewResult - view Friends executed in 29.8491ms.
+2024-11-04 20:40:20.326 +01:00 [INF] Executed action photogram.Controllers.HomeController.Friends (photogram) in 34.1866ms
+2024-11-04 20:40:20.326 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-04 20:40:20.326 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Home/Friends - 200 null text/html; charset=utf-8 51.5717ms
+2024-11-04 20:40:36.143 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Post/Feed - null null
+2024-11-04 20:40:36.146 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-04 20:40:36.166 +01:00 [INF] Route matched with {action = "Feed", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed() on controller photogram.Controllers.PostController (photogram).
+2024-11-04 20:40:36.437 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."UserName"
+FROM "Posts" AS "p"
+2024-11-04 20:40:36.547 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-04 20:40:36.554 +01:00 [INF] Executed ViewResult - view Feed executed in 7.3999ms.
+2024-11-04 20:40:36.554 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 387.5349ms
+2024-11-04 20:40:36.554 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-04 20:40:36.713 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/conference.jpg - null null
+2024-11-04 20:40:36.718 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/sunset.jpg - null null
+2024-11-04 20:40:36.720 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/recipes.jpg - null null
+2024-11-04 20:40:36.732 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/sunset.jpg - 404 0 null 13.8458ms
+2024-11-04 20:40:36.733 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/conference.jpg - 404 0 null 19.4733ms
+2024-11-04 20:40:36.734 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/recipes.jpg - 404 0 null 14.3133ms
+2024-11-04 20:40:36.735 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/conference.jpg, Response status code: 404
+2024-11-04 20:40:36.735 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/uploads/2024-05-18.png - null null
+2024-11-04 20:40:36.735 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/sunset.jpg, Response status code: 404
+2024-11-04 20:40:36.735 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/recipes.jpg, Response status code: 404
+2024-11-04 20:40:36.749 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/uploads/flower image 2.jpg - null null
+2024-11-04 20:40:36.786 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Post/Feed - 200 null text/html; charset=utf-8 642.8645ms
+2024-11-04 20:40:36.811 +01:00 [INF] Sending file. Request path: '/uploads/2024-05-18.png'. Physical path: '/Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram/wwwroot/uploads/2024-05-18.png'
+2024-11-04 20:40:36.812 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/uploads/2024-05-18.png - 200 640827 image/png 76.4873ms
+2024-11-04 20:40:36.813 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/norway.jpg - null null
+2024-11-04 20:40:36.813 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/norway.jpg - 404 0 null 27.1377ms
+2024-11-04 20:40:36.814 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/norway.jpg, Response status code: 404
+2024-11-04 20:40:36.866 +01:00 [INF] Sending file. Request path: '/uploads/flower image 2.jpg'. Physical path: '/Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram/wwwroot/uploads/flower image 2.jpg'
+2024-11-04 20:40:36.866 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/uploads/flower image 2.jpg - 200 1185535 image/jpeg 117.472ms
+2024-11-04 20:41:15.718 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Post/CreatePost - multipart/form-data; boundary=----WebKitFormBoundary37S5uwJZcGOFxa33 291
+2024-11-04 20:41:15.723 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-04 20:41:15.748 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(photogram.Models.PostViewModel) on controller photogram.Controllers.PostController (photogram).
+2024-11-04 20:41:15.823 +01:00 [INF] I am here to create a new post from post controller
+2024-11-04 20:41:15.825 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-11-04 20:41:15.839 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 90.6371ms
+2024-11-04 20:41:15.841 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-04 20:41:15.870 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'photogram.Models.PostViewModel', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.IEnumerable`1[photogram.Models.Post]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at lambda_method99(Closure, ViewDataDictionary)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-04 20:41:15.917 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/Post/CreatePost - 500 null text/html; charset=utf-8 198.8087ms
+2024-11-04 20:46:03.764 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/User/login - null null
+2024-11-04 20:46:03.765 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-04 20:46:03.768 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-04 20:46:03.901 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-04 20:46:03.903 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-04 20:46:03.977 +01:00 [INF] Executed ViewResult - view Login executed in 75.1247ms.
+2024-11-04 20:46:03.977 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 208.6648ms
+2024-11-04 20:46:03.977 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-04 20:46:03.978 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/User/login - 200 null text/html; charset=utf-8 213.812ms
+2024-11-04 20:46:04.061 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-11-04 20:46:04.068 +01:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: '/Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js'
+2024-11-04 20:46:04.069 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/jquery-validation/dist/jquery.validate.min.js - 200 24601 text/javascript 7.9416ms
+2024-11-04 20:46:04.076 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-11-04 20:46:04.081 +01:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: '/Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'
+2024-11-04 20:46:04.081 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 200 5824 text/javascript 4.9455ms
+2024-11-04 20:53:59.424 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Home/Friends - null null
+2024-11-04 20:53:59.443 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-04 20:53:59.443 +01:00 [INF] Route matched with {action = "Friends", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Friends() on controller photogram.Controllers.HomeController (photogram).
+2024-11-04 20:53:59.444 +01:00 [INF] Executing ViewResult, running view Friends.
+2024-11-04 20:53:59.445 +01:00 [INF] Executed ViewResult - view Friends executed in 1.6842ms.
+2024-11-04 20:53:59.445 +01:00 [INF] Executed action photogram.Controllers.HomeController.Friends (photogram) in 1.9427ms
+2024-11-04 20:53:59.445 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-04 20:53:59.446 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Home/Friends - 200 null text/html; charset=utf-8 21.8669ms
+2024-11-04 20:53:59.528 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css - null null
+2024-11-04 20:53:59.529 +01:00 [INF] The file /css/site.css was not modified
+2024-11-04 20:53:59.529 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/css/site.css - 304 null text/css 1.1429ms
+2024-11-04 20:54:05.873 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Post/Feed - null null
+2024-11-04 20:54:05.874 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-04 20:54:05.874 +01:00 [INF] Route matched with {action = "Feed", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed() on controller photogram.Controllers.PostController (photogram).
+2024-11-04 20:54:05.895 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."UserName"
+FROM "Posts" AS "p"
+2024-11-04 20:54:05.897 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-04 20:54:05.899 +01:00 [INF] Executed ViewResult - view Feed executed in 1.7175ms.
+2024-11-04 20:54:05.899 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 24.3805ms
+2024-11-04 20:54:05.899 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-04 20:54:05.899 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Post/Feed - 200 null text/html; charset=utf-8 26.3008ms
+2024-11-04 20:54:05.999 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/norway.jpg - null null
+2024-11-04 20:54:05.999 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/sunset.jpg - null null
+2024-11-04 20:54:05.999 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/norway.jpg - 404 0 null 0.4913ms
+2024-11-04 20:54:05.999 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/norway.jpg, Response status code: 404
+2024-11-04 20:54:05.999 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/conference.jpg - null null
+2024-11-04 20:54:06.000 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/sunset.jpg - 404 0 null 0.4287ms
+2024-11-04 20:54:06.000 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/sunset.jpg, Response status code: 404
+2024-11-04 20:54:06.000 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/conference.jpg - 404 0 null 0.3191ms
+2024-11-04 20:54:06.000 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/recipes.jpg - null null
+2024-11-04 20:54:06.000 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/conference.jpg, Response status code: 404
+2024-11-04 20:54:06.001 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/uploads/2024-05-18.png - null null
+2024-11-04 20:54:06.001 +01:00 [INF] The file /uploads/2024-05-18.png was not modified
+2024-11-04 20:54:06.001 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/uploads/2024-05-18.png - 304 null image/png 0.5756ms
+2024-11-04 20:54:06.017 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/uploads/flower image 2.jpg - null null
+2024-11-04 20:54:06.001 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/recipes.jpg - 404 0 null 1.5189ms
+2024-11-04 20:54:06.111 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/images/recipes.jpg, Response status code: 404
+2024-11-04 20:54:06.101 +01:00 [INF] The file /uploads/flower image 2.jpg was not modified
+2024-11-04 20:54:06.116 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/uploads/flower image 2.jpg - 304 null image/jpeg 98.9282ms
+2024-11-04 21:26:42.305 +01:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-04 21:26:42.729 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-04 21:26:43.001 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-04 21:26:43.913 +01:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-11-04 21:27:13.733 +01:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-04 21:27:14.138 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-04 21:27:14.249 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-04 21:27:14.367 +01:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-11-04 21:28:27.935 +01:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-04 21:28:28.270 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-04 21:28:28.394 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-04 21:28:28.491 +01:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-11-04 21:30:02.372 +01:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-04 21:30:02.752 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-04 21:30:02.993 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-04 21:30:03.845 +01:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)

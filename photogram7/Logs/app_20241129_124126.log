@@ -1,0 +1,15 @@
+2024-11-29 12:41:30.950 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-29 12:41:32.564 +01:00 [INF] Now listening on: https://localhost:7162
+2024-11-29 12:41:32.583 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-29 12:41:32.669 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-29 12:41:32.806 +01:00 [INF] Hosting environment: Development
+2024-11-29 12:41:32.872 +01:00 [INF] Content root path: /Users/yasminali/Downloads/photogram 6
+2024-11-29 12:41:33.787 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-29 12:41:33.898 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-29 12:41:33.940 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-29 12:41:33.982 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-29 12:41:34.210 +01:00 [INF] Accessing expired session, Key:b89e8c98-6b40-71d0-2685-55dde9c16b1c
+2024-11-29 12:41:34.308 +01:00 [INF] Executed ViewResult - view Index executed in 284.74ms.
+2024-11-29 12:41:34.334 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 389.0556ms
+2024-11-29 12:41:34.337 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-29 12:41:34.414 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 629.1394ms

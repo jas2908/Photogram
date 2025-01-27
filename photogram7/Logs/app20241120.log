@@ -1,0 +1,132 @@
+2024-11-20 22:10:29.394 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-20 22:10:29.530 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-20 22:10:29.565 +01:00 [INF] User profile is available. Using '/Users/kadijayasminbulale/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-20 22:10:29.593 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-20 22:10:29.595 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-20 22:10:29.596 +01:00 [INF] Hosting environment: Development
+2024-11-20 22:10:29.596 +01:00 [INF] Content root path: /Users/kadijayasminbulale/Downloads/photogram 2
+2024-11-20 22:10:38.690 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2024-11-20 22:10:38.713 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-20 22:10:38.741 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-20 22:10:38.749 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-20 22:10:38.756 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-20 22:10:38.789 +01:00 [INF] Executed ViewResult - view Index executed in 33.515ms.
+2024-11-20 22:10:38.795 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 45.7667ms
+2024-11-20 22:10:38.797 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-20 22:10:38.800 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 112.246ms
+2024-11-20 22:10:38.972 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2024-11-20 22:10:38.975 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-20 22:10:38.975 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-20 22:10:38.976 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-20 22:10:38.979 +01:00 [INF] Executed ViewResult - view Index executed in 3.3471ms.
+2024-11-20 22:10:38.979 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 3.8967ms
+2024-11-20 22:10:38.979 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-20 22:10:38.980 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 7.436ms
+2024-11-20 22:10:39.043 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css - null null
+2024-11-20 22:10:39.043 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/frontpage.png - null null
+2024-11-20 22:10:39.052 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/kadijayasminbulale/Downloads/photogram 2/wwwroot/css/site.css'
+2024-11-20 22:10:39.052 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/css/site.css - 200 3811 text/css 9.141ms
+2024-11-20 22:10:39.058 +01:00 [INF] Sending file. Request path: '/images/frontpage.png'. Physical path: '/Users/kadijayasminbulale/Downloads/photogram 2/wwwroot/images/frontpage.png'
+2024-11-20 22:10:39.059 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/frontpage.png - 200 2309811 image/png 15.68ms
+2024-11-20 22:10:39.145 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - null null
+2024-11-20 22:10:39.146 +01:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: '/Users/kadijayasminbulale/Downloads/photogram 2/wwwroot/favicon.ico'
+2024-11-20 22:10:39.146 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - 200 5430 image/x-icon 1.074ms
+2024-11-20 22:10:40.617 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/User/Login - null null
+2024-11-20 22:10:40.619 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-20 22:10:40.622 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-20 22:10:40.634 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-20 22:10:40.635 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-20 22:10:40.653 +01:00 [INF] Executed ViewResult - view Login executed in 18.1301ms.
+2024-11-20 22:10:40.653 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 31.357ms
+2024-11-20 22:10:40.653 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-20 22:10:40.658 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/User/Login - 200 null text/html; charset=utf-8 40.7321ms
+2024-11-20 22:10:40.674 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-11-20 22:10:40.676 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-11-20 22:10:40.676 +01:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: '/Users/kadijayasminbulale/Downloads/photogram 2/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js'
+2024-11-20 22:10:40.676 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/jquery-validation/dist/jquery.validate.min.js - 200 24601 text/javascript 1.5283ms
+2024-11-20 22:10:40.677 +01:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: '/Users/kadijayasminbulale/Downloads/photogram 2/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'
+2024-11-20 22:10:40.677 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 200 5824 text/javascript 1.8425ms
+2024-11-20 22:10:57.013 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/User/Login - application/x-www-form-urlencoded 221
+2024-11-20 22:10:57.016 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-20 22:10:57.024 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(photogram.ViewModels.LoginViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-20 22:10:57.060 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-20 22:10:57.075 +01:00 [INF] Attempting to login
+2024-11-20 22:10:57.142 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__model_Email_0='?' (Size = 13), @__model_Password_1='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Email", "u"."Name", "u"."Password"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__model_Email_0 AND "u"."Password" = @__model_Password_1
+LIMIT 1
+2024-11-20 22:10:57.161 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2024-11-20 22:10:57.162 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 137.7834ms
+2024-11-20 22:10:57.162 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-20 22:10:57.162 +01:00 [INF] Session started; Key:5f702362-2482-49e0-7330-d5d27b8f5d55, Id:8f393874-7a64-c11d-242c-20341e559e17
+2024-11-20 22:10:57.165 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/User/Login - 302 0 null 152.6316ms
+2024-11-20 22:10:57.166 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2024-11-20 22:10:57.167 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-20 22:10:57.167 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-20 22:10:57.167 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-20 22:10:57.167 +01:00 [INF] Executed ViewResult - view Index executed in 0.6228ms.
+2024-11-20 22:10:57.168 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 0.7116ms
+2024-11-20 22:10:57.168 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-20 22:10:57.168 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 1.3833ms
+2024-11-20 22:11:03.340 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Home/Feed - null null
+2024-11-20 22:11:03.341 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-20 22:11:03.343 +01:00 [INF] Route matched with {action = "Feed", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-20 22:11:03.343 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-20 22:11:03.343 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 0.6522ms
+2024-11-20 22:11:03.344 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-20 22:11:03.344 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Home/Feed - 302 0 null 4.2153ms
+2024-11-20 22:11:03.347 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Post/Feed - null null
+2024-11-20 22:11:03.347 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-20 22:11:03.352 +01:00 [INF] Route matched with {action = "Feed", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-20 22:11:03.374 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."UserName"
+FROM "Posts" AS "p"
+ORDER BY "p"."CreatedAt" DESC
+LIMIT @__p_1 OFFSET @__p_0
+2024-11-20 22:11:03.421 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-20 22:11:03.427 +01:00 [INF] Executed ViewResult - view Feed executed in 8.8022ms.
+2024-11-20 22:11:03.428 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 75.6793ms
+2024-11-20 22:11:03.428 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-20 22:11:03.430 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Post/Feed - 200 null text/html; charset=utf-8 83.7715ms
+2024-11-20 22:11:03.453 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/uploads/view.jpg - null null
+2024-11-20 22:11:03.463 +01:00 [INF] Sending file. Request path: '/uploads/view.jpg'. Physical path: '/Users/kadijayasminbulale/Downloads/photogram 2/wwwroot/uploads/view.jpg'
+2024-11-20 22:11:03.463 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/uploads/view.jpg - 200 17171 image/jpeg 9.6125ms
+2024-11-20 22:11:03.465 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/uploads/Photogram.png - null null
+2024-11-20 22:11:03.471 +01:00 [INF] Sending file. Request path: '/uploads/Photogram.png'. Physical path: '/Users/kadijayasminbulale/Downloads/photogram 2/wwwroot/uploads/Photogram.png'
+2024-11-20 22:11:03.472 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/uploads/Photogram.png - 200 14476 image/png 7.212ms
+2024-11-20 22:11:05.774 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Home/Friends - null null
+2024-11-20 22:11:05.777 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-20 22:11:05.779 +01:00 [INF] Route matched with {action = "Friends", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Friends() on controller photogram.Controllers.HomeController (photogram).
+2024-11-20 22:11:05.780 +01:00 [INF] Executing ViewResult, running view Friends.
+2024-11-20 22:11:05.782 +01:00 [INF] Executed ViewResult - view Friends executed in 2.614ms.
+2024-11-20 22:11:05.782 +01:00 [INF] Executed action photogram.Controllers.HomeController.Friends (photogram) in 3.0292ms
+2024-11-20 22:11:05.782 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-20 22:11:05.782 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Home/Friends - 200 null text/html; charset=utf-8 8.0508ms
+2024-11-20 22:11:07.765 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Post/CreatePost - null null
+2024-11-20 22:11:07.767 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-20 22:11:07.768 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-20 22:11:07.769 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-11-20 22:11:07.774 +01:00 [INF] Executed ViewResult - view CreatePost executed in 4.7616ms.
+2024-11-20 22:11:07.774 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 5.6483ms
+2024-11-20 22:11:07.774 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-20 22:11:07.774 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Post/CreatePost - 200 null text/html; charset=utf-8 9.205ms
+2024-11-20 22:11:09.192 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Post/MyPosts - null null
+2024-11-20 22:11:09.193 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-11-20 22:11:09.195 +01:00 [INF] Route matched with {action = "MyPosts", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MyPosts() on controller photogram.Controllers.PostController (photogram).
+2024-11-20 22:11:09.201 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userName_0='?' (Size = 13)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."UserName"
+FROM "Posts" AS "p"
+WHERE "p"."UserName" = @__userName_0
+ORDER BY "p"."CreatedAt" DESC
+2024-11-20 22:11:09.202 +01:00 [INF] Executing ViewResult, running view MyPosts.
+2024-11-20 22:11:09.203 +01:00 [INF] Executed ViewResult - view MyPosts executed in 1.7669ms.
+2024-11-20 22:11:09.203 +01:00 [INF] Executed action photogram.Controllers.PostController.MyPosts (photogram) in 8.2086ms
+2024-11-20 22:11:09.203 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-11-20 22:11:09.204 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Post/MyPosts - 200 null text/html; charset=utf-8 11.6439ms

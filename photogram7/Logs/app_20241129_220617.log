@@ -1,0 +1,119 @@
+2024-11-29 22:06:18.509 +01:00 [INF] User profile is available. Using '/Users/kadijayasminbulale/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-29 22:06:18.586 +01:00 [INF] Now listening on: http://localhost:5001
+2024-11-29 22:06:18.588 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-29 22:06:18.588 +01:00 [INF] Hosting environment: Development
+2024-11-29 22:06:18.588 +01:00 [INF] Content root path: /Users/kadijayasminbulale/Downloads/photogram 7
+2024-11-29 22:06:25.217 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/ - null null
+2024-11-29 22:06:25.227 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-29 22:06:25.237 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-29 22:06:25.265 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-29 22:06:25.273 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-29 22:06:25.279 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-29 22:06:25.314 +01:00 [INF] Executed ViewResult - view Index executed in 35.2168ms.
+2024-11-29 22:06:25.317 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 43.7725ms
+2024-11-29 22:06:25.318 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-29 22:06:25.325 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/ - 200 null text/html; charset=utf-8 113.1208ms
+2024-11-29 22:06:25.407 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/css/layout.css - null null
+2024-11-29 22:06:25.408 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/images/frontpage.png - null null
+2024-11-29 22:06:25.429 +01:00 [INF] Sending file. Request path: '/css/layout.css'. Physical path: '/Users/kadijayasminbulale/Downloads/photogram 7/wwwroot/css/layout.css'
+2024-11-29 22:06:25.431 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/css/layout.css - 200 4476 text/css 23.1286ms
+2024-11-29 22:06:25.431 +01:00 [INF] Sending file. Request path: '/images/frontpage.png'. Physical path: '/Users/kadijayasminbulale/Downloads/photogram 7/wwwroot/images/frontpage.png'
+2024-11-29 22:06:25.432 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/images/frontpage.png - 200 2309811 image/png 24.8159ms
+2024-11-29 22:06:25.636 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/favicon.ico - null null
+2024-11-29 22:06:25.637 +01:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: '/Users/kadijayasminbulale/Downloads/photogram 7/wwwroot/favicon.ico'
+2024-11-29 22:06:25.638 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/favicon.ico - 200 5430 image/x-icon 2.0489ms
+2024-11-29 22:06:27.136 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/User/Login - null null
+2024-11-29 22:06:27.140 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-29 22:06:27.158 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-29 22:06:27.162 +01:00 [INF] Route matched with {action = "Login", controller = "User", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-29 22:06:27.166 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-29 22:06:27.241 +01:00 [INF] Executed ViewResult - view Login executed in 75.9282ms.
+2024-11-29 22:06:27.242 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 79.8357ms
+2024-11-29 22:06:27.242 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-29 22:06:27.243 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/User/Login - 200 null text/html; charset=utf-8 107.743ms
+2024-11-29 22:06:27.311 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-11-29 22:06:27.313 +01:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: '/Users/kadijayasminbulale/Downloads/photogram 7/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js'
+2024-11-29 22:06:27.313 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation/dist/jquery.validate.min.js - 200 24601 text/javascript 1.7992ms
+2024-11-29 22:06:27.319 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-11-29 22:06:27.320 +01:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: '/Users/kadijayasminbulale/Downloads/photogram 7/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'
+2024-11-29 22:06:27.320 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 200 5824 text/javascript 1.2862ms
+2024-11-29 22:06:34.339 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/User/Register - null null
+2024-11-29 22:06:34.344 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-29 22:06:34.351 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-29 22:06:34.364 +01:00 [INF] Route matched with {action = "Register", controller = "User", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller photogram.Controllers.UserController (photogram).
+2024-11-29 22:06:34.375 +01:00 [INF] Executing ViewResult, running view Register.
+2024-11-29 22:06:34.392 +01:00 [INF] Executed ViewResult - view Register executed in 18.5883ms.
+2024-11-29 22:06:34.392 +01:00 [INF] Executed action photogram.Controllers.UserController.Register (photogram) in 28.038ms
+2024-11-29 22:06:34.392 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-29 22:06:34.393 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/User/Register - 200 null text/html; charset=utf-8 54.1408ms
+2024-11-29 22:06:41.399 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/User/Register - application/x-www-form-urlencoded 246
+2024-11-29 22:06:41.400 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-29 22:06:41.401 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-29 22:06:41.409 +01:00 [INF] Route matched with {action = "Register", controller = "User", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(photogram.ViewModels.RegisterViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-29 22:06:41.517 +01:00 [INF] Executing RedirectResult, redirecting to /User/Login.
+2024-11-29 22:06:41.518 +01:00 [INF] Executed action photogram.Controllers.UserController.Register (photogram) in 108.7506ms
+2024-11-29 22:06:41.518 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-29 22:06:41.520 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/User/Register - 302 0 null 121.1637ms
+2024-11-29 22:06:41.520 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/User/Login - null null
+2024-11-29 22:06:41.520 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-29 22:06:41.521 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-29 22:06:41.521 +01:00 [INF] Route matched with {action = "Login", controller = "User", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-29 22:06:41.521 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-29 22:06:41.525 +01:00 [INF] Executed ViewResult - view Login executed in 4.0059ms.
+2024-11-29 22:06:41.525 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 4.4493ms
+2024-11-29 22:06:41.525 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-29 22:06:41.525 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/User/Login - 200 null text/html; charset=utf-8 5.2856ms
+2024-11-29 22:06:54.222 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/User/Login - null null
+2024-11-29 22:06:54.226 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-29 22:06:54.228 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-29 22:06:54.229 +01:00 [INF] Route matched with {action = "Login", controller = "User", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-29 22:06:54.231 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-29 22:06:54.237 +01:00 [INF] Executed ViewResult - view Login executed in 5.4425ms.
+2024-11-29 22:06:54.237 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 7.7708ms
+2024-11-29 22:06:54.237 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-29 22:06:54.237 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/User/Login - 200 null text/html; charset=utf-8 25.5791ms
+2024-11-29 22:06:57.124 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/User/Register - null null
+2024-11-29 22:06:57.132 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-29 22:06:57.135 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-29 22:06:57.136 +01:00 [INF] Route matched with {action = "Register", controller = "User", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller photogram.Controllers.UserController (photogram).
+2024-11-29 22:06:57.138 +01:00 [INF] Executing ViewResult, running view Register.
+2024-11-29 22:06:57.155 +01:00 [INF] Executed ViewResult - view Register executed in 17.273ms.
+2024-11-29 22:06:57.155 +01:00 [INF] Executed action photogram.Controllers.UserController.Register (photogram) in 19.2162ms
+2024-11-29 22:06:57.155 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-29 22:06:57.155 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/User/Register - 200 null text/html; charset=utf-8 32.5316ms
+2024-11-29 22:39:56.348 +01:00 [INF] Application is shutting down...

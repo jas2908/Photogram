@@ -1,0 +1,334 @@
+2024-11-30 03:42:33.750 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-30 03:42:37.904 +01:00 [INF] Now listening on: https://localhost:7160
+2024-11-30 03:42:37.914 +01:00 [INF] Now listening on: http://localhost:5001
+2024-11-30 03:42:37.988 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 03:42:38.007 +01:00 [INF] Hosting environment: Development
+2024-11-30 03:42:38.039 +01:00 [INF] Content root path: /Users/yasminali/Downloads/photogram 7
+2024-11-30 03:42:39.047 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/ - null null
+2024-11-30 03:42:39.423 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 03:42:39.512 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 03:42:39.575 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 03:42:40.312 +01:00 [INF] Executed ViewResult - view Index executed in 756.0163ms.
+2024-11-30 03:42:40.361 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 845.7039ms
+2024-11-30 03:42:40.362 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 03:42:40.466 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/ - 200 null text/html; charset=utf-8 1432.2697ms
+2024-11-30 03:42:43.808 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7160/Identity/Account/Logout?returnUrl=%2F - application/x-www-form-urlencoded 225
+2024-11-30 03:42:43.868 +01:00 [INF] Executing endpoint '/Account/Logout'
+2024-11-30 03:42:43.991 +01:00 [INF] Route matched with {page = "/Account/Logout", area = "Identity", action = "", controller = ""}. Executing page /Account/Logout
+2024-11-30 03:42:44.344 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LogoutModel.OnPost - ModelState is "Valid"
+2024-11-30 03:42:44.406 +01:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-11-30 03:42:44.413 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-11-30 03:42:44.415 +01:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-11-30 03:42:44.430 +01:00 [INF] User logged out.
+2024-11-30 03:42:44.438 +01:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-11-30 03:42:44.443 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-11-30 03:42:44.445 +01:00 [INF] Executed page /Account/Logout in 452.4945ms
+2024-11-30 03:42:44.445 +01:00 [INF] Executed endpoint '/Account/Logout'
+2024-11-30 03:42:44.450 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7160/Identity/Account/Logout?returnUrl=%2F - 302 0 null 641.7215ms
+2024-11-30 03:42:44.473 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/ - null null
+2024-11-30 03:42:44.477 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 03:42:44.478 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 03:42:44.482 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 03:42:44.517 +01:00 [INF] Executed ViewResult - view Index executed in 36.1911ms.
+2024-11-30 03:42:44.518 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 39.4771ms
+2024-11-30 03:42:44.518 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 03:42:44.523 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/ - 200 null text/html; charset=utf-8 48.8504ms
+2024-11-30 03:42:45.767 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Identity/Account/Login - null null
+2024-11-30 03:42:45.788 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-30 03:42:45.830 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-30 03:42:45.891 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-11-30 03:42:45.899 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-11-30 03:42:45.905 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-11-30 03:42:45.927 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-11-30 03:42:45.928 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-30 03:42:46.904 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-11-30 03:42:46.912 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 8.5769ms
+2024-11-30 03:42:46.914 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-30 03:42:46.961 +01:00 [INF] Executed page /Account/Login in 1130.8437ms
+2024-11-30 03:42:46.961 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-30 03:42:46.962 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Identity/Account/Login - 200 null text/html; charset=utf-8 1195.1261ms
+2024-11-30 03:43:05.466 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7160/Identity/Account/Login - application/x-www-form-urlencoded 268
+2024-11-30 03:43:05.469 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-30 03:43:05.470 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-30 03:43:05.522 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-11-30 03:43:10.051 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-11-30 03:43:10.061 +01:00 [INF] User logged in.
+2024-11-30 03:43:10.063 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-11-30 03:43:10.063 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-11-30 03:43:10.064 +01:00 [INF] Executed page /Account/Login in 4593.8683ms
+2024-11-30 03:43:10.065 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-30 03:43:10.086 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/ - null null
+2024-11-30 03:43:10.093 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 03:43:10.093 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 03:43:10.096 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 03:43:10.107 +01:00 [INF] Executed ViewResult - view Index executed in 10.5629ms.
+2024-11-30 03:43:10.114 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 20.105ms
+2024-11-30 03:43:10.129 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 03:43:10.182 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/ - 200 null text/html; charset=utf-8 95.4974ms
+2024-11-30 03:43:10.191 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7160/Identity/Account/Login - 302 0 null 4725.2787ms
+2024-11-30 03:43:11.499 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Home/Feed - null null
+2024-11-30 03:43:11.503 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 03:43:11.510 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 03:43:11.515 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-30 03:43:11.515 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 4.5313ms
+2024-11-30 03:43:11.515 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 03:43:11.516 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Home/Feed - 302 0 null 17.1254ms
+2024-11-30 03:43:11.563 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Feed - null null
+2024-11-30 03:43:11.565 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 03:43:11.585 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 03:43:12.210 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-30 03:43:12.977 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/images/recipes.jpg - null null
+2024-11-30 03:43:13.004 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/images/sunset.jpg - null null
+2024-11-30 03:43:13.004 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/images/norway.jpg - null null
+2024-11-30 03:43:13.199 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/images/recipes.jpg - 404 0 null 222.2523ms
+2024-11-30 03:43:13.200 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7160/images/recipes.jpg, Response status code: 404
+2024-11-30 03:43:13.200 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/images/sunset.jpg - 404 0 null 195.819ms
+2024-11-30 03:43:13.200 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7160/images/sunset.jpg, Response status code: 404
+2024-11-30 03:43:13.274 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/images/conference.jpg - null null
+2024-11-30 03:43:13.278 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/images/conference.jpg - 404 0 null 24.9573ms
+2024-11-30 03:43:13.278 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7160/images/conference.jpg, Response status code: 404
+2024-11-30 03:43:13.317 +01:00 [INF] Executed ViewResult - view Feed executed in 1115.9375ms.
+2024-11-30 03:43:13.317 +01:00 [INF] The file /images/norway.jpg was not modified
+2024-11-30 03:43:13.321 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/images/norway.jpg - 304 null image/jpeg 316.4572ms
+2024-11-30 03:43:13.326 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 1739.9091ms
+2024-11-30 03:43:13.328 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 03:43:13.336 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Feed - 200 null text/html; charset=utf-8 1772.7706ms
+2024-11-30 03:44:59.551 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Home/Friends - null null
+2024-11-30 03:44:59.569 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-30 03:44:59.585 +01:00 [INF] Route matched with {action = "Friends", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Friends() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 03:44:59.588 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Friends.
+2024-11-30 03:44:59.589 +01:00 [INF] Executed action photogram.Controllers.HomeController.Friends (photogram) in 3.447ms
+2024-11-30 03:44:59.589 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-30 03:44:59.592 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Home/Friends - 302 0 null 40.6092ms
+2024-11-30 03:44:59.699 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Friends - null null
+2024-11-30 03:44:59.725 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Friends (photogram)'
+2024-11-30 03:44:59.747 +01:00 [INF] Route matched with {action = "Friends", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Friends() on controller photogram.Controllers.PostController (photogram).
+2024-11-30 03:45:00.212 +01:00 [INF] Executing ViewResult, running view Friends.
+2024-11-30 03:45:00.311 +01:00 [INF] Executed ViewResult - view Friends executed in 108.9057ms.
+2024-11-30 03:45:00.311 +01:00 [INF] Executed action photogram.Controllers.PostController.Friends (photogram) in 563.8202ms
+2024-11-30 03:45:00.312 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Friends (photogram)'
+2024-11-30 03:45:00.462 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Friends - 200 null text/html; charset=utf-8 763.3528ms
+2024-11-30 03:45:06.117 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/CreatePost - null null
+2024-11-30 03:45:06.121 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-30 03:45:06.132 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-30 03:45:06.137 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-11-30 03:45:06.259 +01:00 [INF] Executed ViewResult - view CreatePost executed in 125.0842ms.
+2024-11-30 03:45:06.310 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 174.038ms
+2024-11-30 03:45:06.310 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-30 03:45:06.311 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/CreatePost - 200 null text/html; charset=utf-8 193.4945ms
+2024-11-30 03:45:07.245 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Home/Friends - null null
+2024-11-30 03:45:07.252 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-30 03:45:07.254 +01:00 [INF] Route matched with {action = "Friends", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Friends() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 03:45:07.254 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Friends.
+2024-11-30 03:45:07.254 +01:00 [INF] Executed action photogram.Controllers.HomeController.Friends (photogram) in 0.448ms
+2024-11-30 03:45:07.254 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-30 03:45:07.254 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Home/Friends - 302 0 null 9.9745ms
+2024-11-30 03:45:07.281 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Friends - null null
+2024-11-30 03:45:07.286 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Friends (photogram)'
+2024-11-30 03:45:07.286 +01:00 [INF] Route matched with {action = "Friends", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Friends() on controller photogram.Controllers.PostController (photogram).
+2024-11-30 03:45:07.339 +01:00 [INF] Executing ViewResult, running view Friends.
+2024-11-30 03:45:07.354 +01:00 [INF] Executed ViewResult - view Friends executed in 14.7165ms.
+2024-11-30 03:45:07.355 +01:00 [INF] Executed action photogram.Controllers.PostController.Friends (photogram) in 65.0875ms
+2024-11-30 03:45:07.355 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Friends (photogram)'
+2024-11-30 03:45:07.356 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Friends - 200 null text/html; charset=utf-8 75.5106ms
+2024-11-30 03:45:09.200 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7160/Post/AddFriend - application/x-www-form-urlencoded 260
+2024-11-30 03:45:09.203 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.AddFriend (photogram)'
+2024-11-30 03:45:09.219 +01:00 [INF] Route matched with {action = "AddFriend", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddFriend(System.String) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 03:45:10.618 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7160/Post/AddFriend - application/x-www-form-urlencoded 260
+2024-11-30 03:45:10.637 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.AddFriend (photogram)'
+2024-11-30 03:45:10.637 +01:00 [INF] Route matched with {action = "AddFriend", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddFriend(System.String) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 03:45:10.788 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Friends.
+2024-11-30 03:45:10.789 +01:00 [INF] Executed action photogram.Controllers.PostController.AddFriend (photogram) in 1568.7535ms
+2024-11-30 03:45:10.789 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.AddFriend (photogram)'
+2024-11-30 03:45:10.790 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7160/Post/AddFriend - 499 null null 1590.0985ms
+2024-11-30 03:45:10.829 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Friends.
+2024-11-30 03:45:10.829 +01:00 [INF] Executed action photogram.Controllers.PostController.AddFriend (photogram) in 192.0812ms
+2024-11-30 03:45:10.830 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.AddFriend (photogram)'
+2024-11-30 03:45:10.830 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7160/Post/AddFriend - 302 0 null 212.0883ms
+2024-11-30 03:45:10.851 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Friends - null null
+2024-11-30 03:45:10.878 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Friends (photogram)'
+2024-11-30 03:45:10.878 +01:00 [INF] Route matched with {action = "Friends", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Friends() on controller photogram.Controllers.PostController (photogram).
+2024-11-30 03:45:10.933 +01:00 [INF] Executing ViewResult, running view Friends.
+2024-11-30 03:45:11.106 +01:00 [INF] Executed ViewResult - view Friends executed in 173.5078ms.
+2024-11-30 03:45:11.106 +01:00 [INF] Executed action photogram.Controllers.PostController.Friends (photogram) in 227.8689ms
+2024-11-30 03:45:11.107 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Friends (photogram)'
+2024-11-30 03:45:11.108 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Friends - 200 null text/html; charset=utf-8 256.5885ms
+2024-11-30 03:45:13.757 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7160/Post/RemoveFriend - application/x-www-form-urlencoded 230
+2024-11-30 03:45:13.760 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.RemoveFriend (photogram)'
+2024-11-30 03:45:13.781 +01:00 [INF] Route matched with {action = "RemoveFriend", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RemoveFriend(Int32) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 03:45:13.966 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Friends.
+2024-11-30 03:45:13.967 +01:00 [INF] Executed action photogram.Controllers.PostController.RemoveFriend (photogram) in 185.0747ms
+2024-11-30 03:45:13.967 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.RemoveFriend (photogram)'
+2024-11-30 03:45:13.967 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7160/Post/RemoveFriend - 302 0 null 213.5106ms
+2024-11-30 03:45:13.991 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Friends - null null
+2024-11-30 03:45:13.993 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Friends (photogram)'
+2024-11-30 03:45:13.993 +01:00 [INF] Route matched with {action = "Friends", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Friends() on controller photogram.Controllers.PostController (photogram).
+2024-11-30 03:45:14.026 +01:00 [INF] Executing ViewResult, running view Friends.
+2024-11-30 03:45:14.034 +01:00 [INF] Executed ViewResult - view Friends executed in 7.3158ms.
+2024-11-30 03:45:14.035 +01:00 [INF] Executed action photogram.Controllers.PostController.Friends (photogram) in 41.9958ms
+2024-11-30 03:45:14.036 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Friends (photogram)'
+2024-11-30 03:45:14.039 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Friends - 200 null text/html; charset=utf-8 48.1381ms
+2024-11-30 03:45:15.156 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7160/Post/RemoveFriend - application/x-www-form-urlencoded 230
+2024-11-30 03:45:15.160 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.RemoveFriend (photogram)'
+2024-11-30 03:45:15.160 +01:00 [INF] Route matched with {action = "RemoveFriend", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RemoveFriend(Int32) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 03:45:15.227 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Friends.
+2024-11-30 03:45:15.227 +01:00 [INF] Executed action photogram.Controllers.PostController.RemoveFriend (photogram) in 67.2499ms
+2024-11-30 03:45:15.228 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.RemoveFriend (photogram)'
+2024-11-30 03:45:15.228 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7160/Post/RemoveFriend - 302 0 null 71.6948ms
+2024-11-30 03:45:15.252 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Friends - null null
+2024-11-30 03:45:15.255 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Friends (photogram)'
+2024-11-30 03:45:15.255 +01:00 [INF] Route matched with {action = "Friends", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Friends() on controller photogram.Controllers.PostController (photogram).
+2024-11-30 03:45:15.304 +01:00 [INF] Executing ViewResult, running view Friends.
+2024-11-30 03:45:15.367 +01:00 [INF] Executed ViewResult - view Friends executed in 62.9395ms.
+2024-11-30 03:45:15.374 +01:00 [INF] Executed action photogram.Controllers.PostController.Friends (photogram) in 118.2157ms
+2024-11-30 03:45:15.375 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Friends (photogram)'
+2024-11-30 03:45:15.376 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Friends - 200 null text/html; charset=utf-8 124.1103ms
+2024-11-30 03:45:16.950 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7160/Post/AddFriend - application/x-www-form-urlencoded 260
+2024-11-30 03:45:16.952 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.AddFriend (photogram)'
+2024-11-30 03:45:16.952 +01:00 [INF] Route matched with {action = "AddFriend", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddFriend(System.String) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 03:45:17.038 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Friends.
+2024-11-30 03:45:17.040 +01:00 [INF] Executed action photogram.Controllers.PostController.AddFriend (photogram) in 87.4643ms
+2024-11-30 03:45:17.047 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.AddFriend (photogram)'
+2024-11-30 03:45:17.047 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7160/Post/AddFriend - 302 0 null 97.9059ms
+2024-11-30 03:45:17.088 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Friends - null null
+2024-11-30 03:45:17.090 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Friends (photogram)'
+2024-11-30 03:45:17.099 +01:00 [INF] Route matched with {action = "Friends", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Friends() on controller photogram.Controllers.PostController (photogram).
+2024-11-30 03:45:17.156 +01:00 [INF] Executing ViewResult, running view Friends.
+2024-11-30 03:45:17.165 +01:00 [INF] Executed ViewResult - view Friends executed in 7.967ms.
+2024-11-30 03:45:17.170 +01:00 [INF] Executed action photogram.Controllers.PostController.Friends (photogram) in 70.5294ms
+2024-11-30 03:45:17.170 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Friends (photogram)'
+2024-11-30 03:45:17.170 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Friends - 200 null text/html; charset=utf-8 82.5808ms
+2024-11-30 03:45:18.518 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7160/Post/AddFriend - application/x-www-form-urlencoded 255
+2024-11-30 03:45:18.519 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.AddFriend (photogram)'
+2024-11-30 03:45:18.520 +01:00 [INF] Route matched with {action = "AddFriend", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddFriend(System.String) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 03:45:18.608 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Friends.
+2024-11-30 03:45:18.608 +01:00 [INF] Executed action photogram.Controllers.PostController.AddFriend (photogram) in 88.6147ms
+2024-11-30 03:45:18.609 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.AddFriend (photogram)'
+2024-11-30 03:45:18.610 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7160/Post/AddFriend - 302 0 null 91.7558ms
+2024-11-30 03:45:18.635 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Friends - null null
+2024-11-30 03:45:18.637 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Friends (photogram)'
+2024-11-30 03:45:18.637 +01:00 [INF] Route matched with {action = "Friends", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Friends() on controller photogram.Controllers.PostController (photogram).
+2024-11-30 03:45:18.670 +01:00 [INF] Executing ViewResult, running view Friends.
+2024-11-30 03:45:18.707 +01:00 [INF] Executed ViewResult - view Friends executed in 37.6122ms.
+2024-11-30 03:45:18.733 +01:00 [INF] Executed action photogram.Controllers.PostController.Friends (photogram) in 92.7294ms
+2024-11-30 03:45:18.788 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Friends (photogram)'
+2024-11-30 03:45:18.789 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Friends - 200 null text/html; charset=utf-8 153.8632ms
+2024-11-30 03:55:22.096 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Home/Feed - null null
+2024-11-30 03:55:22.130 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 03:55:22.135 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 03:55:22.137 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-30 03:55:22.138 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 2.5743ms
+2024-11-30 03:55:22.138 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 03:55:22.140 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Home/Feed - 302 0 null 45.5105ms
+2024-11-30 03:55:22.162 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Feed - null null
+2024-11-30 03:55:22.164 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 03:55:22.164 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 03:55:22.241 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-30 03:55:22.430 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/images/sunset.jpg - null null
+2024-11-30 03:55:22.451 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/images/recipes.jpg - null null
+2024-11-30 03:55:22.490 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/images/norway.jpg - null null
+2024-11-30 03:55:22.499 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/images/sunset.jpg - 404 0 null 69.1699ms
+2024-11-30 03:55:22.499 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7160/images/sunset.jpg, Response status code: 404
+2024-11-30 03:55:22.500 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/uploads/be0519ac-0c7f-43ca-9269-673a11df0673_birds.png - null null
+2024-11-30 03:55:22.589 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/images/recipes.jpg - 404 0 null 138.4497ms
+2024-11-30 03:55:22.590 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7160/images/recipes.jpg, Response status code: 404
+2024-11-30 03:55:22.591 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/uploads/892b7245-916c-4e39-ad08-e1f509e45f50_view.jpg - null null
+2024-11-30 03:55:22.593 +01:00 [INF] Executed ViewResult - view Feed executed in 352.1281ms.
+2024-11-30 03:55:22.595 +01:00 [INF] The file /uploads/be0519ac-0c7f-43ca-9269-673a11df0673_birds.png was not modified
+2024-11-30 03:55:22.595 +01:00 [INF] The file /uploads/892b7245-916c-4e39-ad08-e1f509e45f50_view.jpg was not modified
+2024-11-30 03:55:22.595 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/uploads/892b7245-916c-4e39-ad08-e1f509e45f50_view.jpg - 304 null image/jpeg 4.8145ms
+2024-11-30 03:55:22.595 +01:00 [INF] The file /images/norway.jpg was not modified
+2024-11-30 03:55:22.596 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/images/norway.jpg - 304 null image/jpeg 106.3892ms
+2024-11-30 03:55:22.596 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/uploads/be0519ac-0c7f-43ca-9269-673a11df0673_birds.png - 304 null image/png 96.0332ms
+2024-11-30 03:55:22.596 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 432.0776ms
+2024-11-30 03:55:22.596 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 03:55:22.597 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Feed - 200 null text/html; charset=utf-8 435.1321ms
+2024-11-30 03:55:22.613 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/images/conference.jpg - null null
+2024-11-30 03:55:22.614 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/images/conference.jpg - 404 0 null 0.9049ms
+2024-11-30 03:55:22.615 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7160/images/conference.jpg, Response status code: 404
+2024-11-30 03:55:32.229 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7160/Identity/Account/Logout?returnUrl=%2F - application/x-www-form-urlencoded 225
+2024-11-30 03:55:32.238 +01:00 [INF] Executing endpoint '/Account/Logout'
+2024-11-30 03:55:32.239 +01:00 [INF] Route matched with {page = "/Account/Logout", area = "Identity", action = "", controller = ""}. Executing page /Account/Logout
+2024-11-30 03:55:32.248 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LogoutModel.OnPost - ModelState is "Valid"
+2024-11-30 03:55:32.251 +01:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2024-11-30 03:55:32.252 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-11-30 03:55:32.252 +01:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2024-11-30 03:55:32.257 +01:00 [INF] User logged out.
+2024-11-30 03:55:32.258 +01:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-11-30 03:55:32.258 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-11-30 03:55:32.258 +01:00 [INF] Executed page /Account/Logout in 19.3193ms
+2024-11-30 03:55:32.258 +01:00 [INF] Executed endpoint '/Account/Logout'
+2024-11-30 03:55:32.258 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7160/Identity/Account/Logout?returnUrl=%2F - 302 0 null 29.3756ms
+2024-11-30 03:55:32.280 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/ - null null
+2024-11-30 03:55:32.281 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 03:55:32.282 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 03:55:32.282 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 03:55:32.284 +01:00 [INF] Executed ViewResult - view Index executed in 1.7764ms.
+2024-11-30 03:55:32.284 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 2.5773ms
+2024-11-30 03:55:32.284 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 03:55:32.285 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/ - 200 null text/html; charset=utf-8 5.1563ms
+2024-11-30 03:55:34.427 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Identity/Account/Login - null null
+2024-11-30 03:55:34.428 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-30 03:55:34.431 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-30 03:55:34.454 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-11-30 03:55:34.455 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-11-30 03:55:34.456 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-11-30 03:55:34.456 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-11-30 03:55:34.456 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-30 03:55:34.483 +01:00 [INF] Executed page /Account/Login in 51.9353ms
+2024-11-30 03:55:34.483 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-30 03:55:34.483 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Identity/Account/Login - 200 null text/html; charset=utf-8 55.7338ms
+2024-11-30 03:55:34.523 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-11-30 03:55:34.544 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 21.2969ms
+2024-11-30 03:55:34.544 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-30 03:56:11.833 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7160/Identity/Account/Login - application/x-www-form-urlencoded 263
+2024-11-30 03:56:11.834 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-11-30 03:56:11.835 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-11-30 03:56:11.840 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-11-30 03:56:12.210 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-11-30 03:56:12.216 +01:00 [INF] User logged in.
+2024-11-30 03:56:12.217 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-11-30 03:56:12.217 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-11-30 03:56:12.218 +01:00 [INF] Executed page /Account/Login in 383.7188ms
+2024-11-30 03:56:12.219 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-11-30 03:56:12.220 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7160/Identity/Account/Login - 302 0 null 386.8735ms
+2024-11-30 03:56:12.235 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/ - null null
+2024-11-30 03:56:12.237 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 03:56:12.237 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 03:56:12.237 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 03:56:12.356 +01:00 [INF] Executed ViewResult - view Index executed in 24.0731ms.
+2024-11-30 03:56:12.364 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 126.4701ms
+2024-11-30 03:56:12.364 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 03:56:12.395 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/ - 200 null text/html; charset=utf-8 159.4029ms
+2024-11-30 03:56:14.615 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/MyPosts - null null
+2024-11-30 03:56:14.617 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-11-30 03:56:14.638 +01:00 [INF] Route matched with {action = "MyPosts", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MyPosts(System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 03:56:15.325 +01:00 [INF] Executing ViewResult, running view MyPosts.
+2024-11-30 03:56:15.805 +01:00 [INF] Executed ViewResult - view MyPosts executed in 484.977ms.
+2024-11-30 03:56:15.806 +01:00 [INF] Executed action photogram.Controllers.PostController.MyPosts (photogram) in 1168.1876ms
+2024-11-30 03:56:15.807 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-11-30 03:56:15.847 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/MyPosts - 200 null text/html; charset=utf-8 1232.24ms
+2024-11-30 03:56:17.455 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Home/Feed - null null
+2024-11-30 03:56:17.457 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 03:56:17.457 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 03:56:17.458 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-30 03:56:17.458 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 0.239ms
+2024-11-30 03:56:17.458 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 03:56:17.458 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Home/Feed - 302 0 null 2.7242ms
+2024-11-30 03:56:17.479 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Feed - null null
+2024-11-30 03:56:17.480 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 03:56:17.480 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 03:56:17.492 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-30 03:56:17.578 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/images/sunset.jpg - null null
+2024-11-30 03:56:17.591 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/images/sunset.jpg - 404 0 null 12.7932ms
+2024-11-30 03:56:17.591 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7160/images/sunset.jpg, Response status code: 404
+2024-11-30 03:56:17.644 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/images/conference.jpg - null null
+2024-11-30 03:56:17.644 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/images/recipes.jpg - null null
+2024-11-30 03:56:17.648 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/images/recipes.jpg - 404 0 null 4.165ms
+2024-11-30 03:56:17.647 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/images/conference.jpg - 404 0 null 2.6435ms
+2024-11-30 03:56:17.671 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7160/images/conference.jpg, Response status code: 404
+2024-11-30 03:56:17.671 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7160/images/recipes.jpg, Response status code: 404
+2024-11-30 03:56:17.671 +01:00 [INF] Executed ViewResult - view Feed executed in 179.2774ms.
+2024-11-30 03:56:17.672 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 191.2219ms
+2024-11-30 03:56:17.672 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 03:56:17.690 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Feed - 200 null text/html; charset=utf-8 210.9005ms

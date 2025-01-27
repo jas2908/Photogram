@@ -1,0 +1,346 @@
+2024-11-29 02:47:00.913 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-29 02:47:01.703 +01:00 [INF] Now listening on: https://localhost:7162
+2024-11-29 02:47:01.773 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-29 02:47:01.853 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-29 02:47:01.861 +01:00 [INF] Hosting environment: Development
+2024-11-29 02:47:01.867 +01:00 [INF] Content root path: /Users/yasminali/Downloads/photogram 6
+2024-11-29 02:47:02.183 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-29 02:47:02.235 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-29 02:47:02.265 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-29 02:47:02.284 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-29 02:47:02.366 +01:00 [INF] Accessing expired session, Key:b89e8c98-6b40-71d0-2685-55dde9c16b1c
+2024-11-29 02:47:02.390 +01:00 [INF] Executed ViewResult - view Index executed in 98.1395ms.
+2024-11-29 02:47:02.394 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 127.9892ms
+2024-11-29 02:47:02.394 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-29 02:47:02.427 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 245.3667ms
+2024-11-29 02:47:05.380 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Login - null null
+2024-11-29 02:47:05.390 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-29 02:47:05.395 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-29 02:47:05.454 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-29 02:47:05.500 +01:00 [INF] Accessing expired session, Key:b89e8c98-6b40-71d0-2685-55dde9c16b1c
+2024-11-29 02:47:05.510 +01:00 [INF] Executed ViewResult - view Login executed in 57.9001ms.
+2024-11-29 02:47:05.510 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 114.8202ms
+2024-11-29 02:47:05.510 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-29 02:47:05.517 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 136.6027ms
+2024-11-29 02:47:07.468 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/User/Login - application/x-www-form-urlencoded 221
+2024-11-29 02:47:07.474 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-29 02:47:07.486 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(photogram.ViewModels.LoginViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-29 02:47:07.623 +01:00 [INF] Attempting to login
+2024-11-29 02:47:07.991 +01:00 [INF] Accessing expired session, Key:b89e8c98-6b40-71d0-2685-55dde9c16b1c
+2024-11-29 02:47:07.993 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2024-11-29 02:47:07.994 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 507.5626ms
+2024-11-29 02:47:07.994 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-29 02:47:07.999 +01:00 [INF] Session started; Key:b89e8c98-6b40-71d0-2685-55dde9c16b1c, Id:59588c6f-0364-6208-08f7-e7b83aadbc1a
+2024-11-29 02:47:08.035 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-29 02:47:08.037 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-29 02:47:08.037 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-29 02:47:08.040 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-29 02:47:08.042 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/User/Login - 302 0 null 573.6286ms
+2024-11-29 02:47:08.083 +01:00 [INF] Executed ViewResult - view Index executed in 43.4683ms.
+2024-11-29 02:47:08.110 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 72.3453ms
+2024-11-29 02:47:08.111 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-29 02:47:08.118 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 105.2916ms
+2024-11-29 02:47:09.206 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/MyPosts - null null
+2024-11-29 02:47:09.207 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-11-29 02:47:09.215 +01:00 [INF] Route matched with {action = "MyPosts", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MyPosts(System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-29 02:47:09.765 +01:00 [INF] Executing ViewResult, running view MyPosts.
+2024-11-29 02:47:09.965 +01:00 [INF] Executed ViewResult - view MyPosts executed in 200.8028ms.
+2024-11-29 02:47:09.991 +01:00 [INF] Executed action photogram.Controllers.PostController.MyPosts (photogram) in 775.7865ms
+2024-11-29 02:47:09.991 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-11-29 02:47:10.003 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/MyPosts - 200 null text/html; charset=utf-8 797.3459ms
+2024-11-29 02:47:10.011 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/uploads/f646c156-a4eb-4076-9b62-c70624463b55_chickenleg.jpg - null null
+2024-11-29 02:47:10.011 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/uploads/35f82379-dbce-4b1c-997c-5fe832e922d4_coke.jpg - null null
+2024-11-29 02:47:10.019 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/uploads/d06d63f4-3948-4f86-8739-d0d0177f0318_landscape.jpg - null null
+2024-11-29 02:47:10.029 +01:00 [INF] The file /uploads/d06d63f4-3948-4f86-8739-d0d0177f0318_landscape.jpg was not modified
+2024-11-29 02:47:10.029 +01:00 [INF] The file /uploads/35f82379-dbce-4b1c-997c-5fe832e922d4_coke.jpg was not modified
+2024-11-29 02:47:10.029 +01:00 [INF] The file /uploads/f646c156-a4eb-4076-9b62-c70624463b55_chickenleg.jpg was not modified
+2024-11-29 02:47:10.030 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/uploads/d06d63f4-3948-4f86-8739-d0d0177f0318_landscape.jpg - 304 null image/jpeg 11.5004ms
+2024-11-29 02:47:10.030 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/uploads/f646c156-a4eb-4076-9b62-c70624463b55_chickenleg.jpg - 304 null image/jpeg 19.7131ms
+2024-11-29 02:47:10.030 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/uploads/35f82379-dbce-4b1c-997c-5fe832e922d4_coke.jpg - 304 null image/jpeg 19.2566ms
+2024-11-29 02:47:12.822 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Home/Feed - null null
+2024-11-29 02:47:12.824 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-29 02:47:12.827 +01:00 [INF] Route matched with {action = "Feed", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-29 02:47:12.827 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-29 02:47:12.828 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 0.823ms
+2024-11-29 02:47:12.828 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-29 02:47:12.828 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Home/Feed - 302 0 null 6.5075ms
+2024-11-29 02:47:12.836 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/Feed - null null
+2024-11-29 02:47:12.838 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-29 02:47:12.844 +01:00 [INF] Route matched with {action = "Feed", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-29 02:47:12.868 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-29 02:47:12.999 +01:00 [INF] Executed ViewResult - view Feed executed in 131.7194ms.
+2024-11-29 02:47:13.026 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 181.6983ms
+2024-11-29 02:47:13.027 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/uploads/5e421b25-4a07-447b-ab3f-e65c4fe2e3fb_image.jpg - null null
+2024-11-29 02:47:13.027 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-29 02:47:13.027 +01:00 [INF] The file /uploads/5e421b25-4a07-447b-ab3f-e65c4fe2e3fb_image.jpg was not modified
+2024-11-29 02:47:13.028 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/uploads/5e421b25-4a07-447b-ab3f-e65c4fe2e3fb_image.jpg - 304 null image/jpeg 1.0864ms
+2024-11-29 02:47:13.034 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/Feed - 200 null text/html; charset=utf-8 198.0348ms
+2024-11-29 02:47:16.798 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/Comments/AddComment - application/x-www-form-urlencoded 200
+2024-11-29 02:47:16.799 +01:00 [INF] Executing endpoint 'photogram.Controllers.CommentsController.AddComment (photogram)'
+2024-11-29 02:47:16.804 +01:00 [INF] Route matched with {action = "AddComment", controller = "Comments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddComment(Int32, System.String) on controller photogram.Controllers.CommentsController (photogram).
+2024-11-29 02:47:17.194 +01:00 [ERR] Failed executing DbCommand (210ms) [Parameters=[@p0='?', @p1='?' (DbType = DateTime), @p2='?' (DbType = Int32), @p3='?' (Size = 13)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Comments" ("Content", "CreatedAt", "PostId", "UserName")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-11-29 02:47:17.818 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'photogram.DAL.PostDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Comments.Content'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Comments.Content'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-11-29 02:47:17.940 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-11-29 02:47:17.942 +01:00 [INF] Executed action photogram.Controllers.CommentsController.AddComment (photogram) in 1137.0732ms
+2024-11-29 02:47:17.942 +01:00 [INF] Executed endpoint 'photogram.Controllers.CommentsController.AddComment (photogram)'
+2024-11-29 02:47:17.942 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/Comments/AddComment - 500 null text/plain; charset=utf-8 1144.0843ms
+2024-11-29 02:47:20.143 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/Feed - null null
+2024-11-29 02:47:20.144 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-29 02:47:20.144 +01:00 [INF] Route matched with {action = "Feed", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-29 02:47:20.205 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-29 02:47:20.264 +01:00 [INF] Executed ViewResult - view Feed executed in 59.2398ms.
+2024-11-29 02:47:20.294 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 149.2098ms
+2024-11-29 02:47:20.294 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-29 02:47:20.294 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/Feed - 200 null text/html; charset=utf-8 150.9761ms
+2024-11-29 02:47:21.573 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/CreatePost - null null
+2024-11-29 02:47:21.573 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-29 02:47:21.576 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-29 02:47:21.578 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-11-29 02:47:21.625 +01:00 [INF] Executed ViewResult - view CreatePost executed in 48.0571ms.
+2024-11-29 02:47:21.629 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 52.1797ms
+2024-11-29 02:47:21.630 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-29 02:47:21.631 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/CreatePost - 200 null text/html; charset=utf-8 57.8742ms
+2024-11-29 02:47:24.244 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/Post/CreatePost - multipart/form-data; boundary=----WebKitFormBoundaryAk6Wd27NJd4q671f 551
+2024-11-29 02:47:24.246 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-29 02:47:24.277 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(photogram.Models.CreatePostModel) on controller photogram.Controllers.PostController (photogram).
+2024-11-29 02:47:24.302 +01:00 [INF] Creating a new post in PostController
+2024-11-29 02:47:24.307 +01:00 [WRN] Invalid model state while creating a post.
+2024-11-29 02:47:24.308 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-11-29 02:47:24.365 +01:00 [INF] Executed ViewResult - view CreatePost executed in 35.8873ms.
+2024-11-29 02:47:24.391 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 114.1535ms
+2024-11-29 02:47:24.391 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-29 02:47:24.391 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/Post/CreatePost - 200 null text/html; charset=utf-8 147.2849ms
+2024-11-29 02:47:37.790 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/CreatePost - null null
+2024-11-29 02:47:37.816 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-29 02:47:37.817 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-29 02:47:37.817 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-11-29 02:47:37.822 +01:00 [INF] Executed ViewResult - view CreatePost executed in 4.046ms.
+2024-11-29 02:47:37.823 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 5.7891ms
+2024-11-29 02:47:37.824 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-29 02:47:37.825 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/CreatePost - 200 null text/html; charset=utf-8 34.9409ms
+2024-11-29 02:47:54.768 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/Post/CreatePost - multipart/form-data; boundary=----WebKitFormBoundaryZ0x5cIjkewWjtBho 181688
+2024-11-29 02:47:54.769 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-29 02:47:54.769 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(photogram.Models.CreatePostModel) on controller photogram.Controllers.PostController (photogram).
+2024-11-29 02:47:54.889 +01:00 [INF] Creating a new post in PostController
+2024-11-29 02:47:55.067 +01:00 [ERR] Failed executing DbCommand (155ms) [Parameters=[@p0='?', @p1='?' (DbType = DateTime), @p2='?' (Size = 79), @p3='?' (Size = 13)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Posts" ("Content", "CreatedAt", "ImagePath", "UserName")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-11-29 02:47:55.525 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'photogram.DAL.PostDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Posts.Content'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Posts.Content'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-11-29 02:47:55.616 +01:00 [ERR] [PostRepository] Create failed for Post {"Id":0,"Content":null,"UserName":"hei@gmail.com","ImagePath":"/uploads/59840c54-dbac-4398-97f6-b1977ed1ca62_h_thelionking_19752_9ec84d47.jpeg","CreatedAt":"2024-11-29T02:47:54.8897610+01:00","Comments":[],"$type":"Post"}: An error occurred while saving the entity changes. See the inner exception for details.
+2024-11-29 02:47:55.621 +01:00 [ERR] Failed to create the post.
+2024-11-29 02:47:55.625 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-11-29 02:47:55.625 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 855.4416ms
+2024-11-29 02:47:55.625 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-29 02:47:55.629 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/Post/CreatePost - 500 null text/plain; charset=utf-8 860.4224ms
+2024-11-29 02:47:56.911 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/CreatePost - null null
+2024-11-29 02:47:56.913 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-29 02:47:56.913 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-29 02:47:56.913 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-11-29 02:47:56.918 +01:00 [INF] Executed ViewResult - view CreatePost executed in 4.1031ms.
+2024-11-29 02:47:56.949 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 35.8294ms
+2024-11-29 02:47:57.010 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-29 02:47:57.011 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/CreatePost - 200 null text/html; charset=utf-8 99.414ms
+2024-11-29 02:48:36.430 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/Post/CreatePost - multipart/form-data; boundary=----WebKitFormBoundaryOxo7nWMk7qDYVvti 181688
+2024-11-29 02:48:36.451 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-29 02:48:36.452 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(photogram.Models.CreatePostModel) on controller photogram.Controllers.PostController (photogram).
+2024-11-29 02:48:36.567 +01:00 [INF] Creating a new post in PostController
+2024-11-29 02:48:36.741 +01:00 [ERR] Failed executing DbCommand (135ms) [Parameters=[@p0='?', @p1='?' (DbType = DateTime), @p2='?' (Size = 79), @p3='?' (Size = 13)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Posts" ("Content", "CreatedAt", "ImagePath", "UserName")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-11-29 02:48:37.200 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'photogram.DAL.PostDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Posts.Content'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Posts.Content'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-11-29 02:48:37.285 +01:00 [ERR] [PostRepository] Create failed for Post {"Id":0,"Content":null,"UserName":"hei@gmail.com","ImagePath":"/uploads/d99a018f-261c-4f81-92b4-1b570f28b0ea_h_thelionking_19752_9ec84d47.jpeg","CreatedAt":"2024-11-29T02:48:36.5681200+01:00","Comments":[],"$type":"Post"}: An error occurred while saving the entity changes. See the inner exception for details.
+2024-11-29 02:48:37.289 +01:00 [ERR] Failed to create the post.
+2024-11-29 02:48:37.289 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-11-29 02:48:37.290 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 837.8927ms
+2024-11-29 02:48:37.290 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-29 02:48:37.291 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/Post/CreatePost - 500 null text/plain; charset=utf-8 861.9112ms
+2024-11-29 02:49:10.197 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/CreatePost - null null
+2024-11-29 02:49:10.214 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-29 02:49:10.214 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-29 02:49:10.214 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-11-29 02:49:10.262 +01:00 [INF] Executed ViewResult - view CreatePost executed in 2.7607ms.
+2024-11-29 02:49:10.262 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 48.5401ms
+2024-11-29 02:49:10.271 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-29 02:49:10.321 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/CreatePost - 200 null text/html; charset=utf-8 123.8184ms
+2024-11-29 05:30:43.637 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/Post/CreatePost - multipart/form-data; boundary=----WebKitFormBoundaryZxaHv3RUuqn3IMgh 181688
+2024-11-29 05:30:43.714 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-29 05:30:43.715 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(photogram.Models.CreatePostModel) on controller photogram.Controllers.PostController (photogram).
+2024-11-29 05:30:43.763 +01:00 [INF] Creating a new post in PostController
+2024-11-29 05:30:43.766 +01:00 [INF] Accessing expired session, Key:b89e8c98-6b40-71d0-2685-55dde9c16b1c
+2024-11-29 05:30:43.990 +01:00 [ERR] Failed executing DbCommand (154ms) [Parameters=[@p0='?', @p1='?' (DbType = DateTime), @p2='?' (Size = 79), @p3='?' (Size = 9)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Posts" ("Content", "CreatedAt", "ImagePath", "UserName")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-11-29 05:30:44.551 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'photogram.DAL.PostDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Posts.Content'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Posts.Content'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-11-29 05:30:44.663 +01:00 [ERR] [PostRepository] Create failed for Post {"Id":0,"Content":null,"UserName":"Anonymous","ImagePath":"/uploads/5aed5eca-7bbf-4a3c-a879-b2ae8a54e6e5_h_thelionking_19752_9ec84d47.jpeg","CreatedAt":"2024-11-29T05:30:43.7640510+01:00","Comments":[],"$type":"Post"}: An error occurred while saving the entity changes. See the inner exception for details.
+2024-11-29 05:30:44.668 +01:00 [ERR] Failed to create the post.
+2024-11-29 05:30:44.668 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-11-29 05:30:44.669 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 953.2625ms
+2024-11-29 05:30:44.669 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-29 05:30:44.671 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/Post/CreatePost - 500 null text/plain; charset=utf-8 1070.7962ms
+2024-11-29 05:30:46.258 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/CreatePost - null null
+2024-11-29 05:30:46.259 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-29 05:30:46.259 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-29 05:30:46.261 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-11-29 05:30:46.267 +01:00 [INF] Accessing expired session, Key:b89e8c98-6b40-71d0-2685-55dde9c16b1c
+2024-11-29 05:30:46.271 +01:00 [INF] Executed ViewResult - view CreatePost executed in 11.4702ms.
+2024-11-29 05:30:46.271 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 11.9692ms
+2024-11-29 05:30:46.271 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-29 05:30:46.272 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/CreatePost - 200 null text/html; charset=utf-8 13.7585ms

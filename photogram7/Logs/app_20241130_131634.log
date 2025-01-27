@@ -1,0 +1,47 @@
+2024-11-30 13:16:40.412 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-30 13:16:41.396 +01:00 [INF] Now listening on: http://localhost:5001
+2024-11-30 13:16:41.422 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 13:16:41.426 +01:00 [INF] Hosting environment: Development
+2024-11-30 13:16:41.427 +01:00 [INF] Content root path: /Users/yasminali/Downloads/photogram 7
+2024-11-30 13:16:52.771 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/ - null null
+2024-11-30 13:16:52.792 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-11-30 13:16:52.824 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-30 13:16:52.953 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 13:16:52.991 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 13:16:53.031 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 13:16:53.331 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/css/layout.css - null null
+2024-11-30 13:16:53.344 +01:00 [INF] Executed ViewResult - view Index executed in 279.8733ms.
+2024-11-30 13:16:53.349 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 356.156ms
+2024-11-30 13:16:53.350 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 13:16:53.352 +01:00 [INF] The file /css/layout.css was not modified
+2024-11-30 13:16:53.355 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/css/layout.css - 304 null text/css 22.9138ms
+2024-11-30 13:16:53.549 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/ - 200 null text/html; charset=utf-8 790.1512ms
+2024-11-30 13:17:00.918 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Identity/Account/Manage - null null
+2024-11-30 13:17:00.920 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-30 13:17:00.958 +01:00 [INF] Executing endpoint '/Account/Manage/Index'
+2024-11-30 13:17:01.017 +01:00 [INF] Route matched with {page = "/Account/Manage/Index", area = "Identity", action = "", controller = ""}. Executing page /Account/Manage/Index
+2024-11-30 13:17:01.061 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.Manage.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-11-30 13:17:02.424 +01:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-30 13:17:02.715 +01:00 [INF] Executed page /Account/Manage/Index in 1697.5382ms
+2024-11-30 13:17:02.716 +01:00 [INF] Executed endpoint '/Account/Manage/Index'
+2024-11-30 13:17:02.841 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Identity/Account/Manage - 200 null text/html; charset=utf-8 1923.1364ms
+2024-11-30 13:17:02.844 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-11-30 13:17:02.846 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-11-30 13:17:02.900 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 58.2292ms
+2024-11-30 13:17:02.991 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-30 13:17:49.761 +01:00 [INF] Application is shutting down...

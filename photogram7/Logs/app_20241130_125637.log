@@ -1,0 +1,159 @@
+2024-11-30 12:56:44.940 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-30 12:56:47.081 +01:00 [INF] Now listening on: https://localhost:7160
+2024-11-30 12:56:47.086 +01:00 [INF] Now listening on: http://localhost:5001
+2024-11-30 12:56:47.101 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 12:56:47.109 +01:00 [INF] Hosting environment: Development
+2024-11-30 12:56:47.115 +01:00 [INF] Content root path: /Users/yasminali/Downloads/photogram 7
+2024-11-30 12:56:47.905 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/ - null null
+2024-11-30 12:56:48.155 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 12:56:48.209 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 12:56:48.243 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 12:56:48.659 +01:00 [INF] Executed ViewResult - view Index executed in 406.9633ms.
+2024-11-30 12:56:48.699 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 487.5421ms
+2024-11-30 12:56:48.701 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 12:56:48.731 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/ - 200 null text/html; charset=utf-8 836.3857ms
+2024-11-30 12:56:57.344 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Identity/Account/Manage - null null
+2024-11-30 12:56:57.433 +01:00 [INF] Executing endpoint '/Account/Manage/Index'
+2024-11-30 12:56:57.490 +01:00 [INF] Route matched with {page = "/Account/Manage/Index", area = "Identity", action = "", controller = ""}. Executing page /Account/Manage/Index
+2024-11-30 12:56:57.530 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.Manage.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-11-30 12:56:59.349 +01:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-30 12:56:59.566 +01:00 [INF] Executed page /Account/Manage/Index in 2073.7825ms
+2024-11-30 12:56:59.567 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-11-30 12:56:59.603 +01:00 [INF] Executed endpoint '/Account/Manage/Index'
+2024-11-30 12:56:59.634 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 66.6281ms
+2024-11-30 12:56:59.636 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-30 12:56:59.684 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Identity/Account/Manage - 200 null text/html; charset=utf-8 2340.2139ms
+2024-11-30 12:58:14.169 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Home/Feed - null null
+2024-11-30 12:58:14.219 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 12:58:14.229 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 12:58:14.237 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-30 12:58:14.238 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 9.0723ms
+2024-11-30 12:58:14.238 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 12:58:14.240 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Home/Feed - 302 0 null 71.8551ms
+2024-11-30 12:58:14.256 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Feed - null null
+2024-11-30 12:58:14.278 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:58:14.294 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:58:14.853 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-30 12:58:15.459 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/uploads/892b7245-916c-4e39-ad08-e1f509e45f50_view.jpg - null null
+2024-11-30 12:58:15.538 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/uploads/d5f308d6-5e29-4c51-ab51-946e5939f892_concert.jpg - null null
+2024-11-30 12:58:15.585 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/images/sunset.jpg - null null
+2024-11-30 12:58:15.585 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/images/recipes.jpg - null null
+2024-11-30 12:58:15.629 +01:00 [INF] Executed ViewResult - view Feed executed in 779.4384ms.
+2024-11-30 12:58:15.630 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 1335.2472ms
+2024-11-30 12:58:15.630 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:58:15.763 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/images/conference.jpg - null null
+2024-11-30 12:58:15.764 +01:00 [INF] The file /images/recipes.jpg was not modified
+2024-11-30 12:58:15.764 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Feed - 200 null text/html; charset=utf-8 1508.0353ms
+2024-11-30 12:58:15.764 +01:00 [INF] The file /uploads/d5f308d6-5e29-4c51-ab51-946e5939f892_concert.jpg was not modified
+2024-11-30 12:58:15.764 +01:00 [INF] The file /images/conference.jpg was not modified
+2024-11-30 12:58:15.764 +01:00 [INF] The file /images/sunset.jpg was not modified
+2024-11-30 12:58:15.764 +01:00 [INF] The file /uploads/892b7245-916c-4e39-ad08-e1f509e45f50_view.jpg was not modified
+2024-11-30 12:58:15.817 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/images/norway.jpg - null null
+2024-11-30 12:58:15.855 +01:00 [INF] The file /images/norway.jpg was not modified
+2024-11-30 12:58:15.856 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/images/sunset.jpg - 304 null image/jpeg 270.8354ms
+2024-11-30 12:58:15.856 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/images/recipes.jpg - 304 null image/jpeg 270.8354ms
+2024-11-30 12:58:15.856 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/images/conference.jpg - 304 null image/jpeg 92.5133ms
+2024-11-30 12:58:15.864 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/uploads/892b7245-916c-4e39-ad08-e1f509e45f50_view.jpg - 304 null image/jpeg 404.6159ms
+2024-11-30 12:58:15.864 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/images/norway.jpg - 304 null image/jpeg 46.9917ms
+2024-11-30 12:58:15.866 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/uploads/d5f308d6-5e29-4c51-ab51-946e5939f892_concert.jpg - 304 null image/jpeg 317.8571ms
+2024-11-30 12:58:21.203 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Feed - null null
+2024-11-30 12:58:21.208 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:58:21.208 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:58:21.221 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-30 12:58:21.472 +01:00 [INF] Executed ViewResult - view Feed executed in 250.9393ms.
+2024-11-30 12:58:21.473 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 264.8193ms
+2024-11-30 12:58:21.473 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:58:21.474 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Feed - 200 null text/html; charset=utf-8 270.4697ms
+2024-11-30 13:00:48.213 +01:00 [ERR] Unexpected exception in TimingPipeFlusher.FlushAsync.
+System.IO.IOException: The encryption operation failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (14): Bad address
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Security.SslStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.ConcurrentPipeWriter.FlushAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.TimingPipeFlusher.FlushAsync(MinDataRate minRate, Int64 count, IHttpOutputAborter outputAborter, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2FrameWriter.WriteGoAwayAsync(Int32 lastStreamId, Http2ErrorCode errorCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.UpdateConnectionState()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.ConcurrentPipeWriter.FlushAsyncAwaited(ValueTask`1 flushTask, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.TimingPipeFlusher.TimeFlushAsyncAwaited(ValueTask`1 pipeFlushTask, MinDataRate minRate, IHttpOutputAborter outputAborter, CancellationToken cancellationToken)
+2024-11-30 13:00:48.949 +01:00 [ERR] Unhandled exception while processing 0HN8H6O8LTUFR.
+System.IO.IOException: The encryption operation failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (14): Bad address
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Security.SslStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.HttpConnection.ProcessRequestsAsync[TContext](IHttpApplication`1 httpApplication)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Threading.Tasks.UnwrapPromise`1.TrySetFromTask(Task task, Boolean lookForOce)
+   at System.Threading.Tasks.UnwrapPromise`1.Invoke(Task completingTask)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2FrameWriter.WriteToOutputPipe()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.KestrelConnection`1.ExecuteAsync()

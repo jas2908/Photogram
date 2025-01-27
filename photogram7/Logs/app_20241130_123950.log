@@ -1,0 +1,57 @@
+2024-11-30 12:39:55.992 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-30 12:39:59.616 +01:00 [INF] Now listening on: https://localhost:7160
+2024-11-30 12:39:59.624 +01:00 [INF] Now listening on: http://localhost:5001
+2024-11-30 12:39:59.652 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 12:39:59.661 +01:00 [INF] Hosting environment: Development
+2024-11-30 12:39:59.667 +01:00 [INF] Content root path: /Users/yasminali/Downloads/photogram 7
+2024-11-30 12:40:00.901 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/ - null null
+2024-11-30 12:40:01.144 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 12:40:01.200 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 12:40:01.313 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 12:40:02.230 +01:00 [INF] Executed ViewResult - view Index executed in 985.9459ms.
+2024-11-30 12:40:02.243 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 1040.6218ms
+2024-11-30 12:40:02.245 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 12:40:02.276 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/ - 200 null text/html; charset=utf-8 1380.539ms
+2024-11-30 12:40:35.344 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Home/Feed - null null
+2024-11-30 12:40:35.398 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 12:40:35.403 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 12:40:35.408 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-30 12:40:35.408 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 5.1169ms
+2024-11-30 12:40:35.409 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-30 12:40:35.410 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Home/Feed - 302 0 null 66.2366ms
+2024-11-30 12:40:35.442 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Feed - null null
+2024-11-30 12:40:35.473 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:40:35.500 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:40:36.630 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-30 12:40:37.181 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/uploads/d5f308d6-5e29-4c51-ab51-946e5939f892_concert.jpg - null null
+2024-11-30 12:40:37.272 +01:00 [INF] Executed ViewResult - view Feed executed in 646.0663ms.
+2024-11-30 12:40:37.276 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 1775.8211ms
+2024-11-30 12:40:37.297 +01:00 [INF] The file /uploads/d5f308d6-5e29-4c51-ab51-946e5939f892_concert.jpg was not modified
+2024-11-30 12:40:37.300 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/uploads/d5f308d6-5e29-4c51-ab51-946e5939f892_concert.jpg - 304 null image/jpeg 118.5925ms
+2024-11-30 12:40:37.302 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:40:37.328 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Feed - 200 null text/html; charset=utf-8 1885.2124ms
+2024-11-30 12:42:13.748 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Identity/Account/Manage - null null
+2024-11-30 12:42:13.858 +01:00 [INF] Executing endpoint '/Account/Manage/Index'
+2024-11-30 12:42:13.913 +01:00 [INF] Route matched with {page = "/Account/Manage/Index", area = "Identity", action = "", controller = ""}. Executing page /Account/Manage/Index
+2024-11-30 12:42:13.948 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.Manage.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-11-30 12:42:14.526 +01:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-11-30 12:42:14.815 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-11-30 12:42:14.819 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 4.489ms
+2024-11-30 12:42:14.821 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-30 12:42:14.859 +01:00 [INF] Executed page /Account/Manage/Index in 944.8355ms
+2024-11-30 12:42:14.859 +01:00 [INF] Executed endpoint '/Account/Manage/Index'
+2024-11-30 12:42:14.888 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-11-30 12:42:14.889 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 1.7933ms
+2024-11-30 12:42:14.890 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-30 12:42:14.919 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Identity/Account/Manage - 200 null text/html; charset=utf-8 1171.4152ms
+2024-11-30 12:42:16.955 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/Post/Feed - null null
+2024-11-30 12:42:16.961 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:42:16.961 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-30 12:42:16.976 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-30 12:42:17.166 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-11-30 12:42:17.168 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 1.5478ms
+2024-11-30 12:42:17.237 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7160/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-11-30 12:42:17.279 +01:00 [INF] Executed ViewResult - view Feed executed in 303.2185ms.
+2024-11-30 12:42:17.279 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 318.0198ms
+2024-11-30 12:42:17.280 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-30 12:42:17.307 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/Post/Feed - 200 null text/html; charset=utf-8 352.0845ms

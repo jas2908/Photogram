@@ -1,0 +1,88 @@
+2024-11-29 10:31:57.559 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-29 10:31:58.427 +01:00 [INF] Now listening on: https://localhost:7162
+2024-11-29 10:31:58.431 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-29 10:31:58.460 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-29 10:31:58.472 +01:00 [INF] Hosting environment: Development
+2024-11-29 10:31:58.494 +01:00 [INF] Content root path: /Users/yasminali/Downloads/photogram 6
+2024-11-29 10:31:58.897 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-29 10:31:58.954 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-29 10:31:58.981 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-29 10:31:59.006 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-29 10:31:59.107 +01:00 [INF] Accessing expired session, Key:b89e8c98-6b40-71d0-2685-55dde9c16b1c
+2024-11-29 10:31:59.136 +01:00 [INF] Executed ViewResult - view Index executed in 123.8463ms.
+2024-11-29 10:31:59.141 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 159.1038ms
+2024-11-29 10:31:59.142 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-29 10:31:59.180 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 285.704ms
+2024-11-29 10:31:59.200 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/css/layout.css - null null
+2024-11-29 10:31:59.233 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/css/layout.css - null null
+2024-11-29 10:31:59.285 +01:00 [INF] Sending file. Request path: '/css/layout.css'. Physical path: '/Users/yasminali/Downloads/photogram 6/wwwroot/css/layout.css'
+2024-11-29 10:31:59.285 +01:00 [INF] Sending file. Request path: '/css/layout.css'. Physical path: '/Users/yasminali/Downloads/photogram 6/wwwroot/css/layout.css'
+2024-11-29 10:31:59.289 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/css/layout.css - 200 4476 text/css 55.651ms
+2024-11-29 10:31:59.289 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/css/layout.css - 200 4476 text/css 100.3627ms
+2024-11-29 10:32:02.575 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Login - null null
+2024-11-29 10:32:02.581 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-29 10:32:02.586 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-29 10:32:02.652 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-29 10:32:02.713 +01:00 [INF] Accessing expired session, Key:b89e8c98-6b40-71d0-2685-55dde9c16b1c
+2024-11-29 10:32:02.725 +01:00 [INF] Executed ViewResult - view Login executed in 74.9821ms.
+2024-11-29 10:32:02.726 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 139.3987ms
+2024-11-29 10:32:02.726 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-29 10:32:02.776 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 200.8483ms
+2024-11-29 10:32:02.810 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/css/layout.css - null null
+2024-11-29 10:32:02.811 +01:00 [INF] The file /css/layout.css was not modified
+2024-11-29 10:32:02.813 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/css/layout.css - 304 null text/css 2.1121ms
+2024-11-29 10:32:04.862 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/User/Login - application/x-www-form-urlencoded 221
+2024-11-29 10:32:04.867 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-29 10:32:04.886 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(photogram.ViewModels.LoginViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-29 10:32:05.069 +01:00 [INF] Attempting to login
+2024-11-29 10:32:05.491 +01:00 [INF] Accessing expired session, Key:b89e8c98-6b40-71d0-2685-55dde9c16b1c
+2024-11-29 10:32:05.494 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2024-11-29 10:32:05.495 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 608.1188ms
+2024-11-29 10:32:05.495 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-29 10:32:05.496 +01:00 [INF] Session started; Key:b89e8c98-6b40-71d0-2685-55dde9c16b1c, Id:e863ed6e-f068-7444-04e0-d0c58365a9a9
+2024-11-29 10:32:05.510 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-29 10:32:05.536 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-29 10:32:05.537 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-29 10:32:05.538 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-29 10:32:05.542 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/User/Login - 302 0 null 680.013ms
+2024-11-29 10:32:05.590 +01:00 [INF] Executed ViewResult - view Index executed in 52.293ms.
+2024-11-29 10:32:05.616 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 79.0094ms
+2024-11-29 10:32:05.618 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-29 10:32:05.622 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 112.3018ms
+2024-11-29 10:32:08.266 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/MyPosts - null null
+2024-11-29 10:32:08.267 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-11-29 10:32:08.280 +01:00 [INF] Route matched with {action = "MyPosts", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MyPosts(System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-29 10:32:08.701 +01:00 [INF] Executing ViewResult, running view MyPosts.
+2024-11-29 10:32:08.940 +01:00 [INF] Executed ViewResult - view MyPosts executed in 240.0231ms.
+2024-11-29 10:32:08.946 +01:00 [INF] Executed action photogram.Controllers.PostController.MyPosts (photogram) in 666.0129ms
+2024-11-29 10:32:08.948 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-11-29 10:32:08.969 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/MyPosts - 200 null text/html; charset=utf-8 703.1976ms
+2024-11-29 10:32:08.978 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/css/layout.css - null null
+2024-11-29 10:32:08.980 +01:00 [INF] The file /css/layout.css was not modified
+2024-11-29 10:32:08.980 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/css/layout.css - 304 null text/css 1.6836ms
+2024-11-29 10:32:41.649 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Home/Feed - null null
+2024-11-29 10:32:41.651 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-29 10:32:41.702 +01:00 [INF] Route matched with {action = "Feed", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-29 10:32:41.703 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-29 10:32:41.703 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 1.0512ms
+2024-11-29 10:32:41.703 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-29 10:32:41.704 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Home/Feed - 302 0 null 54.576ms
+2024-11-29 10:32:41.737 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/Feed - null null
+2024-11-29 10:32:41.743 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-29 10:32:41.750 +01:00 [INF] Route matched with {action = "Feed", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-29 10:32:41.779 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-29 10:32:42.119 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/css/layout.css - null null
+2024-11-29 10:32:42.120 +01:00 [INF] The file /css/layout.css was not modified
+2024-11-29 10:32:42.120 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/css/layout.css - 304 null text/css 1.2465ms
+2024-11-29 10:32:42.144 +01:00 [INF] Executed ViewResult - view Feed executed in 366.0433ms.
+2024-11-29 10:32:42.144 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 394.1221ms
+2024-11-29 10:32:42.145 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-29 10:32:42.145 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/Feed - 200 null text/html; charset=utf-8 430.7362ms
+2024-11-29 10:32:45.949 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/MyPosts - null null
+2024-11-29 10:32:45.951 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-11-29 10:32:45.951 +01:00 [INF] Route matched with {action = "MyPosts", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MyPosts(System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-29 10:32:45.961 +01:00 [INF] Executing ViewResult, running view MyPosts.
+2024-11-29 10:32:46.020 +01:00 [INF] Executed ViewResult - view MyPosts executed in 58.3493ms.
+2024-11-29 10:32:46.023 +01:00 [INF] Executed action photogram.Controllers.PostController.MyPosts (photogram) in 71.5464ms
+2024-11-29 10:32:46.023 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-11-29 10:32:46.024 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/MyPosts - 200 null text/html; charset=utf-8 75.0384ms

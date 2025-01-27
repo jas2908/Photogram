@@ -1,0 +1,21 @@
+2024-11-28 18:37:25.977 +01:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-28 18:37:26.137 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-28 18:37:26.232 +01:00 [INF] User profile is available. Using '/Users/kadijayasminbulale/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-28 18:37:26.509 +01:00 [INF] Now listening on: https://localhost:7162
+2024-11-28 18:37:26.509 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-28 18:37:26.513 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-28 18:37:26.514 +01:00 [INF] Hosting environment: Development
+2024-11-28 18:37:26.514 +01:00 [INF] Content root path: /Users/kadijayasminbulale/Downloads/photogram 2
+2024-11-28 18:37:28.553 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-28 18:37:28.577 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-28 18:37:28.586 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-28 18:37:28.594 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-28 18:37:28.631 +01:00 [INF] Accessing expired session, Key:a4f56e15-ea08-68c8-7a7a-ea649e256234
+2024-11-28 18:37:28.635 +01:00 [INF] Executed ViewResult - view Index executed in 43.6954ms.
+2024-11-28 18:37:28.636 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 49.6577ms
+2024-11-28 18:37:28.636 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-28 18:37:28.638 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 87.4351ms

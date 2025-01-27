@@ -1,0 +1,161 @@
+2024-11-29 08:10:52.028 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-29 08:10:52.930 +01:00 [INF] Now listening on: https://localhost:7162
+2024-11-29 08:10:52.939 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-29 08:10:52.969 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-29 08:10:53.151 +01:00 [INF] Hosting environment: Development
+2024-11-29 08:10:53.157 +01:00 [INF] Content root path: /Users/yasminali/Downloads/photogram 6
+2024-11-29 08:10:53.611 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-29 08:10:53.700 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-29 08:10:53.729 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-29 08:10:53.750 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-29 08:10:53.907 +01:00 [INF] Accessing expired session, Key:b89e8c98-6b40-71d0-2685-55dde9c16b1c
+2024-11-29 08:10:53.938 +01:00 [INF] Executed ViewResult - view Index executed in 178.0352ms.
+2024-11-29 08:10:53.944 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 213.9287ms
+2024-11-29 08:10:53.945 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-29 08:10:53.982 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 378.4811ms
+2024-11-29 08:10:57.931 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Login - null null
+2024-11-29 08:10:57.938 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-29 08:10:57.950 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-29 08:10:58.018 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-29 08:10:58.075 +01:00 [INF] Accessing expired session, Key:b89e8c98-6b40-71d0-2685-55dde9c16b1c
+2024-11-29 08:10:58.086 +01:00 [INF] Executed ViewResult - view Login executed in 68.9844ms.
+2024-11-29 08:10:58.086 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 136.1633ms
+2024-11-29 08:10:58.086 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-29 08:10:58.095 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 163.0294ms
+2024-11-29 08:11:00.878 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/User/Login - application/x-www-form-urlencoded 221
+2024-11-29 08:11:00.883 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-29 08:11:00.900 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(photogram.ViewModels.LoginViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-29 08:11:01.067 +01:00 [INF] Attempting to login
+2024-11-29 08:11:01.484 +01:00 [INF] Accessing expired session, Key:b89e8c98-6b40-71d0-2685-55dde9c16b1c
+2024-11-29 08:11:01.486 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2024-11-29 08:11:01.487 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 586.8727ms
+2024-11-29 08:11:01.487 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-29 08:11:01.493 +01:00 [INF] Session started; Key:b89e8c98-6b40-71d0-2685-55dde9c16b1c, Id:b1a7a20e-f5a7-9cae-498f-f86c5c4c5ba8
+2024-11-29 08:11:01.530 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-29 08:11:01.531 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-29 08:11:01.532 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-29 08:11:01.533 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-29 08:11:01.536 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/User/Login - 302 0 null 659.6667ms
+2024-11-29 08:11:01.582 +01:00 [INF] Executed ViewResult - view Index executed in 48.6231ms.
+2024-11-29 08:11:01.585 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 52.7736ms
+2024-11-29 08:11:01.585 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-29 08:11:01.586 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 79.1592ms
+2024-11-29 08:11:03.310 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/MyPosts - null null
+2024-11-29 08:11:03.315 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-11-29 08:11:03.325 +01:00 [INF] Route matched with {action = "MyPosts", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] MyPosts(System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-29 08:11:03.746 +01:00 [INF] Executing ViewResult, running view MyPosts.
+2024-11-29 08:11:03.980 +01:00 [INF] Executed ViewResult - view MyPosts executed in 234.9015ms.
+2024-11-29 08:11:04.016 +01:00 [INF] Executed action photogram.Controllers.PostController.MyPosts (photogram) in 690.4796ms
+2024-11-29 08:11:04.017 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.MyPosts (photogram)'
+2024-11-29 08:11:04.024 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/MyPosts - 200 null text/html; charset=utf-8 713.4563ms
+2024-11-29 08:11:05.613 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Home/Feed - null null
+2024-11-29 08:11:05.615 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-29 08:11:05.617 +01:00 [INF] Route matched with {action = "Feed", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-29 08:11:05.618 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-29 08:11:05.618 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 0.9253ms
+2024-11-29 08:11:05.618 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-29 08:11:05.618 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Home/Feed - 302 0 null 5.1085ms
+2024-11-29 08:11:05.630 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/Feed - null null
+2024-11-29 08:11:05.633 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-29 08:11:05.638 +01:00 [INF] Route matched with {action = "Feed", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-29 08:11:05.670 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-29 08:11:05.937 +01:00 [INF] Executed ViewResult - view Feed executed in 234.9922ms.
+2024-11-29 08:11:05.948 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 309.2281ms
+2024-11-29 08:11:05.957 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-29 08:11:05.980 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/Feed - 200 null text/html; charset=utf-8 350.1191ms
+2024-11-29 08:11:12.139 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/Comments/DeleteComment - application/x-www-form-urlencoded 187
+2024-11-29 08:11:12.142 +01:00 [INF] Executing endpoint 'photogram.Controllers.CommentsController.DeleteComment (photogram)'
+2024-11-29 08:11:12.146 +01:00 [INF] Route matched with {action = "DeleteComment", controller = "Comments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteComment(Int32) on controller photogram.Controllers.CommentsController (photogram).
+2024-11-29 08:11:12.347 +01:00 [INF] Comment with Id 7 deleted successfully.
+2024-11-29 08:11:12.348 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-29 08:11:12.348 +01:00 [INF] Executed action photogram.Controllers.CommentsController.DeleteComment (photogram) in 201.7792ms
+2024-11-29 08:11:12.349 +01:00 [INF] Executed endpoint 'photogram.Controllers.CommentsController.DeleteComment (photogram)'
+2024-11-29 08:11:12.349 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/Comments/DeleteComment - 302 0 null 210.4337ms
+2024-11-29 08:11:12.383 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/Feed - null null
+2024-11-29 08:11:12.384 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-29 08:11:12.384 +01:00 [INF] Route matched with {action = "Feed", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-29 08:11:12.396 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-29 08:11:12.477 +01:00 [INF] Executed ViewResult - view Feed executed in 81.2808ms.
+2024-11-29 08:11:12.524 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 140.0892ms
+2024-11-29 08:11:12.527 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-29 08:11:12.528 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/Feed - 200 null text/html; charset=utf-8 167.7214ms
+2024-11-29 08:11:18.133 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/Comments/AddComment - application/x-www-form-urlencoded 202
+2024-11-29 08:11:18.137 +01:00 [INF] Executing endpoint 'photogram.Controllers.CommentsController.AddComment (photogram)'
+2024-11-29 08:11:18.144 +01:00 [INF] Route matched with {action = "AddComment", controller = "Comments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddComment(Int32, System.String) on controller photogram.Controllers.CommentsController (photogram).
+2024-11-29 08:11:18.270 +01:00 [INF] Comment added successfully for PostId 5 by User hei@gmail.com.
+2024-11-29 08:11:18.270 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-29 08:11:18.270 +01:00 [INF] Executed action photogram.Controllers.CommentsController.AddComment (photogram) in 125.4988ms
+2024-11-29 08:11:18.270 +01:00 [INF] Executed endpoint 'photogram.Controllers.CommentsController.AddComment (photogram)'
+2024-11-29 08:11:18.271 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/Comments/AddComment - 302 0 null 137.9649ms
+2024-11-29 08:11:18.302 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/Feed - null null
+2024-11-29 08:11:18.303 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-29 08:11:18.303 +01:00 [INF] Route matched with {action = "Feed", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-29 08:11:18.318 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-29 08:11:18.523 +01:00 [INF] Executed ViewResult - view Feed executed in 204.9189ms.
+2024-11-29 08:11:18.573 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 269.4852ms
+2024-11-29 08:11:18.583 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-29 08:11:18.583 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/Feed - 200 null text/html; charset=utf-8 301.6194ms
+2024-11-29 08:11:20.074 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/Comments/EditComment - application/x-www-form-urlencoded 205
+2024-11-29 08:11:20.076 +01:00 [INF] Executing endpoint 'photogram.Controllers.CommentsController.EditComment (photogram)'
+2024-11-29 08:11:20.085 +01:00 [INF] Route matched with {action = "EditComment", controller = "Comments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditComment(Int32, System.String) on controller photogram.Controllers.CommentsController (photogram).
+2024-11-29 08:11:20.328 +01:00 [INF] Comment with Id 8 updated successfully.
+2024-11-29 08:11:20.329 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-29 08:11:20.329 +01:00 [INF] Executed action photogram.Controllers.CommentsController.EditComment (photogram) in 243.217ms
+2024-11-29 08:11:20.329 +01:00 [INF] Executed endpoint 'photogram.Controllers.CommentsController.EditComment (photogram)'
+2024-11-29 08:11:20.329 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/Comments/EditComment - 302 0 null 255.655ms
+2024-11-29 08:11:20.370 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/Feed - null null
+2024-11-29 08:11:20.371 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-29 08:11:20.371 +01:00 [INF] Route matched with {action = "Feed", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-29 08:11:20.380 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-29 08:11:20.494 +01:00 [INF] Executed ViewResult - view Feed executed in 105.0879ms.
+2024-11-29 08:11:20.494 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 123.22ms
+2024-11-29 08:11:20.494 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-29 08:11:20.500 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/Feed - 200 null text/html; charset=utf-8 130.603ms
+2024-11-29 08:11:23.935 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/Comments/EditComment - application/x-www-form-urlencoded 209
+2024-11-29 08:11:23.936 +01:00 [INF] Executing endpoint 'photogram.Controllers.CommentsController.EditComment (photogram)'
+2024-11-29 08:11:23.936 +01:00 [INF] Route matched with {action = "EditComment", controller = "Comments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditComment(Int32, System.String) on controller photogram.Controllers.CommentsController (photogram).
+2024-11-29 08:11:23.968 +01:00 [INF] Comment with Id 8 updated successfully.
+2024-11-29 08:11:23.968 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-29 08:11:23.969 +01:00 [INF] Executed action photogram.Controllers.CommentsController.EditComment (photogram) in 32.6113ms
+2024-11-29 08:11:23.969 +01:00 [INF] Executed endpoint 'photogram.Controllers.CommentsController.EditComment (photogram)'
+2024-11-29 08:11:23.969 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/Comments/EditComment - 302 0 null 33.8906ms
+2024-11-29 08:11:23.982 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/Feed - null null
+2024-11-29 08:11:23.982 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-29 08:11:23.982 +01:00 [INF] Route matched with {action = "Feed", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-29 08:11:23.991 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-29 08:11:24.069 +01:00 [INF] Executed ViewResult - view Feed executed in 77.714ms.
+2024-11-29 08:11:24.097 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 113.9236ms
+2024-11-29 08:11:24.111 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-29 08:11:24.121 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/Feed - 200 null text/html; charset=utf-8 139.674ms
+2024-11-29 08:11:25.956 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/Comments/EditComment - application/x-www-form-urlencoded 209
+2024-11-29 08:11:25.956 +01:00 [INF] Executing endpoint 'photogram.Controllers.CommentsController.EditComment (photogram)'
+2024-11-29 08:11:25.957 +01:00 [INF] Route matched with {action = "EditComment", controller = "Comments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditComment(Int32, System.String) on controller photogram.Controllers.CommentsController (photogram).
+2024-11-29 08:11:25.985 +01:00 [INF] Comment with Id 8 updated successfully.
+2024-11-29 08:11:25.986 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-29 08:11:25.986 +01:00 [INF] Executed action photogram.Controllers.CommentsController.EditComment (photogram) in 29.2383ms
+2024-11-29 08:11:25.986 +01:00 [INF] Executed endpoint 'photogram.Controllers.CommentsController.EditComment (photogram)'
+2024-11-29 08:11:25.987 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/Comments/EditComment - 302 0 null 30.4853ms
+2024-11-29 08:11:26.027 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/Feed - null null
+2024-11-29 08:11:26.029 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-29 08:11:26.029 +01:00 [INF] Route matched with {action = "Feed", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-29 08:11:26.043 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-29 08:11:26.088 +01:00 [INF] Executed ViewResult - view Feed executed in 44.5589ms.
+2024-11-29 08:11:26.090 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 60.3741ms
+2024-11-29 08:11:26.091 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-29 08:11:26.119 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/Feed - 200 null text/html; charset=utf-8 92.3224ms
+2024-11-29 08:11:27.794 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/Comments/EditComment - application/x-www-form-urlencoded 209
+2024-11-29 08:11:27.796 +01:00 [INF] Executing endpoint 'photogram.Controllers.CommentsController.EditComment (photogram)'
+2024-11-29 08:11:27.797 +01:00 [INF] Route matched with {action = "EditComment", controller = "Comments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditComment(Int32, System.String) on controller photogram.Controllers.CommentsController (photogram).
+2024-11-29 08:11:27.826 +01:00 [INF] Comment with Id 8 updated successfully.
+2024-11-29 08:11:27.826 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-29 08:11:27.827 +01:00 [INF] Executed action photogram.Controllers.CommentsController.EditComment (photogram) in 30.3221ms
+2024-11-29 08:11:27.827 +01:00 [INF] Executed endpoint 'photogram.Controllers.CommentsController.EditComment (photogram)'
+2024-11-29 08:11:27.828 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/Comments/EditComment - 302 0 null 33.8605ms
+2024-11-29 08:11:27.842 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/Feed - null null
+2024-11-29 08:11:27.842 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-29 08:11:27.842 +01:00 [INF] Route matched with {action = "Feed", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-11-29 08:11:27.852 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-29 08:11:27.899 +01:00 [INF] Executed ViewResult - view Feed executed in 47.0261ms.
+2024-11-29 08:11:27.900 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 57.6013ms
+2024-11-29 08:11:27.902 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-29 08:11:27.905 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/Feed - 200 null text/html; charset=utf-8 63.7457ms

@@ -1,0 +1,1531 @@
+2024-11-05 11:43:54.449 +01:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 11:43:54.934 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-05 11:43:55.456 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-05 11:43:56.937 +01:00 [INF] Now listening on: https://localhost:7162
+2024-11-05 11:43:56.943 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-05 11:43:56.962 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-05 11:43:56.972 +01:00 [INF] Hosting environment: Development
+2024-11-05 11:43:57.001 +01:00 [INF] Content root path: /Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram
+2024-11-05 11:43:58.670 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 11:43:58.756 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 11:43:58.794 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 11:43:58.827 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 11:43:59.128 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/frontpage.png - null null
+2024-11-05 11:43:59.147 +01:00 [INF] Executed ViewResult - view Index executed in 242.1945ms.
+2024-11-05 11:43:59.183 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/css/site.css - null null
+2024-11-05 11:43:59.192 +01:00 [INF] The file /images/frontpage.png was not modified
+2024-11-05 11:43:59.207 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/frontpage.png - 304 null image/png 78.3455ms
+2024-11-05 11:43:59.252 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram/wwwroot/css/site.css'
+2024-11-05 11:43:59.255 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/css/site.css - 200 2208 text/css 72.2382ms
+2024-11-05 11:43:59.291 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 495.1425ms
+2024-11-05 11:43:59.292 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 11:43:59.305 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 642.5964ms
+2024-11-05 11:59:03.697 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 11:59:04.154 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-05 11:59:04.672 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-05 11:59:05.818 +01:00 [INF] Now listening on: https://localhost:7162
+2024-11-05 11:59:05.823 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-05 11:59:06.059 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-05 11:59:06.068 +01:00 [INF] Hosting environment: Development
+2024-11-05 11:59:06.077 +01:00 [INF] Content root path: /Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram
+2024-11-05 11:59:06.479 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 11:59:06.532 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 11:59:06.557 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 11:59:06.574 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 11:59:06.782 +01:00 [INF] Executed ViewResult - view Index executed in 177.8562ms.
+2024-11-05 11:59:06.817 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 258.539ms
+2024-11-05 11:59:06.820 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 11:59:06.875 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 372.3514ms
+2024-11-05 11:59:29.707 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/login - null null
+2024-11-05 11:59:29.736 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 11:59:29.759 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 11:59:29.804 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 11:59:29.808 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 11:59:29.876 +01:00 [INF] Executed ViewResult - view Login executed in 69.6038ms.
+2024-11-05 11:59:29.877 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 118.2562ms
+2024-11-05 11:59:29.878 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 11:59:29.906 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/login - 200 null text/html; charset=utf-8 198.7063ms
+2024-11-05 11:59:29.928 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-11-05 11:59:29.928 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-11-05 11:59:29.967 +01:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: '/Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'
+2024-11-05 11:59:29.967 +01:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: '/Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js'
+2024-11-05 11:59:29.967 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 200 5824 text/javascript 42.8079ms
+2024-11-05 11:59:29.967 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/lib/jquery-validation/dist/jquery.validate.min.js - 200 24601 text/javascript 39.3138ms
+2024-11-05 12:11:00.089 +01:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 12:11:00.577 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-05 12:11:00.903 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-05 12:11:02.141 +01:00 [INF] Now listening on: https://localhost:7162
+2024-11-05 12:11:02.147 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-05 12:11:02.172 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-05 12:11:02.190 +01:00 [INF] Hosting environment: Development
+2024-11-05 12:11:02.195 +01:00 [INF] Content root path: /Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram
+2024-11-05 12:11:03.132 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 12:11:03.222 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 12:11:03.265 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 12:11:03.285 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 12:11:03.449 +01:00 [INF] Executed ViewResult - view Index executed in 154.6553ms.
+2024-11-05 12:11:03.454 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 187.0507ms
+2024-11-05 12:11:03.454 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 12:11:03.481 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 342.1968ms
+2024-11-05 12:11:11.960 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Login - null null
+2024-11-05 12:11:11.965 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 12:11:11.969 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 12:11:12.035 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 12:11:12.039 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 12:11:12.105 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 135.627ms
+2024-11-05 12:11:12.107 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 12:11:12.177 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The following sections have been defined but have not been rendered by the page at '/Views/Shared/_Layout.cshtml': 'Scripts'. To ignore an unrendered section call IgnoreSection("sectionName").
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.EnsureRenderedBodyOrSections()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-05 12:11:12.255 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Login - 500 null text/html; charset=utf-8 292.8338ms
+2024-11-05 12:12:12.597 +01:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 12:12:13.228 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-05 12:12:13.602 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-05 12:12:14.611 +01:00 [INF] Now listening on: https://localhost:7162
+2024-11-05 12:12:14.622 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-05 12:12:14.662 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-05 12:12:14.686 +01:00 [INF] Hosting environment: Development
+2024-11-05 12:12:14.690 +01:00 [INF] Content root path: /Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram
+2024-11-05 12:12:15.052 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 12:12:15.155 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 12:12:15.185 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 12:12:15.207 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 12:12:15.446 +01:00 [INF] Executed ViewResult - view Index executed in 166.0923ms.
+2024-11-05 12:12:15.473 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 287.1373ms
+2024-11-05 12:12:15.476 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 12:12:15.498 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 456.0595ms
+2024-11-05 12:12:28.190 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Profile - null null
+2024-11-05 12:12:28.226 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Profile - 404 0 null 34.1074ms
+2024-11-05 12:12:28.229 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/User/Profile, Response status code: 404
+2024-11-05 12:14:34.376 +01:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 12:14:34.750 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-05 12:14:34.981 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-05 12:14:36.034 +01:00 [INF] Now listening on: https://localhost:7162
+2024-11-05 12:14:36.042 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-05 12:14:36.065 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-05 12:14:36.073 +01:00 [INF] Hosting environment: Development
+2024-11-05 12:14:36.080 +01:00 [INF] Content root path: /Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram
+2024-11-05 12:14:36.684 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 12:14:36.751 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 12:14:36.775 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 12:14:36.794 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 12:14:37.298 +01:00 [INF] Executed ViewResult - view Index executed in 499.0002ms.
+2024-11-05 12:14:37.348 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 571.4038ms
+2024-11-05 12:14:37.348 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 12:14:37.361 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 680.352ms
+2024-11-05 12:14:42.398 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Login - null null
+2024-11-05 12:14:42.404 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 12:14:42.407 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 12:14:42.495 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 12:14:42.498 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 12:14:42.561 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 153.4571ms
+2024-11-05 12:14:42.562 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 12:14:42.622 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The following sections have been defined but have not been rendered by the page at '/Views/Shared/_Layout.cshtml': 'Scripts'. To ignore an unrendered section call IgnoreSection("sectionName").
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.EnsureRenderedBodyOrSections()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-05 12:14:42.722 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Login - 500 null text/html; charset=utf-8 324.3115ms
+2024-11-05 12:18:36.726 +01:00 [ERR] Unexpected exception in TimingPipeFlusher.FlushAsync.
+System.IO.IOException: The encryption operation failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (14): Bad address
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.ConcurrentPipeWriter.FlushAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.TimingPipeFlusher.FlushAsync(MinDataRate minRate, Int64 count, IHttpOutputAborter outputAborter, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2FrameWriter.WriteGoAwayAsync(Int32 lastStreamId, Http2ErrorCode errorCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.UpdateConnectionState()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.ConcurrentPipeWriter.FlushAsyncAwaited(ValueTask`1 flushTask, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.TimingPipeFlusher.TimeFlushAsyncAwaited(ValueTask`1 pipeFlushTask, MinDataRate minRate, IHttpOutputAborter outputAborter, CancellationToken cancellationToken)
+2024-11-05 12:18:36.790 +01:00 [ERR] Unhandled exception while processing 0HN7THC475SVH.
+System.IO.IOException: The encryption operation failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (14): Bad address
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.HttpConnection.ProcessRequestsAsync[TContext](IHttpApplication`1 httpApplication)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.KestrelConnection`1.ExecuteAsync()
+2024-11-05 12:19:32.887 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 12:19:33.322 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-05 12:19:33.579 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-05 12:19:34.410 +01:00 [INF] Now listening on: https://localhost:7162
+2024-11-05 12:19:34.415 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-05 12:19:34.436 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-05 12:19:34.454 +01:00 [INF] Hosting environment: Development
+2024-11-05 12:19:34.459 +01:00 [INF] Content root path: /Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram
+2024-11-05 12:19:35.311 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 12:19:35.359 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 12:19:35.378 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 12:19:35.394 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 12:19:35.564 +01:00 [INF] Executed ViewResult - view Index executed in 171.0039ms.
+2024-11-05 12:19:35.589 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 210.4461ms
+2024-11-05 12:19:35.590 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 12:19:35.614 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 291.3846ms
+2024-11-05 12:19:38.030 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/login - null null
+2024-11-05 12:19:38.034 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 12:19:38.038 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 12:19:38.092 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 12:19:38.097 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 12:19:38.156 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 117.3195ms
+2024-11-05 12:19:38.156 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 12:19:38.218 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The following sections have been defined but have not been rendered by the page at '/Views/Shared/_Layout.cshtml': 'Scripts'. To ignore an unrendered section call IgnoreSection("sectionName").
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.EnsureRenderedBodyOrSections()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-05 12:19:38.260 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/login - 500 null text/html; charset=utf-8 230.3266ms
+2024-11-05 12:19:46.011 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/register - null null
+2024-11-05 12:19:46.017 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-05 12:19:46.019 +01:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 12:19:46.125 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 12:19:46.129 +01:00 [INF] Executing ViewResult, running view Register.
+2024-11-05 12:19:46.160 +01:00 [INF] Executed action photogram.Controllers.UserController.Register (photogram) in 140.7088ms
+2024-11-05 12:19:46.161 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-05 12:19:46.177 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The following sections have been defined but have not been rendered by the page at '/Views/Shared/_Layout.cshtml': 'Scripts'. To ignore an unrendered section call IgnoreSection("sectionName").
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.EnsureRenderedBodyOrSections()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-05 12:19:46.185 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/register - 500 null text/html; charset=utf-8 174.1973ms
+2024-11-05 12:27:30.217 +01:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 12:27:30.705 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-05 12:27:30.994 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-05 12:27:31.834 +01:00 [INF] Now listening on: https://localhost:7162
+2024-11-05 12:27:31.840 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-05 12:27:31.858 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-05 12:27:31.869 +01:00 [INF] Hosting environment: Development
+2024-11-05 12:27:31.879 +01:00 [INF] Content root path: /Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram
+2024-11-05 12:27:32.431 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 12:27:32.503 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 12:27:32.523 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 12:27:32.539 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 12:27:32.664 +01:00 [INF] Executed ViewResult - view Index executed in 115.0422ms.
+2024-11-05 12:27:32.669 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 144.6436ms
+2024-11-05 12:27:32.669 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 12:27:32.702 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 276.9041ms
+2024-11-05 12:27:37.369 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Login - null null
+2024-11-05 12:27:37.374 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 12:27:37.379 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 12:27:37.441 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 12:27:37.445 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 12:27:37.514 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 134.8797ms
+2024-11-05 12:27:37.515 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 12:27:37.575 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The following sections have been defined but have not been rendered by the page at '/Views/Shared/_Layout.cshtml': 'Scripts'. To ignore an unrendered section call IgnoreSection("sectionName").
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.EnsureRenderedBodyOrSections()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-05 12:27:37.683 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Login - 500 null text/html; charset=utf-8 313.2888ms
+2024-11-05 12:29:24.215 +01:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 12:29:24.607 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-05 12:29:24.862 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-05 12:29:25.644 +01:00 [INF] Now listening on: https://localhost:7162
+2024-11-05 12:29:25.648 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-05 12:29:25.669 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-05 12:29:25.681 +01:00 [INF] Hosting environment: Development
+2024-11-05 12:29:25.691 +01:00 [INF] Content root path: /Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram
+2024-11-05 12:29:26.388 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 12:29:26.452 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 12:29:26.482 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 12:29:26.498 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 12:29:26.629 +01:00 [INF] Executed ViewResult - view Index executed in 118.2577ms.
+2024-11-05 12:29:26.633 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 149.8138ms
+2024-11-05 12:29:26.633 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 12:29:26.654 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 269.359ms
+2024-11-05 12:29:29.142 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Login - null null
+2024-11-05 12:29:29.148 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 12:29:29.151 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 12:29:29.220 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 12:29:29.225 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 12:29:29.287 +01:00 [INF] Executed ViewResult - view Login executed in 63.8581ms.
+2024-11-05 12:29:29.287 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 135.3318ms
+2024-11-05 12:29:29.287 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 12:29:29.297 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 154.5756ms
+2024-11-05 12:29:37.969 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/User/Login - application/x-www-form-urlencoded 226
+2024-11-05 12:29:37.976 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 12:29:37.989 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(photogram.ViewModels.LoginViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-05 12:29:38.092 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 12:29:38.131 +01:00 [INF] Attempting to login
+2024-11-05 12:29:38.399 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__model_Email_0='?' (Size = 17), @__model_Password_1='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Email", "u"."Name", "u"."Password"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__model_Email_0 AND "u"."Password" = @__model_Password_1
+LIMIT 1
+2024-11-05 12:29:38.401 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 12:29:38.404 +01:00 [INF] Executed ViewResult - view Login executed in 3.7722ms.
+2024-11-05 12:29:38.405 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 415.5813ms
+2024-11-05 12:29:38.405 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 12:29:38.405 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 437.0081ms
+2024-11-05 12:29:41.143 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Register - null null
+2024-11-05 12:29:41.144 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-05 12:29:41.148 +01:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 12:29:41.156 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 12:29:41.160 +01:00 [INF] Executing ViewResult, running view Register.
+2024-11-05 12:29:41.208 +01:00 [INF] Executed ViewResult - view Register executed in 49.7884ms.
+2024-11-05 12:29:41.259 +01:00 [INF] Executed action photogram.Controllers.UserController.Register (photogram) in 110.2393ms
+2024-11-05 12:29:41.260 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-05 12:29:41.266 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Register - 200 null text/html; charset=utf-8 123.3242ms
+2024-11-05 12:29:42.876 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Table - null null
+2024-11-05 12:29:42.877 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Table (photogram)'
+2024-11-05 12:29:42.881 +01:00 [INF] Route matched with {action = "Table", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Table() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 12:29:42.887 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 12:29:42.897 +01:00 [INF] This info is a message
+2024-11-05 12:29:42.901 +01:00 [WRN] This info is a message
+2024-11-05 12:29:42.906 +01:00 [ERR] This info is a message
+2024-11-05 12:29:42.925 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Email", "u"."Name", "u"."Password"
+FROM "Users" AS "u"
+2024-11-05 12:29:43.006 +01:00 [INF] Executing ViewResult, running view Table.
+2024-11-05 12:29:43.012 +01:00 [INF] Executed ViewResult - view Table executed in 7.6953ms.
+2024-11-05 12:29:43.012 +01:00 [INF] Executed action photogram.Controllers.UserController.Table (photogram) in 131.6731ms
+2024-11-05 12:29:43.013 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Table (photogram)'
+2024-11-05 12:29:43.049 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Table - 200 null text/html; charset=utf-8 172.9804ms
+2024-11-05 12:29:52.209 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Login - null null
+2024-11-05 12:29:52.210 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 12:29:52.210 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 12:29:52.216 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 12:29:52.218 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 12:29:52.220 +01:00 [INF] Executed ViewResult - view Login executed in 2.3766ms.
+2024-11-05 12:29:52.220 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 10.0891ms
+2024-11-05 12:29:52.221 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 12:29:52.221 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 12.3971ms
+2024-11-05 12:29:53.942 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Register - null null
+2024-11-05 12:29:53.944 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-05 12:29:53.944 +01:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 12:29:53.953 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 12:29:53.955 +01:00 [INF] Executing ViewResult, running view Register.
+2024-11-05 12:29:53.987 +01:00 [INF] Executed ViewResult - view Register executed in 31.9183ms.
+2024-11-05 12:29:54.042 +01:00 [INF] Executed action photogram.Controllers.UserController.Register (photogram) in 97.5879ms
+2024-11-05 12:29:54.042 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-05 12:29:54.043 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Register - 200 null text/html; charset=utf-8 101.5164ms
+2024-11-05 12:30:25.336 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/User/Register - application/x-www-form-urlencoded 245
+2024-11-05 12:30:25.338 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-05 12:30:25.342 +01:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(photogram.ViewModels.RegisterViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-05 12:30:25.349 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 12:30:25.502 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 17), @p1='?' (Size = 10), @p2='?' (Size = 9)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("Email", "Name", "Password")
+VALUES (@p0, @p1, @p2)
+RETURNING "Id";
+2024-11-05 12:30:25.575 +01:00 [INF] Executing RedirectResult, redirecting to /User/login.
+2024-11-05 12:30:25.576 +01:00 [INF] Executed action photogram.Controllers.UserController.Register (photogram) in 233.6163ms
+2024-11-05 12:30:25.576 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-05 12:30:25.576 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/User/Register - 302 0 null 250.8618ms
+2024-11-05 12:30:25.717 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/login - null null
+2024-11-05 12:30:25.717 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 12:30:25.717 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 12:30:25.725 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 12:30:25.728 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 12:30:25.731 +01:00 [INF] Executed ViewResult - view Login executed in 3.0148ms.
+2024-11-05 12:30:25.731 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 13.7346ms
+2024-11-05 12:30:25.731 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 12:30:25.732 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/login - 200 null text/html; charset=utf-8 15.3384ms
+2024-11-05 12:30:29.976 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/User/Login - application/x-www-form-urlencoded 229
+2024-11-05 12:30:30.002 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 12:30:30.003 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(photogram.ViewModels.LoginViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-05 12:30:30.017 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 12:30:30.022 +01:00 [INF] Attempting to login
+2024-11-05 12:30:30.035 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__model_Email_0='?' (Size = 17), @__model_Password_1='?' (Size = 9)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Email", "u"."Name", "u"."Password"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__model_Email_0 AND "u"."Password" = @__model_Password_1
+LIMIT 1
+2024-11-05 12:30:30.035 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 12:30:30.037 +01:00 [INF] Executed ViewResult - view Login executed in 1.4544ms.
+2024-11-05 12:30:30.037 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 34.2482ms
+2024-11-05 12:30:30.037 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 12:30:30.037 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 61.6539ms
+2024-11-05 12:33:26.198 +01:00 [ERR] Unexpected exception in TimingPipeFlusher.FlushAsync.
+System.IO.IOException: The encryption operation failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (14): Bad address
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.ConcurrentPipeWriter.FlushAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.TimingPipeFlusher.FlushAsync(MinDataRate minRate, Int64 count, IHttpOutputAborter outputAborter, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2FrameWriter.WriteGoAwayAsync(Int32 lastStreamId, Http2ErrorCode errorCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.UpdateConnectionState()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.ConcurrentPipeWriter.FlushAsyncAwaited(ValueTask`1 flushTask, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.TimingPipeFlusher.TimeFlushAsyncAwaited(ValueTask`1 pipeFlushTask, MinDataRate minRate, IHttpOutputAborter outputAborter, CancellationToken cancellationToken)
+2024-11-05 12:33:26.234 +01:00 [ERR] Unhandled exception while processing 0HN7THKDA4AH7.
+System.IO.IOException: The encryption operation failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (14): Bad address
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.HttpConnection.ProcessRequestsAsync[TContext](IHttpApplication`1 httpApplication)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.KestrelConnection`1.ExecuteAsync()
+2024-11-05 14:04:03.948 +01:00 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:04:04.561 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-05 14:04:04.891 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-05 14:04:06.341 +01:00 [INF] Now listening on: https://localhost:7162
+2024-11-05 14:04:06.532 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-05 14:04:06.603 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-05 14:04:06.622 +01:00 [INF] Hosting environment: Development
+2024-11-05 14:04:06.629 +01:00 [INF] Content root path: /Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram
+2024-11-05 14:04:07.377 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 14:04:07.427 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:04:07.451 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:04:07.471 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 14:04:07.643 +01:00 [INF] Executed ViewResult - view Index executed in 163.0207ms.
+2024-11-05 14:04:07.647 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 195.1001ms
+2024-11-05 14:04:07.647 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:04:07.655 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 282.8984ms
+2024-11-05 14:04:07.766 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/css/site.css - null null
+2024-11-05 14:04:07.780 +01:00 [INF] The file /css/site.css was not modified
+2024-11-05 14:04:07.782 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/css/site.css - 304 null text/css 15.7745ms
+2024-11-05 14:04:11.575 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Login - null null
+2024-11-05 14:04:11.582 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:04:11.588 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:04:11.660 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:04:11.664 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 14:04:11.733 +01:00 [INF] Executed ViewResult - view Login executed in 70.1066ms.
+2024-11-05 14:04:11.734 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 145.0982ms
+2024-11-05 14:04:11.734 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:04:11.746 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 170.9328ms
+2024-11-05 14:04:14.130 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Register - null null
+2024-11-05 14:04:14.136 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-05 14:04:14.139 +01:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:04:14.254 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:04:14.259 +01:00 [INF] Executing ViewResult, running view Register.
+2024-11-05 14:04:14.328 +01:00 [INF] Executed ViewResult - view Register executed in 69.7344ms.
+2024-11-05 14:04:14.345 +01:00 [INF] Executed action photogram.Controllers.UserController.Register (photogram) in 206.3491ms
+2024-11-05 14:04:14.348 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-05 14:04:14.368 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Register - 200 null text/html; charset=utf-8 237.0309ms
+2024-11-05 14:04:16.612 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Login - null null
+2024-11-05 14:04:16.614 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:04:16.614 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:04:16.628 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:04:16.629 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 14:04:16.632 +01:00 [INF] Executed ViewResult - view Login executed in 2.8518ms.
+2024-11-05 14:04:16.632 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 16.999ms
+2024-11-05 14:04:16.632 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:04:16.632 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 20.6437ms
+2024-11-05 14:07:50.084 +01:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:07:50.464 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-05 14:07:50.723 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-05 14:07:51.432 +01:00 [INF] Now listening on: https://localhost:7162
+2024-11-05 14:07:51.437 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-05 14:07:51.556 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-05 14:07:51.564 +01:00 [INF] Hosting environment: Development
+2024-11-05 14:07:51.571 +01:00 [INF] Content root path: /Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram
+2024-11-05 14:07:52.362 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 14:07:52.413 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:07:52.433 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:07:52.454 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 14:07:52.577 +01:00 [INF] Executed ViewResult - view Index executed in 119.3992ms.
+2024-11-05 14:07:52.582 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 147.5691ms
+2024-11-05 14:07:52.582 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:07:52.632 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 254.8823ms
+2024-11-05 14:07:52.638 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/css/site.css - null null
+2024-11-05 14:07:52.640 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/frontpage.png - null null
+2024-11-05 14:07:52.694 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram/wwwroot/css/site.css'
+2024-11-05 14:07:52.704 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/css/site.css - 200 2208 text/css 65.3933ms
+2024-11-05 14:07:52.878 +01:00 [INF] Sending file. Request path: '/images/frontpage.png'. Physical path: '/Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram/wwwroot/images/frontpage.png'
+2024-11-05 14:07:52.878 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/frontpage.png - 200 2309811 image/png 238.349ms
+2024-11-05 14:07:55.722 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Login - null null
+2024-11-05 14:07:55.731 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:07:55.771 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:07:55.833 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:07:55.838 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 14:07:55.929 +01:00 [INF] Executed ViewResult - view Login executed in 92.8484ms.
+2024-11-05 14:07:55.929 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 158.5964ms
+2024-11-05 14:07:55.930 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:07:56.040 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 317.4999ms
+2024-11-05 14:07:58.265 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/User/Login - application/x-www-form-urlencoded 229
+2024-11-05 14:07:58.269 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:07:58.284 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(photogram.ViewModels.LoginViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:07:58.391 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:07:58.441 +01:00 [INF] Attempting to login
+2024-11-05 14:07:58.757 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__model_Email_0='?' (Size = 17), @__model_Password_1='?' (Size = 9)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Email", "u"."Name", "u"."Password"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__model_Email_0 AND "u"."Password" = @__model_Password_1
+LIMIT 1
+2024-11-05 14:07:58.759 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 14:07:58.763 +01:00 [INF] Executed ViewResult - view Login executed in 4.2626ms.
+2024-11-05 14:07:58.763 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 479.2177ms
+2024-11-05 14:07:58.764 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:07:58.764 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 499.6623ms
+2024-11-05 14:08:08.884 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/User/Login - application/x-www-form-urlencoded 229
+2024-11-05 14:08:08.910 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:08:08.911 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(photogram.ViewModels.LoginViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:08:08.922 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:08:08.928 +01:00 [INF] Attempting to login
+2024-11-05 14:08:08.940 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__model_Email_0='?' (Size = 17), @__model_Password_1='?' (Size = 9)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Email", "u"."Name", "u"."Password"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__model_Email_0 AND "u"."Password" = @__model_Password_1
+LIMIT 1
+2024-11-05 14:08:08.942 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 14:08:08.945 +01:00 [INF] Executed ViewResult - view Login executed in 2.7421ms.
+2024-11-05 14:08:08.946 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 34.7312ms
+2024-11-05 14:08:08.946 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:08:08.946 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 62.1378ms
+2024-11-05 14:08:12.177 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Register - null null
+2024-11-05 14:08:12.180 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-05 14:08:12.183 +01:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:08:12.189 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:08:12.191 +01:00 [INF] Executing ViewResult, running view Register.
+2024-11-05 14:08:12.237 +01:00 [INF] Executed ViewResult - view Register executed in 46.6473ms.
+2024-11-05 14:08:12.237 +01:00 [INF] Executed action photogram.Controllers.UserController.Register (photogram) in 54.3155ms
+2024-11-05 14:08:12.237 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-05 14:08:12.238 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Register - 200 null text/html; charset=utf-8 60.1695ms
+2024-11-05 14:08:29.131 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/User/Register - application/x-www-form-urlencoded 231
+2024-11-05 14:08:29.133 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-05 14:08:29.161 +01:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(photogram.ViewModels.RegisterViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:08:29.169 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:08:29.465 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 11), @p1='?' (Size = 3), @p2='?' (Size = 10)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("Email", "Name", "Password")
+VALUES (@p0, @p1, @p2)
+RETURNING "Id";
+2024-11-05 14:08:29.525 +01:00 [INF] Executing RedirectResult, redirecting to /User/login.
+2024-11-05 14:08:29.525 +01:00 [INF] Executed action photogram.Controllers.UserController.Register (photogram) in 363.424ms
+2024-11-05 14:08:29.525 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-05 14:08:29.527 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/User/Register - 302 0 null 396.06ms
+2024-11-05 14:08:29.547 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/login - null null
+2024-11-05 14:08:29.548 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:08:29.571 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:08:29.578 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:08:29.579 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 14:08:29.580 +01:00 [INF] Executed ViewResult - view Login executed in 1.6922ms.
+2024-11-05 14:08:29.580 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 8.9122ms
+2024-11-05 14:08:29.581 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:08:29.581 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/login - 200 null text/html; charset=utf-8 34.1797ms
+2024-11-05 14:08:41.822 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/User/Login - application/x-www-form-urlencoded 222
+2024-11-05 14:08:41.823 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:08:41.823 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(photogram.ViewModels.LoginViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:08:41.835 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:08:41.845 +01:00 [INF] Attempting to login
+2024-11-05 14:08:41.857 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__model_Email_0='?' (Size = 11), @__model_Password_1='?' (Size = 10)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Email", "u"."Name", "u"."Password"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__model_Email_0 AND "u"."Password" = @__model_Password_1
+LIMIT 1
+2024-11-05 14:08:41.871 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2024-11-05 14:08:41.871 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 48.2122ms
+2024-11-05 14:08:41.871 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:08:41.872 +01:00 [INF] Session started; Key:9b735957-c2da-6e96-17b9-80ec423e1695, Id:d70d45a4-281d-c004-df86-757fed5a59c6
+2024-11-05 14:08:41.883 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/User/Login - 302 0 null 60.5725ms
+2024-11-05 14:08:42.181 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 14:08:42.182 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:08:42.183 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:08:42.183 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 14:08:42.185 +01:00 [INF] Executed ViewResult - view Index executed in 1.9132ms.
+2024-11-05 14:08:42.185 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 2.2992ms
+2024-11-05 14:08:42.185 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:08:42.185 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 4.1592ms
+2024-11-05 14:08:48.553 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Login - null null
+2024-11-05 14:08:48.553 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:08:48.553 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:08:48.566 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:08:48.567 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 14:08:48.568 +01:00 [INF] Executed ViewResult - view Login executed in 1.7225ms.
+2024-11-05 14:08:48.568 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 15.0905ms
+2024-11-05 14:08:48.569 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:08:48.569 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 16.0695ms
+2024-11-05 14:08:53.812 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/User/Login - application/x-www-form-urlencoded 228
+2024-11-05 14:08:53.813 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:08:53.813 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(photogram.ViewModels.LoginViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:08:53.823 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:08:53.829 +01:00 [INF] Attempting to login
+2024-11-05 14:08:53.840 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__model_Email_0='?' (Size = 17), @__model_Password_1='?' (Size = 10)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Email", "u"."Name", "u"."Password"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__model_Email_0 AND "u"."Password" = @__model_Password_1
+LIMIT 1
+2024-11-05 14:08:53.841 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 14:08:53.842 +01:00 [INF] Executed ViewResult - view Login executed in 1.8024ms.
+2024-11-05 14:08:53.843 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 29.3624ms
+2024-11-05 14:08:53.843 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:08:53.843 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 30.912ms
+2024-11-05 14:09:57.907 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Register - null null
+2024-11-05 14:09:57.907 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-05 14:09:57.908 +01:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:09:57.915 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:09:57.916 +01:00 [INF] Executing ViewResult, running view Register.
+2024-11-05 14:09:57.984 +01:00 [INF] Executed ViewResult - view Register executed in 68.02ms.
+2024-11-05 14:09:57.986 +01:00 [INF] Executed action photogram.Controllers.UserController.Register (photogram) in 77.8561ms
+2024-11-05 14:09:57.986 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-05 14:09:57.986 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Register - 200 null text/html; charset=utf-8 85.4872ms
+2024-11-05 14:10:21.099 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/User/Register - application/x-www-form-urlencoded 230
+2024-11-05 14:10:21.100 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-05 14:10:21.100 +01:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(photogram.ViewModels.RegisterViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:10:21.119 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:10:21.138 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 13), @p1='?' (Size = 3), @p2='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("Email", "Name", "Password")
+VALUES (@p0, @p1, @p2)
+RETURNING "Id";
+2024-11-05 14:10:21.143 +01:00 [INF] Executing RedirectResult, redirecting to /User/login.
+2024-11-05 14:10:21.143 +01:00 [INF] Executed action photogram.Controllers.UserController.Register (photogram) in 43.0929ms
+2024-11-05 14:10:21.143 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Register (photogram)'
+2024-11-05 14:10:21.144 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/User/Register - 302 0 null 44.4749ms
+2024-11-05 14:10:21.459 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/login - null null
+2024-11-05 14:10:21.459 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:10:21.460 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:10:21.515 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:10:21.516 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 14:10:21.517 +01:00 [INF] Executed ViewResult - view Login executed in 1.1999ms.
+2024-11-05 14:10:21.517 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 57.6411ms
+2024-11-05 14:10:21.517 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:10:21.518 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/login - 200 null text/html; charset=utf-8 58.9329ms
+2024-11-05 14:10:32.488 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/User/Login - application/x-www-form-urlencoded 221
+2024-11-05 14:10:32.493 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:10:32.494 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(photogram.ViewModels.LoginViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:10:32.501 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:10:32.506 +01:00 [INF] Attempting to login
+2024-11-05 14:10:32.515 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__model_Email_0='?' (Size = 13), @__model_Password_1='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Email", "u"."Name", "u"."Password"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__model_Email_0 AND "u"."Password" = @__model_Password_1
+LIMIT 1
+2024-11-05 14:10:32.523 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2024-11-05 14:10:32.523 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 29.3975ms
+2024-11-05 14:10:32.523 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:10:32.525 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/User/Login - 302 0 null 36.6439ms
+2024-11-05 14:10:32.880 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 14:10:32.880 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:10:32.881 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:10:32.881 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 14:10:32.882 +01:00 [INF] Executed ViewResult - view Index executed in 0.6732ms.
+2024-11-05 14:10:32.882 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 0.9791ms
+2024-11-05 14:10:32.882 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:10:32.883 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 3.5948ms
+2024-11-05 14:13:25.673 +01:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:13:26.038 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-05 14:13:26.269 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-05 14:13:27.082 +01:00 [INF] Now listening on: https://localhost:7162
+2024-11-05 14:13:27.086 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-05 14:13:27.279 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-05 14:13:27.286 +01:00 [INF] Hosting environment: Development
+2024-11-05 14:13:27.294 +01:00 [INF] Content root path: /Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram
+2024-11-05 14:13:28.114 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 14:13:28.167 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:13:28.188 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:13:28.206 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 14:13:28.306 +01:00 [INF] Accessing expired session, Key:9b735957-c2da-6e96-17b9-80ec423e1695
+2024-11-05 14:13:28.330 +01:00 [INF] Executed ViewResult - view Index executed in 116.3828ms.
+2024-11-05 14:13:28.334 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 145.5559ms
+2024-11-05 14:13:28.335 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:13:28.372 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 261.9671ms
+2024-11-05 14:13:30.964 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Login - null null
+2024-11-05 14:13:30.969 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:13:30.975 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:13:31.024 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:13:31.029 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 14:13:31.087 +01:00 [INF] Accessing expired session, Key:9b735957-c2da-6e96-17b9-80ec423e1695
+2024-11-05 14:13:31.097 +01:00 [INF] Executed ViewResult - view Login executed in 68.7039ms.
+2024-11-05 14:13:31.097 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 121.2894ms
+2024-11-05 14:13:31.097 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:13:31.106 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 142.4541ms
+2024-11-05 14:13:40.135 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/User/Login - application/x-www-form-urlencoded 221
+2024-11-05 14:13:40.166 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:13:40.182 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(photogram.ViewModels.LoginViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:13:40.315 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:13:40.378 +01:00 [INF] Attempting to login
+2024-11-05 14:13:40.696 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__model_Email_0='?' (Size = 13), @__model_Password_1='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Email", "u"."Name", "u"."Password"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__model_Email_0 AND "u"."Password" = @__model_Password_1
+LIMIT 1
+2024-11-05 14:13:40.775 +01:00 [INF] Accessing expired session, Key:9b735957-c2da-6e96-17b9-80ec423e1695
+2024-11-05 14:13:40.778 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2024-11-05 14:13:40.778 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 596.3486ms
+2024-11-05 14:13:40.778 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:13:40.784 +01:00 [INF] Session started; Key:9b735957-c2da-6e96-17b9-80ec423e1695, Id:9cdcc71b-301a-e1cb-835c-df0c4a3b6c18
+2024-11-05 14:13:40.823 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 14:13:40.824 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:13:40.825 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:13:40.826 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 14:13:40.829 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/User/Login - 302 0 null 693.9386ms
+2024-11-05 14:13:40.984 +01:00 [INF] Executed ViewResult - view Index executed in 158.4967ms.
+2024-11-05 14:13:41.005 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 180.6647ms
+2024-11-05 14:13:41.007 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:13:41.015 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 193.0374ms
+2024-11-05 14:13:56.614 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/CreatePost - null null
+2024-11-05 14:13:56.617 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-05 14:13:56.619 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-05 14:13:56.622 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-05 14:13:56.629 +01:00 [INF] Executed ViewResult - view Feed executed in 8.2066ms.
+2024-11-05 14:13:56.629 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 9.3741ms
+2024-11-05 14:13:56.629 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-05 14:13:56.630 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/CreatePost - 200 null text/html; charset=utf-8 15.5119ms
+2024-11-05 14:13:59.466 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Home/Feed - null null
+2024-11-05 14:13:59.467 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-05 14:13:59.470 +01:00 [INF] Route matched with {action = "Feed", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:13:59.471 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-05 14:13:59.471 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 0.5998ms
+2024-11-05 14:13:59.471 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-05 14:13:59.471 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Home/Feed - 302 0 null 5.4048ms
+2024-11-05 14:13:59.486 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/Feed - null null
+2024-11-05 14:13:59.488 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-05 14:13:59.493 +01:00 [INF] Route matched with {action = "Feed", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed() on controller photogram.Controllers.PostController (photogram).
+2024-11-05 14:13:59.546 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."UserName"
+FROM "Posts" AS "p"
+2024-11-05 14:13:59.594 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-05 14:13:59.659 +01:00 [INF] Executed ViewResult - view Feed executed in 26.8962ms.
+2024-11-05 14:13:59.682 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 188.7136ms
+2024-11-05 14:13:59.683 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/norway.jpg - null null
+2024-11-05 14:13:59.683 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-05 14:13:59.731 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/conference.jpg - null null
+2024-11-05 14:13:59.779 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/recipes.jpg - null null
+2024-11-05 14:13:59.784 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/norway.jpg - 404 0 null 101.5524ms
+2024-11-05 14:13:59.784 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/recipes.jpg - 404 0 null 5.0158ms
+2024-11-05 14:13:59.784 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/conference.jpg - 404 0 null 53.1896ms
+2024-11-05 14:13:59.786 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/conference.jpg, Response status code: 404
+2024-11-05 14:13:59.786 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/norway.jpg, Response status code: 404
+2024-11-05 14:13:59.786 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/recipes.jpg, Response status code: 404
+2024-11-05 14:13:59.787 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/uploads/2024-05-18.png - null null
+2024-11-05 14:13:59.787 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/sunset.jpg - null null
+2024-11-05 14:13:59.788 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/uploads/flower image 2.jpg - null null
+2024-11-05 14:13:59.788 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/sunset.jpg - 404 0 null 1.2491ms
+2024-11-05 14:13:59.789 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/sunset.jpg, Response status code: 404
+2024-11-05 14:13:59.801 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/Feed - 200 null text/html; charset=utf-8 316.0023ms
+2024-11-05 14:14:00.143 +01:00 [INF] Sending file. Request path: '/uploads/2024-05-18.png'. Physical path: '/Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram/wwwroot/uploads/2024-05-18.png'
+2024-11-05 14:14:00.145 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/uploads/2024-05-18.png - 200 640827 image/png 357.7498ms
+2024-11-05 14:14:00.162 +01:00 [INF] Sending file. Request path: '/uploads/flower image 2.jpg'. Physical path: '/Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram/wwwroot/uploads/flower image 2.jpg'
+2024-11-05 14:14:00.162 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/uploads/flower image 2.jpg - 200 1185535 image/jpeg 374.3024ms
+2024-11-05 14:14:04.963 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Home/Friends - null null
+2024-11-05 14:14:04.968 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-05 14:14:04.971 +01:00 [INF] Route matched with {action = "Friends", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Friends() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:14:04.973 +01:00 [INF] Executing ViewResult, running view Friends.
+2024-11-05 14:14:04.976 +01:00 [INF] Executed ViewResult - view Friends executed in 4.328ms.
+2024-11-05 14:14:04.976 +01:00 [INF] Executed action photogram.Controllers.HomeController.Friends (photogram) in 4.7377ms
+2024-11-05 14:14:04.976 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-05 14:14:04.977 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Home/Friends - 200 null text/html; charset=utf-8 13.4211ms
+2024-11-05 14:14:06.034 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/CreatePost - null null
+2024-11-05 14:14:06.034 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-05 14:14:06.035 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-05 14:14:06.035 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-05 14:14:06.038 +01:00 [INF] Executed ViewResult - view Feed executed in 2.7244ms.
+2024-11-05 14:14:06.038 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 3.363ms
+2024-11-05 14:14:06.038 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-05 14:14:06.039 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/CreatePost - 200 null text/html; charset=utf-8 4.9217ms
+2024-11-05 14:14:07.314 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Home/Feed - null null
+2024-11-05 14:14:07.316 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-05 14:14:07.316 +01:00 [INF] Route matched with {action = "Feed", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:14:07.316 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-05 14:14:07.317 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 0.2896ms
+2024-11-05 14:14:07.317 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-05 14:14:07.317 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Home/Feed - 302 0 null 2.7861ms
+2024-11-05 14:14:07.329 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/Feed - null null
+2024-11-05 14:14:07.330 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-05 14:14:07.330 +01:00 [INF] Route matched with {action = "Feed", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed() on controller photogram.Controllers.PostController (photogram).
+2024-11-05 14:14:07.338 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."UserName"
+FROM "Posts" AS "p"
+2024-11-05 14:14:07.340 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-05 14:14:07.405 +01:00 [INF] Executed ViewResult - view Feed executed in 64.986ms.
+2024-11-05 14:14:07.418 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/norway.jpg - null null
+2024-11-05 14:14:07.418 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/conference.jpg - null null
+2024-11-05 14:14:07.446 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/sunset.jpg - null null
+2024-11-05 14:14:07.446 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/norway.jpg - 404 0 null 28.0448ms
+2024-11-05 14:14:07.446 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/norway.jpg, Response status code: 404
+2024-11-05 14:14:07.446 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/conference.jpg - 404 0 null 28.2526ms
+2024-11-05 14:14:07.447 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/sunset.jpg - 404 0 null 0.9079ms
+2024-11-05 14:14:07.447 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/conference.jpg, Response status code: 404
+2024-11-05 14:14:07.448 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/sunset.jpg, Response status code: 404
+2024-11-05 14:14:07.450 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 118.9667ms
+2024-11-05 14:14:07.480 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-05 14:14:07.537 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/recipes.jpg - null null
+2024-11-05 14:14:07.537 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/Feed - 200 null text/html; charset=utf-8 209.0588ms
+2024-11-05 14:14:07.538 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/recipes.jpg - 404 0 null 27.3451ms
+2024-11-05 14:14:07.539 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/recipes.jpg, Response status code: 404
+2024-11-05 14:14:20.151 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Logout - null null
+2024-11-05 14:14:20.153 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Logout (photogram)'
+2024-11-05 14:14:20.157 +01:00 [INF] Route matched with {action = "Logout", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Logout() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:14:20.168 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:14:20.170 +01:00 [INF] Executing RedirectResult, redirecting to /User/Login.
+2024-11-05 14:14:20.170 +01:00 [INF] Executed action photogram.Controllers.UserController.Logout (photogram) in 12.2248ms
+2024-11-05 14:14:20.170 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Logout (photogram)'
+2024-11-05 14:14:20.171 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Logout - 302 0 null 20.0716ms
+2024-11-05 14:14:20.179 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Login - null null
+2024-11-05 14:14:20.180 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:14:20.180 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:14:20.187 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:14:20.188 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 14:14:20.192 +01:00 [INF] Executed ViewResult - view Login executed in 4.1844ms.
+2024-11-05 14:14:20.192 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 12.4512ms
+2024-11-05 14:14:20.192 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:14:20.193 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 13.5628ms
+2024-11-05 14:14:25.648 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 14:14:25.649 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:14:25.649 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:14:25.649 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 14:14:25.650 +01:00 [INF] Executed ViewResult - view Index executed in 1.0704ms.
+2024-11-05 14:14:25.650 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 1.3792ms
+2024-11-05 14:14:25.651 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:14:25.651 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 2.7701ms
+2024-11-05 14:14:27.256 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 14:14:27.258 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:14:27.258 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:14:27.259 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 14:14:27.260 +01:00 [INF] Executed ViewResult - view Index executed in 1.7ms.
+2024-11-05 14:14:27.260 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 2.0925ms
+2024-11-05 14:14:27.260 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:14:27.261 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 4.5519ms
+2024-11-05 14:14:31.100 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Login - null null
+2024-11-05 14:14:31.101 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:14:31.101 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:14:31.115 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:14:31.116 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 14:14:31.120 +01:00 [INF] Executed ViewResult - view Login executed in 3.6363ms.
+2024-11-05 14:14:31.120 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 18.6098ms
+2024-11-05 14:14:31.120 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:14:31.120 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 20.0874ms
+2024-11-05 14:14:45.327 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/User/Login - application/x-www-form-urlencoded 221
+2024-11-05 14:14:45.328 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:14:45.328 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(photogram.ViewModels.LoginViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:14:45.340 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:14:45.350 +01:00 [INF] Attempting to login
+2024-11-05 14:14:45.361 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__model_Email_0='?' (Size = 13), @__model_Password_1='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Email", "u"."Name", "u"."Password"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__model_Email_0 AND "u"."Password" = @__model_Password_1
+LIMIT 1
+2024-11-05 14:14:45.366 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2024-11-05 14:14:45.366 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 38.0946ms
+2024-11-05 14:14:45.366 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:14:45.367 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/User/Login - 302 0 null 39.4656ms
+2024-11-05 14:14:45.679 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 14:14:45.702 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:14:45.702 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:14:45.703 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 14:14:45.742 +01:00 [INF] Executed ViewResult - view Index executed in 39.4501ms.
+2024-11-05 14:14:45.746 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 43.7766ms
+2024-11-05 14:14:45.747 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:14:45.747 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 67.7822ms
+2024-11-05 14:14:52.826 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Home/Feed - null null
+2024-11-05 14:14:52.830 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-05 14:14:52.831 +01:00 [INF] Route matched with {action = "Feed", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:14:52.831 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-05 14:14:52.831 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 0.2528ms
+2024-11-05 14:14:52.831 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-05 14:14:52.831 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Home/Feed - 302 0 null 5.1024ms
+2024-11-05 14:14:52.865 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/Feed - null null
+2024-11-05 14:14:52.866 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-05 14:14:52.866 +01:00 [INF] Route matched with {action = "Feed", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed() on controller photogram.Controllers.PostController (photogram).
+2024-11-05 14:14:52.873 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."UserName"
+FROM "Posts" AS "p"
+2024-11-05 14:14:52.875 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-05 14:14:52.910 +01:00 [INF] Executed ViewResult - view Feed executed in 35.6659ms.
+2024-11-05 14:14:52.930 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 63.869ms
+2024-11-05 14:14:52.931 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-05 14:14:52.937 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/conference.jpg - null null
+2024-11-05 14:14:52.938 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/Feed - 200 null text/html; charset=utf-8 73.2458ms
+2024-11-05 14:14:52.968 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/norway.jpg - null null
+2024-11-05 14:14:52.968 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/conference.jpg - 404 0 null 31.0304ms
+2024-11-05 14:14:52.978 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/sunset.jpg - null null
+2024-11-05 14:14:52.978 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/conference.jpg, Response status code: 404
+2024-11-05 14:14:52.968 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/recipes.jpg - null null
+2024-11-05 14:14:52.978 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/recipes.jpg - 404 0 null 9.8559ms
+2024-11-05 14:14:52.978 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/sunset.jpg - 404 0 null 0.5641ms
+2024-11-05 14:14:52.992 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/recipes.jpg, Response status code: 404
+2024-11-05 14:14:52.992 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/sunset.jpg, Response status code: 404
+2024-11-05 14:14:52.998 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/norway.jpg - 404 0 null 23.816ms
+2024-11-05 14:14:53.001 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/norway.jpg, Response status code: 404
+2024-11-05 14:14:58.203 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Home/Friends - null null
+2024-11-05 14:14:58.204 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-05 14:14:58.204 +01:00 [INF] Route matched with {action = "Friends", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Friends() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:14:58.204 +01:00 [INF] Executing ViewResult, running view Friends.
+2024-11-05 14:14:58.204 +01:00 [INF] Executed ViewResult - view Friends executed in 0.434ms.
+2024-11-05 14:14:58.205 +01:00 [INF] Executed action photogram.Controllers.HomeController.Friends (photogram) in 0.6857ms
+2024-11-05 14:14:58.205 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-05 14:14:58.205 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Home/Friends - 200 null text/html; charset=utf-8 2.431ms
+2024-11-05 14:15:00.253 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/CreatePost - null null
+2024-11-05 14:15:00.255 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-05 14:15:00.255 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-05 14:15:00.256 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-05 14:15:00.256 +01:00 [INF] Executed ViewResult - view Feed executed in 0.7134ms.
+2024-11-05 14:15:00.257 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 1.5186ms
+2024-11-05 14:15:00.257 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-05 14:15:00.257 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/CreatePost - 200 null text/html; charset=utf-8 4.2585ms
+2024-11-05 14:17:28.040 +01:00 [ERR] Unexpected exception in TimingPipeFlusher.FlushAsync.
+System.IO.IOException: The encryption operation failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (14): Bad address
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.ConcurrentPipeWriter.FlushAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.TimingPipeFlusher.FlushAsync(MinDataRate minRate, Int64 count, IHttpOutputAborter outputAborter, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2FrameWriter.WriteGoAwayAsync(Int32 lastStreamId, Http2ErrorCode errorCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.UpdateConnectionState()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.ConcurrentPipeWriter.FlushAsyncAwaited(ValueTask`1 flushTask, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.TimingPipeFlusher.TimeFlushAsyncAwaited(ValueTask`1 pipeFlushTask, MinDataRate minRate, IHttpOutputAborter outputAborter, CancellationToken cancellationToken)
+2024-11-05 14:17:28.089 +01:00 [ERR] Unhandled exception while processing 0HN7TJEHG1QRL.
+System.IO.IOException: The encryption operation failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (14): Bad address
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.HttpConnection.ProcessRequestsAsync[TContext](IHttpApplication`1 httpApplication)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.KestrelConnection`1.ExecuteAsync()
+2024-11-05 14:36:25.664 +01:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:36:26.068 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-05 14:36:26.306 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-05 14:36:27.467 +01:00 [INF] Now listening on: https://localhost:7162
+2024-11-05 14:36:27.472 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-05 14:36:27.489 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-05 14:36:27.742 +01:00 [INF] Hosting environment: Development
+2024-11-05 14:36:27.756 +01:00 [INF] Content root path: /Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram
+2024-11-05 14:36:28.566 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 14:36:28.657 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:36:28.735 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:36:28.759 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 14:36:28.891 +01:00 [INF] Accessing expired session, Key:9b735957-c2da-6e96-17b9-80ec423e1695
+2024-11-05 14:36:28.939 +01:00 [INF] Executed ViewResult - view Index executed in 153.5508ms.
+2024-11-05 14:36:28.956 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 219.6149ms
+2024-11-05 14:36:28.956 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:36:29.004 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 435.8887ms
+2024-11-05 14:36:30.588 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Login - null null
+2024-11-05 14:36:30.596 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:36:30.600 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:36:30.669 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:36:30.677 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 14:36:30.786 +01:00 [INF] Accessing expired session, Key:9b735957-c2da-6e96-17b9-80ec423e1695
+2024-11-05 14:36:30.802 +01:00 [INF] Executed ViewResult - view Login executed in 129.4584ms.
+2024-11-05 14:36:30.802 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 201.5375ms
+2024-11-05 14:36:30.802 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:36:30.809 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 221.0726ms
+2024-11-05 14:36:47.653 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/User/Login - application/x-www-form-urlencoded 221
+2024-11-05 14:36:47.661 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:36:47.674 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(photogram.ViewModels.LoginViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:36:47.800 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:36:47.858 +01:00 [INF] Attempting to login
+2024-11-05 14:36:48.216 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__model_Email_0='?' (Size = 13), @__model_Password_1='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Email", "u"."Name", "u"."Password"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__model_Email_0 AND "u"."Password" = @__model_Password_1
+LIMIT 1
+2024-11-05 14:36:48.295 +01:00 [INF] Accessing expired session, Key:9b735957-c2da-6e96-17b9-80ec423e1695
+2024-11-05 14:36:48.297 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2024-11-05 14:36:48.297 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 623.0641ms
+2024-11-05 14:36:48.297 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:36:48.303 +01:00 [INF] Session started; Key:9b735957-c2da-6e96-17b9-80ec423e1695, Id:daeba518-15e7-a6a9-a9f5-758e90923ea9
+2024-11-05 14:36:48.318 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/User/Login - 302 0 null 664.9511ms
+2024-11-05 14:36:48.323 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 14:36:48.324 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:36:48.324 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:36:48.325 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 14:36:48.386 +01:00 [INF] Executed ViewResult - view Index executed in 29.9606ms.
+2024-11-05 14:36:48.431 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 106.6501ms
+2024-11-05 14:36:48.436 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:36:48.451 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 126.5757ms
+2024-11-05 14:36:52.988 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/CreatePost - null null
+2024-11-05 14:36:52.990 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-05 14:36:52.995 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-05 14:36:52.997 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-05 14:36:53.002 +01:00 [INF] Executed ViewResult - view Feed executed in 6.1176ms.
+2024-11-05 14:36:53.002 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 7.6283ms
+2024-11-05 14:36:53.003 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-05 14:36:53.003 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/CreatePost - 200 null text/html; charset=utf-8 14.3893ms
+2024-11-05 14:36:55.391 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Home/Feed - null null
+2024-11-05 14:36:55.414 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-05 14:36:55.415 +01:00 [INF] Route matched with {action = "Feed", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:36:55.416 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-05 14:36:55.417 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 1.3138ms
+2024-11-05 14:36:55.417 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-05 14:36:55.417 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Home/Feed - 302 0 null 27.1935ms
+2024-11-05 14:36:55.482 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/Feed - null null
+2024-11-05 14:36:55.485 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-05 14:36:55.492 +01:00 [INF] Route matched with {action = "Feed", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed() on controller photogram.Controllers.PostController (photogram).
+2024-11-05 14:36:55.560 +01:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."UserName"
+FROM "Posts" AS "p"
+2024-11-05 14:36:55.608 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-05 14:36:55.642 +01:00 [INF] Executed ViewResult - view Feed executed in 33.9915ms.
+2024-11-05 14:36:55.654 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 161.8949ms
+2024-11-05 14:36:55.655 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-05 14:36:55.656 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/norway.jpg - null null
+2024-11-05 14:36:55.695 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/conference.jpg - null null
+2024-11-05 14:36:55.726 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/recipes.jpg - null null
+2024-11-05 14:36:55.727 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/conference.jpg - 404 0 null 32.5862ms
+2024-11-05 14:36:55.727 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/norway.jpg - 404 0 null 70.9271ms
+2024-11-05 14:36:55.727 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/recipes.jpg - 404 0 null 0.8498ms
+2024-11-05 14:36:55.728 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/Feed - 200 null text/html; charset=utf-8 245.0871ms
+2024-11-05 14:36:55.729 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/sunset.jpg - null null
+2024-11-05 14:36:55.729 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/norway.jpg, Response status code: 404
+2024-11-05 14:36:55.730 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/conference.jpg, Response status code: 404
+2024-11-05 14:36:55.730 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/sunset.jpg - 404 0 null 1.457ms
+2024-11-05 14:36:55.730 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/recipes.jpg, Response status code: 404
+2024-11-05 14:36:55.731 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/sunset.jpg, Response status code: 404
+2024-11-05 14:36:56.708 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Home/Friends - null null
+2024-11-05 14:36:56.711 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-05 14:36:56.714 +01:00 [INF] Route matched with {action = "Friends", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Friends() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:36:56.715 +01:00 [INF] Executing ViewResult, running view Friends.
+2024-11-05 14:36:56.719 +01:00 [INF] Executed ViewResult - view Friends executed in 5.0776ms.
+2024-11-05 14:36:56.719 +01:00 [INF] Executed action photogram.Controllers.HomeController.Friends (photogram) in 5.5974ms
+2024-11-05 14:36:56.720 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-05 14:36:56.720 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Home/Friends - 200 null text/html; charset=utf-8 12.1737ms
+2024-11-05 14:37:05.782 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Home/Feed - null null
+2024-11-05 14:37:05.782 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-05 14:37:05.783 +01:00 [INF] Route matched with {action = "Feed", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:37:05.783 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-05 14:37:05.783 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 0.5821ms
+2024-11-05 14:37:05.784 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-05 14:37:05.784 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Home/Feed - 302 0 null 2.8424ms
+2024-11-05 14:37:05.802 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/Feed - null null
+2024-11-05 14:37:05.803 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-05 14:37:05.803 +01:00 [INF] Route matched with {action = "Feed", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed() on controller photogram.Controllers.PostController (photogram).
+2024-11-05 14:37:05.810 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."UserName"
+FROM "Posts" AS "p"
+2024-11-05 14:37:05.813 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-05 14:37:05.878 +01:00 [INF] Executed ViewResult - view Feed executed in 64.1075ms.
+2024-11-05 14:37:05.878 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 75.2705ms
+2024-11-05 14:37:05.889 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-05 14:37:05.889 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/norway.jpg - null null
+2024-11-05 14:37:05.889 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/conference.jpg - null null
+2024-11-05 14:37:05.928 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/norway.jpg - 404 0 null 38.5582ms
+2024-11-05 14:37:05.928 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/norway.jpg, Response status code: 404
+2024-11-05 14:37:05.928 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/conference.jpg - 404 0 null 38.8329ms
+2024-11-05 14:37:05.929 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/conference.jpg, Response status code: 404
+2024-11-05 14:37:06.019 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/Feed - 200 null text/html; charset=utf-8 203.9528ms
+2024-11-05 14:37:06.019 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/sunset.jpg - null null
+2024-11-05 14:37:06.030 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/recipes.jpg - null null
+2024-11-05 14:37:06.058 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/sunset.jpg - 404 0 null 38.194ms
+2024-11-05 14:37:06.060 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/sunset.jpg, Response status code: 404
+2024-11-05 14:37:06.067 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/recipes.jpg - 404 0 null 33.2807ms
+2024-11-05 14:37:06.067 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/recipes.jpg, Response status code: 404
+2024-11-05 14:37:09.514 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/CreatePost - null null
+2024-11-05 14:37:09.515 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-05 14:37:09.516 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-05 14:37:09.517 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-05 14:37:09.518 +01:00 [INF] Executed ViewResult - view Feed executed in 0.8256ms.
+2024-11-05 14:37:09.518 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 1.8464ms
+2024-11-05 14:37:09.518 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-05 14:37:09.518 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/CreatePost - 200 null text/html; charset=utf-8 4.5927ms
+2024-11-05 14:37:34.844 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Profile - null null
+2024-11-05 14:37:34.853 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Profile - 404 0 null 8.1905ms
+2024-11-05 14:37:34.853 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/User/Profile, Response status code: 404
+2024-11-05 14:37:58.928 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/CreatePost - null null
+2024-11-05 14:37:58.946 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-05 14:37:58.946 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-05 14:37:58.947 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-05 14:37:58.948 +01:00 [INF] Executed ViewResult - view Feed executed in 0.7785ms.
+2024-11-05 14:37:58.948 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 1.3812ms
+2024-11-05 14:37:58.948 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-05 14:37:58.948 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/CreatePost - 200 null text/html; charset=utf-8 19.7603ms
+2024-11-05 14:38:00.311 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Home/Friends - null null
+2024-11-05 14:38:00.311 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-05 14:38:00.312 +01:00 [INF] Route matched with {action = "Friends", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Friends() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:38:00.312 +01:00 [INF] Executing ViewResult, running view Friends.
+2024-11-05 14:38:00.315 +01:00 [INF] Executed ViewResult - view Friends executed in 2.8921ms.
+2024-11-05 14:38:00.315 +01:00 [INF] Executed action photogram.Controllers.HomeController.Friends (photogram) in 3.5245ms
+2024-11-05 14:38:00.316 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-05 14:38:00.316 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Home/Friends - 200 null text/html; charset=utf-8 5.2852ms
+2024-11-05 14:42:52.516 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:42:52.897 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Users" AS "u")
+2024-11-05 14:42:53.136 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-05 14:42:53.876 +01:00 [INF] Now listening on: https://localhost:7162
+2024-11-05 14:42:53.880 +01:00 [INF] Now listening on: http://localhost:5000
+2024-11-05 14:42:53.906 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-05 14:42:53.914 +01:00 [INF] Hosting environment: Development
+2024-11-05 14:42:54.007 +01:00 [INF] Content root path: /Users/yasminali/Webapplikasjoner/Webapplikasjoner/photogram
+2024-11-05 14:42:54.504 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 14:42:54.615 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:42:54.637 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:42:54.658 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 14:42:54.748 +01:00 [INF] Accessing expired session, Key:9b735957-c2da-6e96-17b9-80ec423e1695
+2024-11-05 14:42:54.774 +01:00 [INF] Executed ViewResult - view Index executed in 105.9463ms.
+2024-11-05 14:42:54.779 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 140.3027ms
+2024-11-05 14:42:54.779 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:42:54.817 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 317.8075ms
+2024-11-05 14:45:36.474 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Login - null null
+2024-11-05 14:45:36.505 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:45:36.515 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:45:36.661 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:45:36.671 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 14:45:36.805 +01:00 [INF] Accessing expired session, Key:9b735957-c2da-6e96-17b9-80ec423e1695
+2024-11-05 14:45:36.831 +01:00 [INF] Executed ViewResult - view Login executed in 161.9039ms.
+2024-11-05 14:45:36.831 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 316.0649ms
+2024-11-05 14:45:36.831 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:45:36.889 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 416.3953ms
+2024-11-05 14:45:39.742 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/User/Login - application/x-www-form-urlencoded 228
+2024-11-05 14:45:39.748 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:45:39.764 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(photogram.ViewModels.LoginViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:45:39.879 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:45:39.923 +01:00 [INF] Attempting to login
+2024-11-05 14:45:40.221 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[@__model_Email_0='?' (Size = 17), @__model_Password_1='?' (Size = 10)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Email", "u"."Name", "u"."Password"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__model_Email_0 AND "u"."Password" = @__model_Password_1
+LIMIT 1
+2024-11-05 14:45:40.223 +01:00 [INF] Executing ViewResult, running view Login.
+2024-11-05 14:45:40.227 +01:00 [INF] Accessing expired session, Key:9b735957-c2da-6e96-17b9-80ec423e1695
+2024-11-05 14:45:40.228 +01:00 [INF] Executed ViewResult - view Login executed in 5.2412ms.
+2024-11-05 14:45:40.228 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 463.5845ms
+2024-11-05 14:45:40.228 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:45:40.229 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/User/Login - 200 null text/html; charset=utf-8 487.1577ms
+2024-11-05 14:45:55.005 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7162/User/Login - application/x-www-form-urlencoded 221
+2024-11-05 14:45:55.007 +01:00 [INF] Executing endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:45:55.010 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(photogram.ViewModels.LoginViewModel) on controller photogram.Controllers.UserController (photogram).
+2024-11-05 14:45:55.020 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-11-05 14:45:55.027 +01:00 [INF] Attempting to login
+2024-11-05 14:45:55.041 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__model_Email_0='?' (Size = 13), @__model_Password_1='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Email", "u"."Name", "u"."Password"
+FROM "Users" AS "u"
+WHERE "u"."Email" = @__model_Email_0 AND "u"."Password" = @__model_Password_1
+LIMIT 1
+2024-11-05 14:45:55.147 +01:00 [INF] Accessing expired session, Key:9b735957-c2da-6e96-17b9-80ec423e1695
+2024-11-05 14:45:55.153 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2024-11-05 14:45:55.153 +01:00 [INF] Executed action photogram.Controllers.UserController.Login (photogram) in 143.2598ms
+2024-11-05 14:45:55.153 +01:00 [INF] Executed endpoint 'photogram.Controllers.UserController.Login (photogram)'
+2024-11-05 14:45:55.165 +01:00 [INF] Session started; Key:9b735957-c2da-6e96-17b9-80ec423e1695, Id:fe29bf81-39d6-47a4-27a1-af0db9646607
+2024-11-05 14:45:55.190 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7162/User/Login - 302 0 null 184.9536ms
+2024-11-05 14:45:55.407 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/ - null null
+2024-11-05 14:45:55.408 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:45:55.408 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:45:55.408 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-05 14:45:55.529 +01:00 [INF] Executed ViewResult - view Index executed in 121.0547ms.
+2024-11-05 14:45:55.535 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 125.6914ms
+2024-11-05 14:45:55.536 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-05 14:45:55.536 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/ - 200 null text/html; charset=utf-8 128.8591ms
+2024-11-05 14:46:02.031 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/CreatePost - null null
+2024-11-05 14:46:02.032 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-05 14:46:02.036 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-05 14:46:02.038 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-05 14:46:02.054 +01:00 [INF] Executed ViewResult - view Feed executed in 16.9189ms.
+2024-11-05 14:46:02.054 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 18.2474ms
+2024-11-05 14:46:02.054 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-05 14:46:02.055 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/CreatePost - 200 null text/html; charset=utf-8 23.2812ms
+2024-11-05 14:46:03.131 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Home/Friends - null null
+2024-11-05 14:46:03.132 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-05 14:46:03.135 +01:00 [INF] Route matched with {action = "Friends", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Friends() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:46:03.136 +01:00 [INF] Executing ViewResult, running view Friends.
+2024-11-05 14:46:03.140 +01:00 [INF] Executed ViewResult - view Friends executed in 5.0474ms.
+2024-11-05 14:46:03.140 +01:00 [INF] Executed action photogram.Controllers.HomeController.Friends (photogram) in 5.4787ms
+2024-11-05 14:46:03.140 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-05 14:46:03.141 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Home/Friends - 200 null text/html; charset=utf-8 9.4065ms
+2024-11-05 14:46:04.428 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Home/Feed - null null
+2024-11-05 14:46:04.429 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-05 14:46:04.432 +01:00 [INF] Route matched with {action = "Feed", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:46:04.433 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-11-05 14:46:04.433 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 0.9752ms
+2024-11-05 14:46:04.433 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-11-05 14:46:04.433 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Home/Feed - 302 0 null 5.9659ms
+2024-11-05 14:46:04.442 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/Feed - null null
+2024-11-05 14:46:04.444 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-05 14:46:04.453 +01:00 [INF] Route matched with {action = "Feed", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed() on controller photogram.Controllers.PostController (photogram).
+2024-11-05 14:46:04.528 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."id", "p"."Content", "p"."CreatedAt", "p"."ImagePath", "p"."UserName"
+FROM "Posts" AS "p"
+2024-11-05 14:46:04.581 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-05 14:46:04.586 +01:00 [INF] Executed ViewResult - view Feed executed in 4.6192ms.
+2024-11-05 14:46:04.591 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/norway.jpg - null null
+2024-11-05 14:46:04.699 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/conference.jpg - null null
+2024-11-05 14:46:04.753 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 300.2008ms
+2024-11-05 14:46:04.779 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-11-05 14:46:04.810 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/norway.jpg - 404 0 null 219.4023ms
+2024-11-05 14:46:04.810 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/conference.jpg - 404 0 null 110.801ms
+2024-11-05 14:46:04.816 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/conference.jpg, Response status code: 404
+2024-11-05 14:46:04.813 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/norway.jpg, Response status code: 404
+2024-11-05 14:46:04.844 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/sunset.jpg - null null
+2024-11-05 14:46:04.846 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/sunset.jpg - 404 0 null 2.6935ms
+2024-11-05 14:46:04.847 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/sunset.jpg, Response status code: 404
+2024-11-05 14:46:04.850 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/images/recipes.jpg - null null
+2024-11-05 14:46:04.877 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/images/recipes.jpg - 404 0 null 26.9202ms
+2024-11-05 14:46:04.878 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/images/recipes.jpg, Response status code: 404
+2024-11-05 14:46:04.896 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/Feed - 200 null text/html; charset=utf-8 448.9863ms
+2024-11-05 14:46:15.183 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Home/Friends - null null
+2024-11-05 14:46:15.185 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-05 14:46:15.185 +01:00 [INF] Route matched with {action = "Friends", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Friends() on controller photogram.Controllers.HomeController (photogram).
+2024-11-05 14:46:15.185 +01:00 [INF] Executing ViewResult, running view Friends.
+2024-11-05 14:46:15.186 +01:00 [INF] Executed ViewResult - view Friends executed in 0.6542ms.
+2024-11-05 14:46:15.186 +01:00 [INF] Executed action photogram.Controllers.HomeController.Friends (photogram) in 0.9289ms
+2024-11-05 14:46:15.186 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Friends (photogram)'
+2024-11-05 14:46:15.187 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Home/Friends - 200 null text/html; charset=utf-8 3.7247ms
+2024-11-05 14:46:17.148 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/Post/CreatePost - null null
+2024-11-05 14:46:17.149 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-05 14:46:17.149 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-11-05 14:46:17.149 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-11-05 14:46:17.152 +01:00 [INF] Executed ViewResult - view Feed executed in 2.2826ms.
+2024-11-05 14:46:17.152 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 2.8197ms
+2024-11-05 14:46:17.152 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-11-05 14:46:17.152 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/Post/CreatePost - 200 null text/html; charset=utf-8 4.0734ms
+2024-11-05 14:49:19.484 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7162/User/Profile - null null
+2024-11-05 14:49:19.486 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7162/User/Profile - 404 0 null 2.8226ms
+2024-11-05 14:49:19.487 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7162/User/Profile, Response status code: 404

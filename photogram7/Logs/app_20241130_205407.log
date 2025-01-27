@@ -1,0 +1,17 @@
+2024-11-30 20:54:12.900 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-30 20:54:15.551 +01:00 [INF] Now listening on: https://localhost:7160
+2024-11-30 20:54:15.563 +01:00 [INF] Now listening on: http://localhost:5001
+2024-11-30 20:54:15.587 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 20:54:15.596 +01:00 [INF] Hosting environment: Development
+2024-11-30 20:54:15.607 +01:00 [INF] Content root path: /Users/yasminali/Desktop/ExamITPE3100/photogram7
+2024-11-30 20:54:25.688 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/ - null null
+2024-11-30 20:54:25.791 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 20:54:25.822 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-11-30 20:54:25.856 +01:00 [INF] Executing ViewResult, running view Index.
+2024-11-30 20:54:26.039 +01:00 [INF] Executed ViewResult - view Index executed in 183.8441ms.
+2024-11-30 20:54:26.047 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 223.6135ms
+2024-11-30 20:54:26.047 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-11-30 20:54:26.083 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/ - 200 null text/html; charset=utf-8 398.3331ms
+2024-11-30 20:54:26.088 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7160/css/layout.css - null null
+2024-11-30 20:54:26.220 +01:00 [INF] The file /css/layout.css was not modified
+2024-11-30 20:54:26.231 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7160/css/layout.css - 304 null text/css 143.5955ms

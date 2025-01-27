@@ -1,0 +1,641 @@
+2024-12-01 03:50:55.721 +01:00 [INF] User profile is available. Using '/Users/yasminali/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-12-01 03:50:56.645 +01:00 [INF] Now listening on: http://localhost:5001
+2024-12-01 03:50:56.662 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-01 03:50:56.664 +01:00 [INF] Hosting environment: Development
+2024-12-01 03:50:56.664 +01:00 [INF] Content root path: /Users/yasminali/Desktop/ExamITPE3100/photogram7
+2024-12-01 03:51:04.706 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/ - null null
+2024-12-01 03:51:04.750 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-12-01 03:51:05.076 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-12-01 03:51:05.119 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-12-01 03:51:05.158 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-01 03:51:05.530 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/css/layout.css - null null
+2024-12-01 03:51:05.555 +01:00 [INF] The file /css/layout.css was not modified
+2024-12-01 03:51:05.560 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/css/layout.css - 304 null text/css 29.061ms
+2024-12-01 03:51:05.622 +01:00 [INF] Executed ViewResult - view Index executed in 371.6768ms.
+2024-12-01 03:51:05.645 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 523.2425ms
+2024-12-01 03:51:05.645 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-12-01 03:51:05.676 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/ - 200 null text/html; charset=utf-8 988.7292ms
+2024-12-01 03:51:10.344 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Home/Feed - null null
+2024-12-01 03:51:10.351 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-12-01 03:51:10.354 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-12-01 03:51:10.359 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-12-01 03:51:10.361 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 6.3683ms
+2024-12-01 03:51:10.361 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-12-01 03:51:10.362 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Home/Feed - 302 0 null 17.8825ms
+2024-12-01 03:51:10.375 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/Feed - null null
+2024-12-01 03:51:10.387 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 03:51:10.421 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 03:51:11.987 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-12-01 03:51:12.918 +01:00 [INF] Executed ViewResult - view Feed executed in 932.6226ms.
+2024-12-01 03:51:12.919 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 2497.6352ms
+2024-12-01 03:51:12.919 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 03:51:13.011 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-12-01 03:51:13.012 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/uploads/2bd43492-f646-49b2-ac24-32a877d81fc2_picnic.png - null null
+2024-12-01 03:51:13.088 +01:00 [INF] Sending file. Request path: '/uploads/2bd43492-f646-49b2-ac24-32a877d81fc2_picnic.png'. Physical path: '/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/2bd43492-f646-49b2-ac24-32a877d81fc2_picnic.png'
+2024-12-01 03:51:13.091 +01:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: '/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'
+2024-12-01 03:51:13.091 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 200 5824 text/javascript 80.4248ms
+2024-12-01 03:51:13.095 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/uploads/2bd43492-f646-49b2-ac24-32a877d81fc2_picnic.png - 200 338498 image/png 78.7611ms
+2024-12-01 03:51:13.098 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/uploads/f3185d25-5b64-42f3-9086-207feb10373f_bill.jpg - null null
+2024-12-01 03:51:13.103 +01:00 [INF] Sending file. Request path: '/uploads/f3185d25-5b64-42f3-9086-207feb10373f_bill.jpg'. Physical path: '/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/f3185d25-5b64-42f3-9086-207feb10373f_bill.jpg'
+2024-12-01 03:51:13.103 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/uploads/f3185d25-5b64-42f3-9086-207feb10373f_bill.jpg - 200 5135 image/jpeg 6.8703ms
+2024-12-01 03:51:13.107 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/Feed - 200 null text/html; charset=utf-8 2731.3511ms
+2024-12-01 03:51:13.107 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/uploads/88ec321d-5692-4e79-9166-71c32aeac047_nature.jpg - null null
+2024-12-01 03:51:13.109 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/uploads/d5f308d6-5e29-4c51-ab51-946e5939f892_concert.jpg - null null
+2024-12-01 03:51:13.114 +01:00 [INF] Sending file. Request path: '/uploads/d5f308d6-5e29-4c51-ab51-946e5939f892_concert.jpg'. Physical path: '/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/d5f308d6-5e29-4c51-ab51-946e5939f892_concert.jpg'
+2024-12-01 03:51:13.114 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/uploads/d5f308d6-5e29-4c51-ab51-946e5939f892_concert.jpg - 200 44382 image/jpeg 5.2509ms
+2024-12-01 03:51:13.119 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/uploads/892b7245-916c-4e39-ad08-e1f509e45f50_view.jpg - null null
+2024-12-01 03:51:13.135 +01:00 [INF] Sending file. Request path: '/uploads/88ec321d-5692-4e79-9166-71c32aeac047_nature.jpg'. Physical path: '/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/88ec321d-5692-4e79-9166-71c32aeac047_nature.jpg'
+2024-12-01 03:51:13.135 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/uploads/88ec321d-5692-4e79-9166-71c32aeac047_nature.jpg - 200 1202767 image/jpeg 27.9768ms
+2024-12-01 03:51:13.146 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/uploads/150c5aae-9839-45c1-a058-cec277bcafda_tacos.jpg - null null
+2024-12-01 03:51:13.147 +01:00 [INF] Sending file. Request path: '/uploads/892b7245-916c-4e39-ad08-e1f509e45f50_view.jpg'. Physical path: '/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/892b7245-916c-4e39-ad08-e1f509e45f50_view.jpg'
+2024-12-01 03:51:13.147 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/uploads/892b7245-916c-4e39-ad08-e1f509e45f50_view.jpg - 200 17171 image/jpeg 28.4752ms
+2024-12-01 03:51:13.156 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/images/recipes.jpg - null null
+2024-12-01 03:51:13.156 +01:00 [INF] Sending file. Request path: '/uploads/150c5aae-9839-45c1-a058-cec277bcafda_tacos.jpg'. Physical path: '/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/uploads/150c5aae-9839-45c1-a058-cec277bcafda_tacos.jpg'
+2024-12-01 03:51:13.157 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/uploads/150c5aae-9839-45c1-a058-cec277bcafda_tacos.jpg - 200 118763 image/jpeg 10.8911ms
+2024-12-01 03:51:13.161 +01:00 [INF] Sending file. Request path: '/images/recipes.jpg'. Physical path: '/Users/yasminali/Desktop/ExamITPE3100/photogram7/wwwroot/images/recipes.jpg'
+2024-12-01 03:51:13.161 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/images/recipes.jpg - 200 78039 image/jpeg 5.7993ms
+2024-12-01 03:51:16.892 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Comments/AddComment - application/x-www-form-urlencoded 201
+2024-12-01 03:51:16.907 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-12-01 03:51:16.916 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-12-01 03:51:16.916 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Comments/AddComment - 302 0 null 24.5167ms
+2024-12-01 03:51:16.934 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Identity/Account/Login?ReturnUrl=%2FComments%2FAddComment - null null
+2024-12-01 03:51:16.935 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-01 03:51:16.974 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-01 03:51:17.055 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-12-01 03:51:17.084 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-12-01 03:51:17.089 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-12-01 03:51:17.100 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-01 03:51:17.105 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-01 03:51:17.303 +01:00 [INF] Executed page /Account/Login in 327.072ms
+2024-12-01 03:51:17.303 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-01 03:51:17.303 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Identity/Account/Login?ReturnUrl=%2FComments%2FAddComment - 200 null text/html; charset=utf-8 368.9151ms
+2024-12-01 03:51:17.405 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-12-01 03:51:17.409 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 3.9191ms
+2024-12-01 03:51:17.414 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-12-01 03:51:36.069 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Identity/Account/Login?ReturnUrl=%2FComments%2FAddComment - application/x-www-form-urlencoded 260
+2024-12-01 03:51:36.082 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-01 03:51:36.084 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-01 03:51:36.149 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-12-01 03:51:37.195 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-01 03:51:37.213 +01:00 [INF] Executed page /Account/Login in 1129.4704ms
+2024-12-01 03:51:37.214 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-01 03:51:37.218 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Identity/Account/Login?ReturnUrl=%2FComments%2FAddComment - 200 null text/html; charset=utf-8 1149.0359ms
+2024-12-01 03:51:37.263 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-12-01 03:51:37.264 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 0.9691ms
+2024-12-01 03:51:37.265 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-12-01 03:51:44.423 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Identity/Account/Login?ReturnUrl=%2FComments%2FAddComment - application/x-www-form-urlencoded 263
+2024-12-01 03:51:44.425 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-01 03:51:44.427 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-01 03:51:44.452 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-12-01 03:51:45.212 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-01 03:51:45.215 +01:00 [INF] User logged in.
+2024-12-01 03:51:45.216 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-12-01 03:51:45.218 +01:00 [INF] Executing LocalRedirectResult, redirecting to /Comments/AddComment.
+2024-12-01 03:51:45.220 +01:00 [INF] Executed page /Account/Login in 793.5165ms
+2024-12-01 03:51:45.221 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-01 03:51:45.226 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Identity/Account/Login?ReturnUrl=%2FComments%2FAddComment - 302 0 null 802.7459ms
+2024-12-01 03:51:45.239 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Comments/AddComment - null null
+2024-12-01 03:51:45.242 +01:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-12-01 03:51:45.242 +01:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-12-01 03:51:45.242 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Comments/AddComment - 405 0 null 3.0766ms
+2024-12-01 03:51:53.107 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Comments/AddComment - null null
+2024-12-01 03:51:53.109 +01:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-12-01 03:51:53.109 +01:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-12-01 03:51:53.109 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Comments/AddComment - 405 0 null 2.5681ms
+2024-12-01 03:51:58.166 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Identity/Account/Login?ReturnUrl=%2FComments%2FAddComment - application/x-www-form-urlencoded 260
+2024-12-01 03:51:58.166 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-01 03:51:58.167 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-01 03:51:58.171 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-12-01 03:51:58.542 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-01 03:51:58.556 +01:00 [INF] Executed page /Account/Login in 389.0067ms
+2024-12-01 03:51:58.556 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-01 03:51:58.556 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Identity/Account/Login?ReturnUrl=%2FComments%2FAddComment - 200 null text/html; charset=utf-8 390.6133ms
+2024-12-01 03:52:00.436 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Identity/Account/Login?ReturnUrl=%2FComments%2FAddComment - null null
+2024-12-01 03:52:00.437 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-01 03:52:00.437 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-01 03:52:00.438 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-12-01 03:52:00.439 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-12-01 03:52:00.439 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-12-01 03:52:00.440 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-01 03:52:00.440 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-01 03:52:00.442 +01:00 [INF] Executed page /Account/Login in 5.3745ms
+2024-12-01 03:52:00.443 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-01 03:52:00.443 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Identity/Account/Login?ReturnUrl=%2FComments%2FAddComment - 200 null text/html; charset=utf-8 6.6459ms
+2024-12-01 03:52:01.510 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/ - null null
+2024-12-01 03:52:01.511 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-12-01 03:52:01.512 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-12-01 03:52:01.512 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-01 03:52:01.513 +01:00 [INF] Executed ViewResult - view Index executed in 1.083ms.
+2024-12-01 03:52:01.513 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 1.6572ms
+2024-12-01 03:52:01.513 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-12-01 03:52:01.514 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/ - 200 null text/html; charset=utf-8 3.7901ms
+2024-12-01 03:52:02.714 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Identity/Account/Login - null null
+2024-12-01 03:52:02.715 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-01 03:52:02.715 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-01 03:52:02.716 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-12-01 03:52:02.716 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-12-01 03:52:02.716 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-12-01 03:52:02.716 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-01 03:52:02.716 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-01 03:52:02.718 +01:00 [INF] Executed page /Account/Login in 2.8578ms
+2024-12-01 03:52:02.718 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-01 03:52:02.718 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Identity/Account/Login - 200 null text/html; charset=utf-8 3.6425ms
+2024-12-01 03:52:02.768 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-12-01 03:52:02.769 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 1.0211ms
+2024-12-01 03:52:02.769 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-12-01 03:52:18.822 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Identity/Account/Login - application/x-www-form-urlencoded 263
+2024-12-01 03:52:18.824 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-01 03:52:18.824 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-01 03:52:18.828 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-12-01 03:52:19.183 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-01 03:52:19.183 +01:00 [INF] User logged in.
+2024-12-01 03:52:19.183 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-12-01 03:52:19.185 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-12-01 03:52:19.186 +01:00 [INF] Executed page /Account/Login in 361.2861ms
+2024-12-01 03:52:19.186 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-01 03:52:19.186 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Identity/Account/Login - 302 0 null 364.0536ms
+2024-12-01 03:52:19.204 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/ - null null
+2024-12-01 03:52:19.204 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-12-01 03:52:19.204 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-12-01 03:52:19.205 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-01 03:52:19.205 +01:00 [INF] Executed ViewResult - view Index executed in 0.7845ms.
+2024-12-01 03:52:19.205 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 1.1319ms
+2024-12-01 03:52:19.205 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-12-01 03:52:19.206 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/ - 200 null text/html; charset=utf-8 1.7881ms
+2024-12-01 03:52:22.032 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Home/Feed - null null
+2024-12-01 03:52:22.035 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-12-01 03:52:22.035 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-12-01 03:52:22.037 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-12-01 03:52:22.037 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 2.0438ms
+2024-12-01 03:52:22.038 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-12-01 03:52:22.041 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Home/Feed - 302 0 null 8.4652ms
+2024-12-01 03:52:22.062 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/Feed - null null
+2024-12-01 03:52:22.065 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 03:52:22.065 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 03:52:22.071 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-12-01 03:52:22.100 +01:00 [INF] Executed ViewResult - view Feed executed in 28.3627ms.
+2024-12-01 03:52:22.100 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 34.4544ms
+2024-12-01 03:52:22.100 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 03:52:22.100 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/Feed - 200 null text/html; charset=utf-8 38.3171ms
+2024-12-01 03:52:26.577 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Comments/AddComment - application/x-www-form-urlencoded 201
+2024-12-01 03:52:26.584 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-12-01 03:52:26.585 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-12-01 03:52:26.585 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Comments/AddComment - 302 0 null 7.8434ms
+2024-12-01 03:52:26.591 +01:00 [INF] Connection id "0HN8HMBVO4M4L", Request id "0HN8HMBVO4M4L:00000017": the application completed without reading the entire request body.
+2024-12-01 03:52:26.599 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Identity/Account/Login?ReturnUrl=%2FComments%2FAddComment - null null
+2024-12-01 03:52:26.600 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-01 03:52:26.600 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-01 03:52:26.601 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-12-01 03:52:26.601 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-12-01 03:52:26.601 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-12-01 03:52:26.601 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-01 03:52:26.601 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-01 03:52:26.604 +01:00 [INF] Executed page /Account/Login in 4.3222ms
+2024-12-01 03:52:26.604 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-01 03:52:26.605 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Identity/Account/Login?ReturnUrl=%2FComments%2FAddComment - 200 null text/html; charset=utf-8 5.4415ms
+2024-12-01 03:52:26.658 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-12-01 03:52:26.659 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 0.9312ms
+2024-12-01 03:52:26.659 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-12-01 03:52:33.490 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Home/Feed - null null
+2024-12-01 03:52:33.491 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-12-01 03:52:33.491 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-12-01 03:52:33.492 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-12-01 03:52:33.492 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 0.6503ms
+2024-12-01 03:52:33.492 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-12-01 03:52:33.492 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Home/Feed - 302 0 null 2.0796ms
+2024-12-01 03:52:33.510 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/Feed - null null
+2024-12-01 03:52:33.512 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 03:52:33.512 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 03:52:33.519 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-12-01 03:52:33.551 +01:00 [INF] Executed ViewResult - view Feed executed in 32.5811ms.
+2024-12-01 03:52:33.551 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 39.2494ms
+2024-12-01 03:52:33.551 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 03:52:33.552 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/Feed - 200 null text/html; charset=utf-8 41.6216ms
+2024-12-01 03:52:33.578 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-12-01 03:52:33.578 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 0.5894ms
+2024-12-01 03:52:33.579 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-12-01 03:52:37.276 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Identity/Account/Login - null null
+2024-12-01 03:52:37.277 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-01 03:52:37.277 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-01 03:52:37.278 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-12-01 03:52:37.278 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-12-01 03:52:37.278 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-12-01 03:52:37.278 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-01 03:52:37.278 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-01 03:52:37.281 +01:00 [INF] Executed page /Account/Login in 4.4085ms
+2024-12-01 03:52:37.282 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-01 03:52:37.282 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Identity/Account/Login - 200 null text/html; charset=utf-8 5.67ms
+2024-12-01 03:52:37.286 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-12-01 03:52:37.290 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 3.6017ms
+2024-12-01 03:52:37.291 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-12-01 03:52:41.787 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Identity/Account/Login - null null
+2024-12-01 03:52:41.788 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-01 03:52:41.788 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-01 03:52:41.791 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-12-01 03:52:41.791 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-12-01 03:52:41.791 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-12-01 03:52:41.791 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-01 03:52:41.791 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-01 03:52:41.793 +01:00 [INF] Executed page /Account/Login in 5.3596ms
+2024-12-01 03:52:41.796 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-01 03:52:41.796 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Identity/Account/Login - 200 null text/html; charset=utf-8 8.5285ms
+2024-12-01 03:52:41.831 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-12-01 03:52:41.832 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 0.7461ms
+2024-12-01 03:52:41.832 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-12-01 03:52:41.844 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-12-01 03:52:41.845 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 0.9639ms
+2024-12-01 03:52:41.845 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-12-01 03:52:58.261 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Identity/Account/Login - application/x-www-form-urlencoded 263
+2024-12-01 03:52:58.262 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-01 03:52:58.262 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-01 03:52:58.265 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-12-01 03:52:58.685 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-01 03:52:58.686 +01:00 [INF] User logged in.
+2024-12-01 03:52:58.686 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-12-01 03:52:58.686 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-12-01 03:52:58.686 +01:00 [INF] Executed page /Account/Login in 423.8299ms
+2024-12-01 03:52:58.686 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-01 03:52:58.686 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Identity/Account/Login - 302 0 null 425.4876ms
+2024-12-01 03:52:58.699 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/ - null null
+2024-12-01 03:52:58.700 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-12-01 03:52:58.700 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-12-01 03:52:58.700 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-01 03:52:58.701 +01:00 [INF] Executed ViewResult - view Index executed in 0.885ms.
+2024-12-01 03:52:58.701 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 1.3101ms
+2024-12-01 03:52:58.701 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-12-01 03:52:58.701 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/ - 200 null text/html; charset=utf-8 2.0888ms
+2024-12-01 03:53:02.152 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/CreatePost - null null
+2024-12-01 03:53:02.155 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-12-01 03:53:02.156 +01:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2024-12-01 03:53:02.156 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/CreatePost - 302 0 null 4.2818ms
+2024-12-01 03:53:02.172 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Identity/Account/Login?ReturnUrl=%2FPost%2FCreatePost - null null
+2024-12-01 03:53:02.172 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-01 03:53:02.172 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-01 03:53:02.173 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-12-01 03:53:02.173 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-12-01 03:53:02.173 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-12-01 03:53:02.173 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-01 03:53:02.173 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-01 03:53:02.176 +01:00 [INF] Executed page /Account/Login in 3.2243ms
+2024-12-01 03:53:02.176 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-01 03:53:02.176 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Identity/Account/Login?ReturnUrl=%2FPost%2FCreatePost - 200 null text/html; charset=utf-8 4.2024ms
+2024-12-01 03:53:02.236 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-12-01 03:53:02.237 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 0.7321ms
+2024-12-01 03:53:02.237 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-12-01 03:53:04.507 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Identity/Account/Register - null null
+2024-12-01 03:53:04.508 +01:00 [INF] Executing endpoint '/Account/Register'
+2024-12-01 03:53:04.520 +01:00 [INF] Route matched with {page = "/Account/Register", area = "Identity", action = "", controller = ""}. Executing page /Account/Register
+2024-12-01 03:53:04.524 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.RegisterModel.OnGetAsync - ModelState is "Valid"
+2024-12-01 03:53:04.527 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-12-01 03:53:04.527 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-01 03:53:04.527 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-01 03:53:04.569 +01:00 [INF] Executed page /Account/Register in 48.4105ms
+2024-12-01 03:53:04.569 +01:00 [INF] Executed endpoint '/Account/Register'
+2024-12-01 03:53:04.569 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Identity/Account/Register - 200 null text/html; charset=utf-8 61.9953ms
+2024-12-01 03:53:04.617 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-12-01 03:53:04.618 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 1.3211ms
+2024-12-01 03:53:04.619 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-12-01 03:53:31.402 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Identity/Account/Register - application/x-www-form-urlencoded 273
+2024-12-01 03:53:31.404 +01:00 [INF] Executing endpoint '/Account/Register'
+2024-12-01 03:53:31.404 +01:00 [INF] Route matched with {page = "/Account/Register", area = "Identity", action = "", controller = ""}. Executing page /Account/Register
+2024-12-01 03:53:31.411 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync - ModelState is "Valid"
+2024-12-01 03:53:32.393 +01:00 [INF] User created a new account with password.
+2024-12-01 03:53:32.411 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-01 03:53:32.411 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-12-01 03:53:32.412 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-12-01 03:53:32.412 +01:00 [INF] Executed page /Account/Register in 1006.8458ms
+2024-12-01 03:53:32.412 +01:00 [INF] Executed endpoint '/Account/Register'
+2024-12-01 03:53:32.412 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Identity/Account/Register - 302 0 null 1009.4388ms
+2024-12-01 03:53:32.427 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/ - null null
+2024-12-01 03:53:32.427 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-12-01 03:53:32.427 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-12-01 03:53:32.428 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-01 03:53:32.428 +01:00 [INF] Executed ViewResult - view Index executed in 0.7974ms.
+2024-12-01 03:53:32.429 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 1.5431ms
+2024-12-01 03:53:32.429 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-12-01 03:53:32.429 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/ - 200 null text/html; charset=utf-8 2.2531ms
+2024-12-01 03:53:36.889 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Identity/Account/Login - null null
+2024-12-01 03:53:36.889 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-01 03:53:36.890 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-01 03:53:36.890 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2024-12-01 03:53:36.891 +01:00 [INF] AuthenticationScheme: Identity.External signed out.
+2024-12-01 03:53:36.891 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-12-01 03:53:36.891 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-01 03:53:36.891 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-01 03:53:36.893 +01:00 [INF] Executed page /Account/Login in 3.5582ms
+2024-12-01 03:53:36.893 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-01 03:53:36.894 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Identity/Account/Login - 200 null text/html; charset=utf-8 4.7328ms
+2024-12-01 03:53:36.900 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-12-01 03:53:36.901 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 1.3987ms
+2024-12-01 03:53:36.901 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-12-01 03:53:50.316 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Identity/Account/Login - application/x-www-form-urlencoded 259
+2024-12-01 03:53:50.318 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-01 03:53:50.318 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-01 03:53:50.320 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-12-01 03:53:50.699 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-01 03:53:50.704 +01:00 [INF] Executed page /Account/Login in 385.2883ms
+2024-12-01 03:53:50.704 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-01 03:53:50.704 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Identity/Account/Login - 200 null text/html; charset=utf-8 387.7487ms
+2024-12-01 03:53:50.741 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-12-01 03:53:50.741 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 0.9385ms
+2024-12-01 03:53:50.741 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-12-01 03:53:57.484 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Identity/Account/Login - application/x-www-form-urlencoded 259
+2024-12-01 03:53:57.486 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-01 03:53:57.486 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-01 03:53:57.487 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-12-01 03:53:57.891 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-01 03:53:57.897 +01:00 [INF] Executed page /Account/Login in 410.8529ms
+2024-12-01 03:53:57.897 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-01 03:53:57.897 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Identity/Account/Login - 200 null text/html; charset=utf-8 412.8068ms
+2024-12-01 03:53:57.939 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2024-12-01 03:53:57.940 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 404 0 null 0.5521ms
+2024-12-01 03:53:57.940 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js, Response status code: 404
+2024-12-01 03:54:06.152 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Identity/Account/Login - application/x-www-form-urlencoded 262
+2024-12-01 03:54:06.154 +01:00 [INF] Executing endpoint '/Account/Login'
+2024-12-01 03:54:06.154 +01:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2024-12-01 03:54:06.155 +01:00 [INF] Executing handler method photogram.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2024-12-01 03:54:06.556 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2024-12-01 03:54:06.556 +01:00 [INF] User logged in.
+2024-12-01 03:54:06.557 +01:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2024-12-01 03:54:06.557 +01:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2024-12-01 03:54:06.557 +01:00 [INF] Executed page /Account/Login in 403.2047ms
+2024-12-01 03:54:06.557 +01:00 [INF] Executed endpoint '/Account/Login'
+2024-12-01 03:54:06.558 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Identity/Account/Login - 302 0 null 405.5198ms
+2024-12-01 03:54:06.576 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/ - null null
+2024-12-01 03:54:06.576 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-12-01 03:54:06.577 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-12-01 03:54:06.577 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-01 03:54:06.578 +01:00 [INF] Executed ViewResult - view Index executed in 0.7886ms.
+2024-12-01 03:54:06.578 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 1.3848ms
+2024-12-01 03:54:06.578 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-12-01 03:54:06.578 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/ - 200 null text/html; charset=utf-8 2.1059ms
+2024-12-01 03:54:41.577 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/ - null null
+2024-12-01 03:54:41.615 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 03:54:41.696 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-12-01 03:54:41.703 +01:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller photogram.Controllers.HomeController (photogram).
+2024-12-01 03:54:41.703 +01:00 [INF] Executing ViewResult, running view Index.
+2024-12-01 03:54:41.709 +01:00 [INF] Executed ViewResult - view Index executed in 5.9825ms.
+2024-12-01 03:54:41.709 +01:00 [INF] Executed action photogram.Controllers.HomeController.Index (photogram) in 6.1903ms
+2024-12-01 03:54:41.709 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Index (photogram)'
+2024-12-01 03:54:41.709 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/ - 200 null text/html; charset=utf-8 132.0586ms
+2024-12-01 03:54:41.757 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/css/layout.css - null null
+2024-12-01 03:54:41.798 +01:00 [INF] The file /css/layout.css was not modified
+2024-12-01 03:54:41.798 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/css/layout.css - 304 null text/css 40.673ms
+2024-12-01 03:54:46.708 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/CreatePost - null null
+2024-12-01 03:54:46.709 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 03:54:46.726 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-12-01 03:54:46.731 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-12-01 03:54:46.738 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-12-01 03:54:46.767 +01:00 [INF] Executed ViewResult - view CreatePost executed in 35.3214ms.
+2024-12-01 03:54:46.767 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 35.8926ms
+2024-12-01 03:54:46.767 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-12-01 03:54:46.768 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/CreatePost - 200 null text/html; charset=utf-8 59.5233ms
+2024-12-01 03:54:53.653 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Home/Feed - null null
+2024-12-01 03:54:53.656 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 03:54:53.667 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-12-01 03:54:53.668 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-12-01 03:54:53.668 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-12-01 03:54:53.668 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 0.2698ms
+2024-12-01 03:54:53.668 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-12-01 03:54:53.669 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Home/Feed - 302 0 null 15.1985ms
+2024-12-01 03:54:53.676 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/Feed - null null
+2024-12-01 03:54:53.678 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 03:54:53.679 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 03:54:53.679 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 03:54:53.682 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-12-01 03:54:53.714 +01:00 [INF] Executed ViewResult - view Feed executed in 31.3933ms.
+2024-12-01 03:54:53.714 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 34.6145ms
+2024-12-01 03:54:53.714 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 03:54:53.714 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/Feed - 200 null text/html; charset=utf-8 37.7867ms
+2024-12-01 03:54:53.797 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/uploads/f3185d25-5b64-42f3-9086-207feb10373f_bill.jpg - null null
+2024-12-01 03:54:53.797 +01:00 [INF] The file /uploads/f3185d25-5b64-42f3-9086-207feb10373f_bill.jpg was not modified
+2024-12-01 03:54:53.797 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/uploads/f3185d25-5b64-42f3-9086-207feb10373f_bill.jpg - 304 null image/jpeg 0.321ms
+2024-12-01 03:54:53.797 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/uploads/2bd43492-f646-49b2-ac24-32a877d81fc2_picnic.png - null null
+2024-12-01 03:54:53.798 +01:00 [INF] The file /uploads/2bd43492-f646-49b2-ac24-32a877d81fc2_picnic.png was not modified
+2024-12-01 03:54:53.798 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/uploads/2bd43492-f646-49b2-ac24-32a877d81fc2_picnic.png - 304 null image/png 0.272ms
+2024-12-01 03:54:53.798 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/uploads/88ec321d-5692-4e79-9166-71c32aeac047_nature.jpg - null null
+2024-12-01 03:54:53.798 +01:00 [INF] The file /uploads/88ec321d-5692-4e79-9166-71c32aeac047_nature.jpg was not modified
+2024-12-01 03:54:53.798 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/uploads/88ec321d-5692-4e79-9166-71c32aeac047_nature.jpg - 304 null image/jpeg 0.2354ms
+2024-12-01 03:54:53.807 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/uploads/d5f308d6-5e29-4c51-ab51-946e5939f892_concert.jpg - null null
+2024-12-01 03:54:53.808 +01:00 [INF] The file /uploads/d5f308d6-5e29-4c51-ab51-946e5939f892_concert.jpg was not modified
+2024-12-01 03:54:53.808 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/uploads/d5f308d6-5e29-4c51-ab51-946e5939f892_concert.jpg - 304 null image/jpeg 0.3372ms
+2024-12-01 03:54:53.808 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/images/recipes.jpg - null null
+2024-12-01 03:54:53.808 +01:00 [INF] The file /images/recipes.jpg was not modified
+2024-12-01 03:54:53.808 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/images/recipes.jpg - 304 null image/jpeg 0.2299ms
+2024-12-01 03:54:53.820 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/uploads/892b7245-916c-4e39-ad08-e1f509e45f50_view.jpg - null null
+2024-12-01 03:54:53.821 +01:00 [INF] The file /uploads/892b7245-916c-4e39-ad08-e1f509e45f50_view.jpg was not modified
+2024-12-01 03:54:53.821 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/uploads/892b7245-916c-4e39-ad08-e1f509e45f50_view.jpg - 304 null image/jpeg 0.3812ms
+2024-12-01 03:54:53.821 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/uploads/150c5aae-9839-45c1-a058-cec277bcafda_tacos.jpg - null null
+2024-12-01 03:54:53.821 +01:00 [INF] The file /uploads/150c5aae-9839-45c1-a058-cec277bcafda_tacos.jpg was not modified
+2024-12-01 03:54:53.821 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/uploads/150c5aae-9839-45c1-a058-cec277bcafda_tacos.jpg - 304 null image/jpeg 0.2194ms
+2024-12-01 03:54:55.996 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Home/Feed - null null
+2024-12-01 03:54:55.997 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 03:54:55.998 +01:00 [INF] Executing endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-12-01 03:54:55.998 +01:00 [INF] Route matched with {action = "Feed", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Feed() on controller photogram.Controllers.HomeController (photogram).
+2024-12-01 03:54:55.998 +01:00 [INF] Executing RedirectResult, redirecting to /Post/Feed.
+2024-12-01 03:54:55.998 +01:00 [INF] Executed action photogram.Controllers.HomeController.Feed (photogram) in 0.1311ms
+2024-12-01 03:54:55.998 +01:00 [INF] Executed endpoint 'photogram.Controllers.HomeController.Feed (photogram)'
+2024-12-01 03:54:55.998 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Home/Feed - 302 0 null 2.1138ms
+2024-12-01 03:54:56.006 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/Feed - null null
+2024-12-01 03:54:56.007 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 03:54:56.008 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 03:54:56.008 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 03:54:56.012 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-12-01 03:54:56.062 +01:00 [INF] Executed ViewResult - view Feed executed in 49.9989ms.
+2024-12-01 03:54:56.062 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 54.2683ms
+2024-12-01 03:54:56.062 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 03:54:56.064 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/Feed - 200 null text/html; charset=utf-8 57.3998ms
+2024-12-01 03:55:02.380 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Comments/AddComment - application/x-www-form-urlencoded 244
+2024-12-01 03:55:02.381 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 03:55:02.383 +01:00 [INF] Executing endpoint 'photogram.Controllers.CommentsController.AddComment (photogram)'
+2024-12-01 03:55:02.411 +01:00 [INF] Route matched with {action = "AddComment", controller = "Comments", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddComment(Int32, System.String) on controller photogram.Controllers.CommentsController (photogram).
+2024-12-01 03:55:02.556 +01:00 [ERR] Failed executing DbCommand (5ms) [Parameters=[@p0='?', @p1='?' (DbType = DateTime), @p2='?' (DbType = Int32), @p3='?' (Size = 15)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Comments" ("Content", "CreatedAt", "PostId", "UserName")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-12-01 03:55:02.663 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'photogram.DAL.PostDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Comments.Content'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Comments.Content'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-12-01 03:55:02.681 +01:00 [ERR] [CommentRepository] AddComment failed for Comment {"Id":0,"Content":null,"UserName":"potet@gmail.com","CreatedAt":"2024-12-01T03:55:02.4243940+01:00","PostId":14,"Post":null,"$type":"Comment"}: An error occurred while saving the entity changes. See the inner exception for details.
+2024-12-01 03:55:02.694 +01:00 [ERR] Failed to add comment for PostId 14 by User potet@gmail.com.
+2024-12-01 03:55:02.749 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-12-01 03:55:02.759 +01:00 [INF] Executed action photogram.Controllers.CommentsController.AddComment (photogram) in 347.8011ms
+2024-12-01 03:55:02.759 +01:00 [INF] Executed endpoint 'photogram.Controllers.CommentsController.AddComment (photogram)'
+2024-12-01 03:55:02.760 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Comments/AddComment - 500 null text/plain; charset=utf-8 379.1312ms
+2024-12-01 03:55:58.116 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Comments/AddComment - application/x-www-form-urlencoded 244
+2024-12-01 03:55:58.130 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 03:55:58.159 +01:00 [INF] Executing endpoint 'photogram.Controllers.CommentsController.AddComment (photogram)'
+2024-12-01 03:55:58.160 +01:00 [INF] Route matched with {action = "AddComment", controller = "Comments", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddComment(Int32, System.String) on controller photogram.Controllers.CommentsController (photogram).
+2024-12-01 03:55:58.182 +01:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[@p0='?', @p1='?' (DbType = DateTime), @p2='?' (DbType = Int32), @p3='?' (Size = 15)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Comments" ("Content", "CreatedAt", "PostId", "UserName")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-12-01 03:55:58.196 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'photogram.DAL.PostDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Comments.Content'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Comments.Content'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-12-01 03:55:58.202 +01:00 [ERR] [CommentRepository] AddComment failed for Comment {"Id":0,"Content":null,"UserName":"potet@gmail.com","CreatedAt":"2024-12-01T03:55:58.1646350+01:00","PostId":14,"Post":null,"$type":"Comment"}: An error occurred while saving the entity changes. See the inner exception for details.
+2024-12-01 03:55:58.204 +01:00 [ERR] Failed to add comment for PostId 14 by User potet@gmail.com.
+2024-12-01 03:55:58.206 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-12-01 03:55:58.207 +01:00 [INF] Executed action photogram.Controllers.CommentsController.AddComment (photogram) in 46.6169ms
+2024-12-01 03:55:58.207 +01:00 [INF] Executed endpoint 'photogram.Controllers.CommentsController.AddComment (photogram)'
+2024-12-01 03:55:58.207 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Comments/AddComment - 500 null text/plain; charset=utf-8 91.9604ms
+2024-12-01 03:57:08.218 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/Feed - null null
+2024-12-01 03:57:08.220 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 03:57:08.224 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 03:57:08.224 +01:00 [INF] Route matched with {action = "Feed", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Feed(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32]) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 03:57:08.233 +01:00 [INF] Executing ViewResult, running view Feed.
+2024-12-01 03:57:08.256 +01:00 [INF] Executed ViewResult - view Feed executed in 23.8649ms.
+2024-12-01 03:57:08.257 +01:00 [INF] Executed action photogram.Controllers.PostController.Feed (photogram) in 32.6546ms
+2024-12-01 03:57:08.257 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.Feed (photogram)'
+2024-12-01 03:57:08.257 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/Feed - 200 null text/html; charset=utf-8 39.3926ms
+2024-12-01 03:57:11.477 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/Post/CreatePost - null null
+2024-12-01 03:57:11.477 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 03:57:11.479 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-12-01 03:57:11.479 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreatePost() on controller photogram.Controllers.PostController (photogram).
+2024-12-01 03:57:11.479 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-12-01 03:57:11.488 +01:00 [INF] Executed ViewResult - view CreatePost executed in 8.3412ms.
+2024-12-01 03:57:11.488 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 8.6994ms
+2024-12-01 03:57:11.488 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-12-01 03:57:11.488 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/Post/CreatePost - 200 null text/html; charset=utf-8 11.3945ms
+2024-12-01 03:57:13.295 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/Post/CreatePost - multipart/form-data; boundary=----WebKitFormBoundaryQ8NR3GYCJWYtN0Bf 594
+2024-12-01 03:57:13.298 +01:00 [WRN] Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Managed.ManagedAuthenticatedEncryptor.Decrypt(ArraySegment`1 protectedPayload, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+2024-12-01 03:57:13.300 +01:00 [INF] Executing endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-12-01 03:57:13.316 +01:00 [INF] Route matched with {action = "CreatePost", controller = "Post", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(photogram.Models.CreatePostModel) on controller photogram.Controllers.PostController (photogram).
+2024-12-01 03:57:13.366 +01:00 [INF] Creating a new post in PostController
+2024-12-01 03:57:13.366 +01:00 [WRN] Invalid model state while creating a post.
+2024-12-01 03:57:13.366 +01:00 [INF] Executing ViewResult, running view CreatePost.
+2024-12-01 03:57:13.370 +01:00 [INF] Executed ViewResult - view CreatePost executed in 3.4478ms.
+2024-12-01 03:57:13.370 +01:00 [INF] Executed action photogram.Controllers.PostController.CreatePost (photogram) in 53.7992ms
+2024-12-01 03:57:13.370 +01:00 [INF] Executed endpoint 'photogram.Controllers.PostController.CreatePost (photogram)'
+2024-12-01 03:57:13.370 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/Post/CreatePost - 200 null text/html; charset=utf-8 74.9327ms
+2024-12-01 03:58:27.829 +01:00 [INF] Application is shutting down...
